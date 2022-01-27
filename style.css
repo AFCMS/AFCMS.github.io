@@ -1,6 +1,0 @@
-@layer components {
-	.logo {
-		@apply relative flex items-center justify-center h-4 w-4 mt-2 mb-2;
-	}
-}
-  

@@ -2,18 +2,77 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta http-equiv="Content-Security-Policy" content="default-src *; script-src *; style-src 'self' 'unsafe-inline'">
+		<!--<meta http-equiv="Content-Security-Policy" content="default-src *; script-src *; style-src * 'unsafe-inline'">-->
 		<title>AFCMS</title>
+		<link rel="icon" type="image/x-icon" href="logo_AFCM_alpha.png">
 		<script src="https://cdn.tailwindcss.com"></script>
-		<script src="style.css"></script>
+		<style type="text/tailwindcss">
+			@layer components {
+				.link_entry {
+					@apply flex min-w-min bg-blue-300 hover:bg-blue-400 rounded m-1;
+				}
+				.link_tooltip {
+					@apply absolute w-auto p-2 m-2 min-w-max right-14 rounded-md shadow-md
+						text-white bg-gray-900 
+						text-xs font-bold 
+						transition-all duration-100 scale-0 origin-right;
+				}
+			}
+		</style>
 	</head>
-	<body>
+	<body class="bg-blue-100">
 		<div class="flex items-center justify-between bg-blue-300 shadow-md p-3">
 			<div class="flex min-w-min">
 				<img src="logo_AFCM_alpha.png" alt="logo" class="relative flex items-center justify-center h-8 w-8 mt-1 mb-1 mr-2 ml-2"/>
-				<p class="text-blue-500 text-4xl font-bold">AFCMS</p>
+				<p class="text-blue-500 text-4xl font-bold">AFCM</p>
 			</div>
 		</div>
-		Hello World!
+		<div class="flex flex-row mt-5">
+			<div class="basis-1/4 m-1 rounded bg-blue-200">
+				<h1 class="text-blue-500 font-bold text-xl m-2">Some extra infos</h1>
+			</div>
+			<div class="basis-1/2 m-1 rounded bg-blue-200">
+				<h1 class="text-blue-500 font-bold text-xl m-2">Hello!</h1>
+				Lororem Ipsum
+			</div>
+			<div class="basis-1/4 m-1 rounded bg-blue-200">
+				<h1 class="text-blue-500 font-bold text-xl m-2">Links:</h1>
+
+				<a title="AFCMS" href="https://github.com/AFCMS">
+					<div class="link_entry">
+						<img src="scr/github.svg" alt="GitHub" class="h-5 w-5 m-1"/>
+						<p class="text-lg">GitHub</p>
+					</div>
+				</a>
+				<div class="link_entry cursor-pointer" title="AFCM#9333" onclick="copy_text('AFCM#9333')">
+					<img src="scr/discord.svg" alt="Discord" class="h-5 w-5 m-1 discord_icon"/>
+					<p class="text-lg">Discord</p>
+				</div>
+				<a title="AFCM" href="https://www.youtube.com/channel/UCK0mMW2SlIb7X5pKi00ZcYw">
+					<div class="link_entry">
+						<img src="scr/youtube.svg" alt="YouTube" class="h-5 w-5 m-1"/>
+						<p class="text-lg">YouTube</p>
+					</div>
+				</a>
+				<a title="u/AFCMS" href="https://www.reddit.com/user/AFCMS">
+					<div class="link_entry">
+						<img src="scr/reddit.svg" alt="Reddit" class="h-5 w-5 m-1"/>
+						<p class="text-lg">Reddit</p>
+					</div>
+				</a>
+				<a title="@AFCM@mastodon.social" href="https://mastodon.social/web/@AFCM">
+					<div class="link_entry">
+						<img src="scr/mastodon.svg" alt="Mastodon" class="h-5 w-5 m-1"/>
+						<p class="text-lg">Mastodon</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<script>
+			function copy_text(text_to_copy) {
+				navigator.clipboard.writeText(text_to_copy);
+				alert("Copied the text: " + text_to_copy);
+			}
+		</script>
 	</body>
 </html>
