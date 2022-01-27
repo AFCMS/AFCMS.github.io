@@ -2,14 +2,16 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="default-src *; script-src *; style-src 'self' 'unsafe-inline'">
 		<title>AFCMS</title>
 		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="style.css"></script>
 	</head>
 	<body>
 		<div class="flex items-center justify-between bg-blue-300 shadow-md p-3">
 			<div class="flex min-w-min">
-				<img alt="logo" scr="./logo_AFCM_alpha.png"/>
-				<p class="text-blue-500 text-2xl font-bold">AFCMS</p>
+				<img src="logo_AFCM_alpha.png" alt="logo" class="relative flex items-center justify-center h-8 w-8 mt-1 mb-1 mr-2 ml-2"/>
+				<p class="text-blue-500 text-4xl font-bold">AFCMS</p>
 			</div>
 		</div>
 		Hello World!
