@@ -30,12 +30,42 @@ function App() {
 				</div>
 				<div className="basis-1/4 card">
 					<h1 className="card_title">Links:</h1>
-					<LinkEntry icon={<SiGithub className="link_icon"/>} link={"https://github.com/AFCMS"} stitle={"GitHub"} title={"AFCMS"}/>
-					<LinkEntry icon={<SiDiscord className="link_icon"/>} link={"https://github.com/AFCMS"} stitle={"Discord"} title={"AFCM#9333"}/>
-					<LinkEntry icon={<SiYoutube className="link_icon"/>} link={"https://www.youtube.com/channel/UCK0mMW2SlIb7X5pKi00ZcYw"} stitle={"YouTube"} title={"AFCM"}/>
-					<LinkEntry icon={<SiReddit className="link_icon"/>} link={"https://www.reddit.com/user/AFCMS"} stitle={"Reddit"} title={"u/AFCMS"}/>
-					<LinkEntry icon={<SiMastodon className="link_icon"/>} link={"https://mastodon.social/web/@AFCM"} stitle={"Mastodon"} title={"@AFCM@mastodon.social"}/>
-					<LinkEntry icon={<SiSketchfab className="link_icon"/>} link={"https://sketchfab.com/afcm.contact"} stitle={"Sketchfab"} title={"afcm.contact"}/>
+					<LinkEntry
+						icon={<SiGithub className="link_icon"/>}
+						link={"https://github.com/AFCMS"}
+						stitle={"GitHub"}
+						title={"AFCMS"}
+					/>
+					<LinkEntry
+						icon={<SiDiscord className="link_icon"/>}
+						link={"https://github.com/AFCMS"}
+						stitle={"Discord"}
+						title={"AFCM#9333"}
+					/>
+					<LinkEntry
+						icon={<SiYoutube className="link_icon"/>}
+						link={"https://www.youtube.com/channel/UCK0mMW2SlIb7X5pKi00ZcYw"}
+						stitle={"YouTube"}
+						title={"AFCM"}
+					/>
+					<LinkEntry
+						icon={<SiReddit className="link_icon"/>}
+						link={"https://www.reddit.com/user/AFCMS"}
+						stitle={"Reddit"}
+						title={"u/AFCMS"}
+					/>
+					<LinkEntry
+						icon={<SiMastodon className="link_icon"/>}
+						link={"https://mastodon.social/web/@AFCM"}
+						stitle={"Mastodon"}
+						title={"@AFCM@mastodon.social"}
+					/>
+					<LinkEntry
+						icon={<SiSketchfab className="link_icon"/>}
+						link={"https://sketchfab.com/afcm.contact"}
+						stitle={"Sketchfab"}
+						title={"afcm.contact"}
+					/>
 				</div>
 			</div>
 		</div>
