@@ -6,6 +6,9 @@
 	.link_entry {
 		@apply flex min-w-min bg-blue-300 hover:bg-blue-400 rounded m-1;
 	}
+	.static_entry {
+		@apply flex min-w-min bg-blue-300 rounded mt-1;
+	}
 	.link_icon {
 		@apply h-5 w-5 m-1;
 	}
