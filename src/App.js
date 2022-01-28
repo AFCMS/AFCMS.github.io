@@ -3,7 +3,7 @@ import './App.css';
 import LinkEntry from './LinkEntry';
 import InfoEntry from './InfoEntry';
 import CopyEntry from './CopyEntry';
-import { SiGithub, SiDiscord, SiYoutube, SiReddit, SiMastodon, SiSketchfab, SiLua, SiPython, SiJavascript, SiUbuntu, SiWindows } from "react-icons/si";
+import { SiGithub, SiDiscord, SiYoutube, SiReddit, SiMastodon, SiSketchfab, SiLua, SiPython, SiJavascript, SiUbuntu, SiWindows, SiVisualstudiocode, SiPycharm, SiIntellijidea, SiHtml5, SiCss3 } from "react-icons/si";
 import ReactCountryFlag from "react-country-flag";
 
 function App() {
@@ -19,15 +19,24 @@ function App() {
 				<div className="basis-1/4 card">
 					<h1 className="card_title">Informations:</h1>
 					<InfoEntry type={"Age:"} data={[15]}/>
-					<InfoEntry type={"Country:"} data={[<ReactCountryFlag className="link_icon m-1" countryCode="FR" title="France" svg/>]}/>
+					<InfoEntry type={"Country:"} data={[
+						<ReactCountryFlag className="link_icon m-1" countryCode="FR" title="France" svg/>
+					]}/>
 					<InfoEntry type={"Languages:"} data={[
-						<SiLua className="link_icon" style={{color: "#2C2D72"}}/>,
-						<SiPython className="link_icon" style={{color: "#3776AB"}}/>,
-						<SiJavascript className="link_icon" style={{color: "#F7DF1E"}}/>
+						<SiLua className="link_icon" title="Lua" style={{color: "#2C2D72"}}/>,
+						<SiPython className="link_icon" title="Python" style={{color: "#3776AB"}}/>,
+						<SiJavascript className="link_icon" title="Javascript" style={{color: "#F7DF1E"}}/>,
+						<SiHtml5 className="link_icon" title="HTML5" style={{color: "#E34F26"}}/>,
+						<SiCss3 className="link_icon" title="CSS3" style={{color: "#1572B6"}}/>
+					]}/>
+					<InfoEntry type={"Tools:"} data={[
+						<SiVisualstudiocode className="link_icon" title="Visual Studio Code" style={{color: "#007ACC"}}/>,
+						<SiPycharm className="link_icon" title="Pycharm" style={{color: "#000000"}}/>,
+						<SiIntellijidea className="link_icon" title="Intellijidea" style={{color: "#000000"}}/>
 					]}/>
 					<InfoEntry type={"Systems:"} data={[
-						<SiUbuntu className="link_icon" style={{color: "#E95420"}}/>,
-						<SiWindows className="link_icon" style={{color: "#0078D6"}}/>,
+						<SiUbuntu className="link_icon" title="Ubuntu (Good)" style={{color: "#E95420"}}/>,
+						<SiWindows className="link_icon" title="Windows (Bad)" style={{color: "#0078D6"}}/>,
 					]}/>
 				</div>
 				<div className="basis-1/2 card">
