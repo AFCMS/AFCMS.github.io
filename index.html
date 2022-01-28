@@ -3,9 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<!--<meta http-equiv="Content-Security-Policy" content="default-src *; script-src *; style-src * 'unsafe-inline'">-->
-		<title>AFCMS</title>
+		<title>AFCM</title>
 		<link rel="icon" type="image/x-icon" href="logo_AFCM_alpha.png">
-		<script src="https://cdn.tailwindcss.com"></script>
+		<!--<script src="https://cdn.tailwindcss.com"></script>-->
+		<script src="tailwind.js"></script>
 		<style type="text/tailwindcss">
 			@layer components {
 				.link_entry {
@@ -27,14 +28,33 @@
 				<p class="text-blue-500 text-4xl font-bold">AFCM</p>
 			</div>
 		</div>
-		<div class="flex flex-row mt-5">
+		<div class="flex flex-row ms:flex-col mt-5">
 			<div class="basis-1/4 m-1 rounded bg-blue-200">
 				<h1 class="text-blue-500 font-bold text-xl m-2">Informations:</h1>
+				<div class="flex flex-col m-2">
+					<div class="flex flex-row">
+						<div class="basis-1/2">Nationality:</div>
+						<div class="basis-1/2">French</div>
+					</div>
+					<div class="flex flex-row">
+						<div class="basis-1/2">Age:</div>
+						<div class="basis-1/2">16</div>
+					</div>
+					<div class="flex flex-row">
+						<div class="basis-1/2">Spoken Languages:</div>
+						<div class="basis-1/2">French, English</div>
+					</div>
+					<div class="flex flex-row">
+						<div class="basis-1/2">Programing Languages:</div>
+						<div class="basis-1/2">Python, Lua, Javascript</div>
+					</div>
+				</div>
 			</div>
 			<div class="basis-1/2 m-1 rounded bg-blue-200">
-				<!--<h1 class="text-blue-500 font-bold text-xl m-2">Informations</h1>-->
-				<p class="m-2">
-					Lororem Ipsum
+				<h1 class="text-blue-500 font-bold text-xl m-2">Informations</h1>
+				<p class="ml-2">
+					<strong class="text-blue-500 font-bold text-ml mt-2">Title</strong></br>
+					Lororem Ipsum</br>
 				</p>
 			</div>
 			<div class="basis-1/4 m-1 rounded bg-blue-200">
