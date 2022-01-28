@@ -10,7 +10,7 @@
 		@apply static_entry hover:bg-blue-400;
 	}
 	.link_icon {
-		@apply h-5 w-auto m-1;
+		@apply h-5 w-auto m-1 inline;
 	}
 	.card {
 		@apply m-1 rounded bg-blue-200;
