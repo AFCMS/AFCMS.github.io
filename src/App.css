@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.link_entry {
+		@apply flex min-w-min bg-blue-300 hover:bg-blue-400 rounded m-1;
+	}
+	.link_icon {
+		@apply h-5 w-5 m-1;
+	}
+	.card {
+		@apply m-1 rounded bg-blue-200;
+	}
+	.card_title {
+		@apply text-blue-500 font-bold text-xl m-2;
+	}
+}
