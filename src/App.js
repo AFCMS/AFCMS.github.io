@@ -15,7 +15,7 @@ function App() {
 					<p className="text-blue-500 text-4xl font-bold">AFCM</p>
 				</div>
 			</div>
-			<div className="flex flex-row ms:flex-col mt-5">
+			<div className="flex flex-col lg:flex-row mt-5">
 				<div className="basis-1/4 card">
 					<h1 className="card_title">Informations:</h1>
 					<InfoEntry type={"Age:"} data={[15]}/>
@@ -40,7 +40,10 @@ function App() {
 					]}/>
 				</div>
 				<div className="basis-1/2 card">
-					<h1 className="card_title">Informations</h1>
+					<h1 className="card_title">Hi everyone!</h1>
+					<p className="card_text">
+						I have a passion for computers. I like especially like to play games and program things. 
+					</p>
 				</div>
 				<div className="basis-1/4 card">
 					<h1 className="card_title">Links:</h1>

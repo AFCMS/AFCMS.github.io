@@ -18,4 +18,7 @@
 	.card_title {
 		@apply text-blue-500 font-bold text-xl m-2;
 	}
+	.card_text {
+		@apply text-gray-800 text-lg m-2;
+	}
 }
