@@ -2,6 +2,7 @@ import logo from './logo.png';
 import './App.css';
 import LinkEntry from './LinkEntry';
 import InfoEntry from './InfoEntry';
+import CopyEntry from './CopyEntry';
 import { SiGithub, SiDiscord, SiYoutube, SiReddit, SiMastodon, SiSketchfab, SiLua, SiPython, SiJavascript, SiUbuntu, SiWindows } from "react-icons/si";
 import ReactCountryFlag from "react-country-flag";
 
@@ -40,9 +41,8 @@ function App() {
 						stitle={"GitHub"}
 						title={"AFCMS"}
 					/>
-					<LinkEntry
+					<CopyEntry
 						icon={<SiDiscord className="link_icon" style={{color: "#5865F2"}}/>}
-						link={"https://github.com/AFCMS"}
 						stitle={"Discord"}
 						title={"AFCM#9333"}
 					/>
