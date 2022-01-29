@@ -80,7 +80,7 @@ function App() {
 				<div className="basis-1/6 card">
 					<h1 className="card_title">Links:</h1>
 					<LinkEntry
-						icon={<SiGmail className="link_icon" style={{color: "#181717"}}/>}
+						icon={<SiGmail className="link_icon" style={{color: "#EA4335"}}/>}
 						link={"mailto:afcm.contact@gmail.com"}
 						stitle={"Mail"}
 						title={"afcm.contact@gmail.com"}
