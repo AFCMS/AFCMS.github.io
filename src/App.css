@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer components {
+	strong {
+		@apply text-blue-900;
+	}
+	.link_text {
+		@apply text-blue-600 hover:text-blue-700 visited:text-blue-600;
+	}
 	.static_entry {
 		@apply flex min-w-min bg-blue-300 rounded m-1;
 	}
@@ -18,7 +24,10 @@
 	.card_title {
 		@apply text-blue-500 font-bold text-xl m-2;
 	}
+	.card_title2 {
+		@apply text-blue-500 font-bold text-lg mr-2 ml-2 mt-4 mb-1;
+	}
 	.card_text {
-		@apply text-gray-800 text-lg m-2;
+		@apply text-gray-800 text-base mr-2 ml-2 mb-2;
 	}
 }

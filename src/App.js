@@ -3,7 +3,7 @@ import './App.css';
 import LinkEntry from './LinkEntry';
 import InfoEntry from './InfoEntry';
 import CopyEntry from './CopyEntry';
-import { SiGithub, SiDiscord, SiYoutube, SiReddit, SiMastodon, SiSketchfab, SiLua, SiPython, SiJavascript, SiUbuntu, SiWindows, SiVisualstudiocode, SiPycharm, SiIntellijidea, SiHtml5, SiCss3 } from "react-icons/si";
+import { SiGmail, SiGithub, SiDiscord, SiYoutube, SiReddit, SiMastodon, SiSketchfab, SiLua, SiPython, SiJavascript, SiUbuntu, SiWindows, SiVisualstudiocode, SiPycharm, SiIntellijidea, SiHtml5, SiCss3 } from "react-icons/si";
 import ReactCountryFlag from "react-country-flag";
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
 					<p className="text-blue-500 text-4xl font-bold">AFCM</p>
 				</div>
 			</div>
-			<div className="flex flex-col lg:flex-row mt-5">
-				<div className="basis-1/4 card">
+			<div className="flex flex-col md:flex-row mt-1">
+				<div className="basis-1/6 card">
 					<h1 className="card_title">Informations:</h1>
 					<InfoEntry type={"Age:"} data={[15]}/>
 					<InfoEntry type={"Country:"} data={[
@@ -39,14 +39,44 @@ function App() {
 						<SiWindows className="link_icon" title="Windows (Bad)" style={{color: "#0078D6"}}/>,
 					]}/>
 				</div>
-				<div className="basis-1/2 card">
+				<div className="basis-4/6 card">
 					<h1 className="card_title">Hi everyone!</h1>
+					<h2 className="card_title2">The Begining</h2>
 					<p className="card_text">
-						I have a passion for computers. I like especially like to play games and program things. 
+						I have a passion for computers. I especially like to play games with my friends and program things.<br/>
+						I started programming about 3 years ago and learned more and more programing languages with the time.<br/>
+						I now know <strong>Lua</strong>, <strong>Python</strong>, <strong>Javascript</strong> and started exploring the possibilities of all the web technologies.<br/><br/>
+
+						I also make 3d Models, Renders and VFX with <strong>Blender</strong>.<br/>
+						I even made short action films (up to 30mn) with friends (scenario, recording, video editing, vfx, etc)
+					</p>
+					<h2 className="card_title2">Minetest</h2>
+					<p className="card_text">
+						I discovered the <a className="link_text" href="https://www.minetest.net">Minetest</a> project by looking for "Minecraft" in my Software Center and tried it... by launching the Windows version with Wine!!!
+						Since that moment, I used to play it every single day, gradually increasing my personal mods collection.<br/>
+						Around six months later, I made my first mod, which was adding a jetpack to the game (this thing never worked properly btw).<br/>
+						Then, I discovered the <strong>MineClone2</strong> subgame, and I quickly started to contribute to it.<br/>
+						I am now one of the active developpers of the project and have also created a bunch of mods for it.<br/><br/>
+
+						At the end of 2021, I also won the second place of the <a className="link_text" href="https://forum.minetest.net/viewtopic.php?t=27512">Minetest Game Jam</a> by creating <a className="link_text" href="https://github.com/AFCMS/Subway-Miner">Subway Miner</a>, a game inspired by both <em>Subway Surfers</em> and <em>Temple Run</em>.<br/><br/>
+
+						My secret hope is to be able to create a minigame <strong>MineClone2</strong> server, similar to Minecraft <em>Hypixel</em> ;)
+					</p>
+					<h2 className="card_title2">Discord</h2>
+					<p className="card_text">
+						Who doesn't like Discord??<br/>
+						I am a huge fan of it. I made some Discord bots using <strong>Discord.js</strong> (nothing public for now).<br/>
+						I hope I will get more inspiration and release soon crazy bots born to conquer the world ;)
 					</p>
 				</div>
-				<div className="basis-1/4 card">
+				<div className="basis-1/6 card">
 					<h1 className="card_title">Links:</h1>
+					<LinkEntry
+						icon={<SiGmail className="link_icon" style={{color: "#181717"}}/>}
+						link={"mailto:afcm.contact@gmail.com"}
+						stitle={"Mail"}
+						title={"afcm.contact@gmail.com"}
+					/>
 					<LinkEntry
 						icon={<SiGithub className="link_icon" style={{color: "#181717"}}/>}
 						link={"https://github.com/AFCMS"}
