@@ -34,4 +34,5 @@ The `prettier` and `prettier-plugin-tailwindcss` npm packages needs to be instal
 - [ ] Make sure website works on most devices
 - [ ] Add more links?
 - [ ] Add footer?
+- [ ] Add `Dependabot`
 - [ ] Add `Prettier` in the Github Actions workflow?
