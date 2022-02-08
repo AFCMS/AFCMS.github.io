@@ -47,6 +47,6 @@
 	"devDependencies": {
 		"gh-pages": "^3.2.3",
 		"prettier": "^2.5.1",
-		"prettier-plugin-tailwindcss": "^0.1.5"
+		"prettier-plugin-tailwindcss": "^0.1.6"
 	}
 }
