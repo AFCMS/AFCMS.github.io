@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+	.tp-text {
+		@apply cursor-pointer text-blue-600 hover:text-blue-700;
+	}
+}

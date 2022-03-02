@@ -1,14 +1,12 @@
 import { useState } from "react";
 import Popup from "./Popup";
+import "./TextPopup.css";
 
 const TextPopup = (props) => {
 	const [open, setOpen] = useState(false);
 
 	return (
-		<span
-			className="cursor-pointer text-blue-600 hover:text-blue-700"
-			onClick={() => setOpen(true)}
-		>
+		<span className="tp-text" onClick={() => setOpen(true)}>
 			{props.text}
 			<Popup
 				title={"Hello"}
