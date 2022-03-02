@@ -2,7 +2,7 @@
 
 @layer components {
 	.ie-entry {
-		@apply m-1 flex min-w-min flex-row rounded bg-blue-300;
+		@apply m-1 flex min-w-min flex-col rounded bg-blue-300 lg:flex-row;
 	}
 	.ie-box {
 		@apply ml-2 basis-1/2;
