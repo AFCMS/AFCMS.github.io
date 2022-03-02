@@ -4,6 +4,7 @@ import LinkEntry from "./LinkEntry";
 import InfoEntry from "./InfoEntry";
 import CopyEntry from "./CopyEntry";
 //import Popup from "./Popup";
+import TextPopup from "./TextPopup";
 import {
 	SiGmail,
 	SiGithub,
@@ -140,7 +141,7 @@ function App() {
 						<br />
 						I started programming about 3 years ago and learned more and more
 						programing languages with the time.
-						<br />I now know <strong>Lua</strong>, <strong>Python</strong>,{" "}
+						<br />I now know <strong>Lua</strong>, <strong>Python</strong>,
 						<strong>Javascript</strong> and started exploring the possibilities
 						of all the web technologies.
 						<br />
@@ -150,10 +151,7 @@ function App() {
 					</p>
 					<h2 className="card_title2">Minetest</h2>
 					<p className="card_text">
-						I discovered the{" "}
-						<a className="link_text" href="https://www.minetest.net">
-							Minetest
-						</a>{" "}
+						I discovered the <a href="https://www.minetest.net">Minetest</a>{" "}
 						project by looking for "Minecraft" in my Software Center and tried
 						it... by launching the Windows version with Wine!!! Since that
 						moment, I used to play it every single day, gradually increasing my
@@ -170,20 +168,12 @@ function App() {
 						<br />
 						<br />
 						At the end of 2021, I also won the second place of the{" "}
-						<a
-							className="link_text"
-							href="https://forum.minetest.net/viewtopic.php?t=27512"
-						>
+						<a href="https://forum.minetest.net/viewtopic.php?t=27512">
 							Minetest Game Jam
 						</a>{" "}
 						by creating{" "}
-						<a
-							className="link_text"
-							href="https://github.com/AFCMS/Subway-Miner"
-						>
-							Subway Miner
-						</a>
-						, a game inspired by both <em>Subway Surfers</em> and{" "}
+						<a href="https://github.com/AFCMS/Subway-Miner">Subway Miner</a>, a
+						game inspired by both <em>Subway Surfers</em> and{" "}
 						<em>Temple Run</em>.<br />
 						<br />
 						My secret hope is to create a minigame <strong>
@@ -210,6 +200,7 @@ function App() {
 						At the same time, we also made short action films (up to 30mn),
 						based on stories we made ourself. This was a pretty intresting
 						activity as it allowed me to learn video editing and VFX.
+						<TextPopup text="Hey" />
 					</p>
 				</div>
 				<div className="card basis-1/6">

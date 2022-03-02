@@ -6,14 +6,8 @@
 	strong {
 		@apply text-blue-900;
 	}
-	.link_text {
+	a {
 		@apply text-blue-600 visited:text-blue-600 hover:text-blue-700;
-	}
-	.static_entry {
-		@apply m-1 flex min-w-min rounded bg-blue-300;
-	}
-	.link_entry {
-		@apply static_entry hover:bg-blue-400;
 	}
 	.link_icon {
 		@apply m-1 inline h-5 w-auto;

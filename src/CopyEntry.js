@@ -1,7 +1,9 @@
+import "./CopyEntry.css";
+
 const CopyEntry = ({ icon, stitle, title }) => {
 	return (
 		<div
-			className="link_entry cursor-pointer"
+			className="ce-entry"
 			title={title}
 			onClick={() => {
 				navigator.clipboard.writeText(title);
