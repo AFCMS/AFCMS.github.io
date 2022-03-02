@@ -1,10 +1,19 @@
 import "./LinkEntry.css";
 
 const LinkEntry = ({ icon, link, stitle, title }) => {
+	const Icon = icon[0];
+	const iconColor = icon[1];
+
 	return (
-		<a title={title} href={link} target="_blank" rel="noopener noreferrer">
+		<a
+			className="le-link"
+			title={title}
+			href={link}
+			target="_blank"
+			rel="noopener noreferrer"
+		>
 			<div className="le-entry">
-				{icon}
+				<Icon className="le-icon" style={{ color: iconColor }} />
 				<p className="text-lg">{stitle}</p>
 			</div>
 		</a>

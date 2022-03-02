@@ -2,9 +2,13 @@ import "./InfoEntry.css";
 
 const InfoEntry = ({ type, data }) => {
 	return (
-		<div className="ie-entry flex flex-row">
-			<div className="ml-2 basis-1/2">{type}</div>
-			<div className="ml-2 basis-1/2">{data}</div>
+		<div className="ie-entry">
+			<div className="ie-box">{type}</div>
+			<div className="ie-box">
+				{data.map((e, i) => (
+					<span key={i}>{e}</span>
+				))}
+			</div>
 		</div>
 	);
 };

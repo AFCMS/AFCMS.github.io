@@ -206,17 +206,13 @@ function App() {
 				<div className="card basis-1/6">
 					<h1 className="card_title">Links:</h1>
 					<LinkEntry
-						icon={
-							<SiGmail className="link_icon" style={{ color: "#EA4335" }} />
-						}
+						icon={[SiGmail, "#EA4335"]}
 						link={"mailto:afcm.contact@gmail.com"}
 						stitle={"Mail"}
 						title={"afcm.contact@gmail.com"}
 					/>
 					<LinkEntry
-						icon={
-							<SiGithub className="link_icon" style={{ color: "#181717" }} />
-						}
+						icon={[SiGithub, "#181717"]}
 						link={"https://github.com/AFCMS"}
 						stitle={"GitHub"}
 						title={"AFCMS"}
@@ -229,33 +225,25 @@ function App() {
 						title={"AFCM#9333"}
 					/>
 					<LinkEntry
-						icon={
-							<SiYoutube className="link_icon" style={{ color: "#FF0000" }} />
-						}
+						icon={[SiYoutube, "#FF0000"]}
 						link={"https://www.youtube.com/channel/UCK0mMW2SlIb7X5pKi00ZcYw"}
 						stitle={"YouTube"}
 						title={"AFCM"}
 					/>
 					<LinkEntry
-						icon={
-							<SiReddit className="link_icon" style={{ color: "#FF4500" }} />
-						}
+						icon={[SiReddit, "#FF4500"]}
 						link={"https://www.reddit.com/user/AFCMS"}
 						stitle={"Reddit"}
 						title={"u/AFCMS"}
 					/>
 					<LinkEntry
-						icon={
-							<SiMastodon className="link_icon" style={{ color: "#3088D4" }} />
-						}
+						icon={[SiMastodon, "#3088D4"]}
 						link={"https://mastodon.social/web/@AFCM"}
 						stitle={"Mastodon"}
 						title={"@AFCM@mastodon.social"}
 					/>
 					<LinkEntry
-						icon={
-							<SiSketchfab className="link_icon" style={{ color: "#1CAAD9" }} />
-						}
+						icon={[SiSketchfab, "#1CAAD9"]}
 						link={"https://sketchfab.com/afcm.contact"}
 						stitle={"Sketchfab"}
 						title={"afcm.contact"}

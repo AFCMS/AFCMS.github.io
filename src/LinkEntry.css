@@ -4,4 +4,10 @@
 	.le-entry {
 		@apply m-1 flex min-w-min rounded bg-blue-300;
 	}
+	.le-link {
+		@apply text-lg text-black visited:text-black hover:text-black;
+	}
+	.le-icon {
+		@apply m-1 inline h-5 w-auto;
+	}
 }
