@@ -1,6 +1,7 @@
 import "./MarkdownFile.css";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import emoji from "remark-emoji";
 import { useState, useEffect } from "react";
 
 const MarkdownFile = (props) => {
@@ -12,12 +13,12 @@ const MarkdownFile = (props) => {
 			.then((md) => {
 				setContent({ md });
 			});
-	}, []);
+	}, [props.file]);
 
 	return (
 		<ReactMarkdown
 			className="m-2"
-			remarkPlugins={[[remarkGfm, { singleTilde: false }]]}
+			remarkPlugins={[[remarkGfm, emoji, { singleTilde: false }]]}
 			components={{
 				h1: "mf-h1",
 				h2: "mf-h2",

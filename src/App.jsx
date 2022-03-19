@@ -4,7 +4,7 @@ import LinkEntry from "./components/LinkEntry";
 import InfoEntry from "./components/InfoEntry";
 import CopyEntry from "./components/CopyEntry";
 //import Popup from "./Popup";
-import TextPopup from "./components/TextPopup";
+//import TextPopup from "./components/TextPopup";
 import {
 	SiGmail,
 	SiGithub,
@@ -26,8 +26,8 @@ import {
 	SiGo,
 } from "react-icons/si";
 import ReactCountryFlag from "react-country-flag";
-//import MarkdownFile from "./MarkdownFile";
-//import mainText from "./Biography.md";
+import MarkdownFile from "./components/MarkdownFile";
+import mainText from "./Biography.md";
 
 function App() {
 	return (
@@ -141,76 +141,7 @@ function App() {
 					/>
 				</div>
 				<div className="card basis-4/6">
-					{/*<MarkdownFile file={mainText} />*/}
-					<h1 className="card_title">Hi everyone!</h1>
-					<h2 className="card_title2">The Begining</h2>
-					<p className="card_text">
-						I have a passion for computers. I especially like to play games with
-						my friends and program things.
-						<br />
-						I started programming about 3 years ago and learned more and more
-						programing languages with the time.
-						<br />I now know <strong>Lua</strong>, <strong>Python</strong>,
-						<strong>Javascript</strong> and started exploring the possibilities
-						of all the web technologies.
-						<br />
-						<br />I also make 3d Models, Renders and VFX with{" "}
-						<strong>Blender</strong>.<br />I even made short action films (up to
-						30mn) with friends (scenario, recording, video editing, vfx, etc)
-					</p>
-					<h2 className="card_title2">Minetest</h2>
-					<p className="card_text">
-						I discovered the <a href="https://www.minetest.net">Minetest</a>{" "}
-						project by looking for "Minecraft" in my Software Center and tried
-						it... by launching the Windows version with Wine!!! Since that
-						moment, I used to play it every single day, gradually increasing my
-						personal mods collection.
-						<br />
-						Around six months later, I made my first mod, which was adding a
-						jetpack to the game (this thing never worked properly btw).
-						<br />
-						Then, I discovered the <strong>MineClone2</strong> subgame, and I
-						quickly started to contribute to it.
-						<br />
-						I am now one of the active developpers of the project and have also
-						created a bunch of mods for it.
-						<br />
-						<br />
-						At the end of 2021, I also won the second place of the{" "}
-						<a href="https://forum.minetest.net/viewtopic.php?t=27512">
-							Minetest Game Jam
-						</a>{" "}
-						by creating{" "}
-						<a href="https://github.com/AFCMS/Subway-Miner">Subway Miner</a>, a
-						game inspired by both <em>Subway Surfers</em> and{" "}
-						<em>Temple Run</em>.<br />
-						<br />
-						My secret hope is to create a minigame <strong>
-							MineClone2
-						</strong>{" "}
-						server, similar to Minecraft <em>Hypixel</em> ;) If you are
-						interested or own a dedicaced server, feel free to contact me.
-					</p>
-					<h2 className="card_title2">Discord</h2>
-					<p className="card_text">
-						Who doesn't like Discord??
-						<br />I am a huge fan of it. I made some Discord bots using{" "}
-						<strong>Discord.js</strong> (nothing public for now).
-						<br />I am currently planing to make a bot for team management and
-						hope I will get the needed inspiration to release it soon ;)
-					</p>
-					<h2 className="card_title2">Artistic Work</h2>
-					<p className="card_text">
-						Before I started to programm, I used to spend most of my free time
-						creating 3D work using <strong>Blender</strong>.<br />
-						With my one of my best friend, I made 3D models and animations,
-						renders, and even games using the{" "}
-						<strong>Blender Game Engine</strong>.<br />
-						At the same time, we also made short action films (up to 30mn),
-						based on stories we made ourself. This was a pretty intresting
-						activity as it allowed me to learn video editing and VFX.
-						<TextPopup text="Hey" />
-					</p>
+					<MarkdownFile file={mainText} />
 				</div>
 				<div className="card basis-1/6">
 					<h1 className="card_title">Links:</h1>
