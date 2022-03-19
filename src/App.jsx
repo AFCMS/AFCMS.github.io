@@ -8,6 +8,7 @@ import CopyEntry from "./components/CopyEntry";
 import {
 	SiGmail,
 	SiGithub,
+	SiGitlab,
 	SiDiscord,
 	SiYoutube,
 	SiReddit,
@@ -157,6 +158,12 @@ function App() {
 						icon={[SiGithub, "#181717"]}
 						link={"https://github.com/AFCMS"}
 						stitle={"GitHub"}
+						title={"AFCMS"}
+					/>
+					<LinkEntry
+						icon={[SiGitlab, "#181717"]}
+						link={"https://gitlab.com/AFCMS"}
+						stitle={"Gitlab"}
 						title={"AFCMS"}
 					/>
 					<CopyEntry
