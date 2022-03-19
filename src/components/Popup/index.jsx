@@ -53,7 +53,7 @@ const Popup = (props) => {
 									>
 										{props.title}
 									</Dialog.Title>
-									<div class="h-8 flex-grow"></div>
+									<div className="h-8 flex-grow"></div>
 									<button
 										type="button"
 										className="h-8 w-8 flex-grow-0 rounded-md border border-transparent bg-blue-300 text-base font-medium text-white"

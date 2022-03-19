@@ -28,6 +28,7 @@ import {
 import ReactCountryFlag from "react-country-flag";
 import MarkdownFile from "./components/MarkdownFile";
 import mainText from "./Biography.md";
+import TextPopup from "./components/TextPopup";
 
 function App() {
 	return (
@@ -142,6 +143,7 @@ function App() {
 				</div>
 				<div className="card basis-4/6">
 					<MarkdownFile file={mainText} />
+					<TextPopup text="Hey" />
 				</div>
 				<div className="card basis-1/6">
 					<h1 className="card_title">Links:</h1>
