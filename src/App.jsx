@@ -23,6 +23,7 @@ import {
 	SiIntellijidea,
 	SiHtml5,
 	SiCss3,
+	SiGo,
 } from "react-icons/si";
 import ReactCountryFlag from "react-country-flag";
 //import MarkdownFile from "./MarkdownFile";
@@ -95,6 +96,11 @@ function App() {
 								className="link_icon"
 								title="CSS3"
 								style={{ color: "#1572B6" }}
+							/>,
+							<SiGo
+								className="link_icon"
+								title="Golang"
+								style={{ color: "#00ADD8" }}
 							/>,
 						]}
 					/>
