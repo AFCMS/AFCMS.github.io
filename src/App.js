@@ -25,10 +25,15 @@ import {
 	SiCss3,
 } from "react-icons/si";
 import ReactCountryFlag from "react-country-flag";
+//import MarkdownFile from "./MarkdownFile";
+//import mainText from "./Biography.md";
 
 function App() {
 	return (
 		<div className="App">
+			<a rel="me" href="https://mastodon.social/@AFCM" className="hidden">
+				Mastodon
+			</a>
 			<div className="flex items-center justify-between bg-blue-300 p-3 shadow-md">
 				<div className="flex min-w-min">
 					<img
@@ -133,6 +138,7 @@ function App() {
 					/>
 				</div>
 				<div className="card basis-4/6">
+					{/*<MarkdownFile file={mainText} />*/}
 					<h1 className="card_title">Hi everyone!</h1>
 					<h2 className="card_title2">The Begining</h2>
 					<p className="card_text">

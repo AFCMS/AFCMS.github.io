@@ -4,6 +4,7 @@
 
 - React
 - React-Icons
+- React-Markdown
 - ReactCountryFlag
 - React-Gist
 - Postcss
