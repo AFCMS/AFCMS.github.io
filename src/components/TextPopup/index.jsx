@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Popup from "./Popup";
+import Popup from "../Popup";
 import "./TextPopup.css";
 
 const TextPopup = (props) => {

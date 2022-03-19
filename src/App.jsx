@@ -1,10 +1,10 @@
 import logo from "./logo.png";
 import "./App.css";
-import LinkEntry from "./LinkEntry";
-import InfoEntry from "./InfoEntry";
-import CopyEntry from "./CopyEntry";
+import LinkEntry from "./components/LinkEntry";
+import InfoEntry from "./components/InfoEntry";
+import CopyEntry from "./components/CopyEntry";
 //import Popup from "./Popup";
-import TextPopup from "./TextPopup";
+import TextPopup from "./components/TextPopup";
 import {
 	SiGmail,
 	SiGithub,
@@ -31,9 +31,6 @@ import ReactCountryFlag from "react-country-flag";
 function App() {
 	return (
 		<div className="App">
-			<a rel="me" href="https://mastodon.social/@AFCM" className="hidden">
-				Mastodon
-			</a>
 			<div className="flex items-center justify-between bg-blue-300 p-3 shadow-md">
 				<div className="flex min-w-min">
 					<img
