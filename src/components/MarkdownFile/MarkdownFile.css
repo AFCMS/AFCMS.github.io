@@ -11,6 +11,6 @@
 		@apply inline font-bold text-blue-900;
 	}
 	mf-text {
-		@apply mb-2 text-base text-gray-800;
+		@apply mb-2 block  text-base text-gray-800;
 	}
 }

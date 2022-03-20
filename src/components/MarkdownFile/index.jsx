@@ -23,7 +23,7 @@ const MarkdownFile = (props) => {
 				h1: "mf-h1",
 				h2: "mf-h2",
 				strong: "mf-strong",
-				//p: "mf-text",
+				p: "mf-text",
 			}}
 		>
 			{content.md}
