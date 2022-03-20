@@ -161,7 +161,7 @@ function App() {
 						title={"AFCMS"}
 					/>
 					<LinkEntry
-						icon={[SiGitlab, "#181717"]}
+						icon={[SiGitlab, "#FCA121"]}
 						link={"https://gitlab.com/AFCMS"}
 						stitle={"Gitlab"}
 						title={"AFCMS"}
