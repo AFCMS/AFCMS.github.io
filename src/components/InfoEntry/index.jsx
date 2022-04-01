@@ -1,4 +1,5 @@
 import "./InfoEntry.css";
+import PropTypes from "prop-types";
 
 const InfoEntry = ({ type, data }) => {
 	return (
@@ -11,6 +12,11 @@ const InfoEntry = ({ type, data }) => {
 			</div>
 		</div>
 	);
+};
+
+InfoEntry.propTypes = {
+	type: PropTypes.string.isRequired,
+	data: PropTypes.array.isRequired,
 };
 
 export default InfoEntry;

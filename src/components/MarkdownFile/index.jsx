@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import emoji from "remark-emoji";
 import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 
 const MarkdownFile = (props) => {
 	let [content, setContent] = useState({ md: "" });
@@ -29,6 +30,11 @@ const MarkdownFile = (props) => {
 			{content.md}
 		</ReactMarkdown>
 	);
+};
+
+//TODO: path
+MarkdownFile.propTypes = {
+	file: PropTypes.string.isRequired,
 };
 
 export default MarkdownFile;

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Popup from "../Popup";
 import "./TextPopup.css";
+import PropTypes from "prop-types";
 
 const TextPopup = (props) => {
 	const [open, setOpen] = useState(false);
@@ -16,6 +17,10 @@ const TextPopup = (props) => {
 			/>
 		</span>
 	);
+};
+
+TextPopup.propTypes = {
+	text: PropTypes.string.isRequired,
 };
 
 export default TextPopup;

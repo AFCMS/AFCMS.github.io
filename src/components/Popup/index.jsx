@@ -1,6 +1,7 @@
 import { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XIcon } from "@heroicons/react/outline";
+import PropTypes from "prop-types";
 
 const Popup = (props) => {
 	const open = props.open;
@@ -70,6 +71,13 @@ const Popup = (props) => {
 			</Dialog>
 		</Transition.Root>
 	);
+};
+
+Popup.propTypes = {
+	open: PropTypes.bool.isRequired,
+	setOpen: PropTypes.func.isRequired,
+	title: PropTypes.string.isRequired,
+	content: PropTypes.any.isRequired,
 };
 
 export default Popup;
