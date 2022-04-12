@@ -3,8 +3,6 @@ import "./App.css";
 import LinkEntry from "./components/LinkEntry";
 import InfoEntry from "./components/InfoEntry";
 import CopyEntry from "./components/CopyEntry";
-//import Popup from "./Popup";
-//import TextPopup from "./components/TextPopup";
 import {
 	SiGmail,
 	SiGithub,
@@ -29,7 +27,6 @@ import {
 import ReactCountryFlag from "react-country-flag";
 import MarkdownFile from "./components/MarkdownFile";
 import mainText from "./Biography.md";
-import TextPopup from "./components/TextPopup";
 
 function App() {
 	return (
@@ -45,7 +42,7 @@ function App() {
 				</div>
 			</div>
 			<div className="mt-1 flex flex-col md:flex-row">
-				<div className="card basis-1/6">
+				<div className="card basis-1/6 md:ml-2">
 					<h1 className="card_title">Informations:</h1>
 					<InfoEntry
 						type={"Age:"}
@@ -144,9 +141,8 @@ function App() {
 				</div>
 				<div className="card basis-4/6">
 					<MarkdownFile file={mainText} />
-					<TextPopup text="Hey" />
 				</div>
-				<div className="card basis-1/6">
+				<div className="card basis-1/6 md:mr-2">
 					<h1 className="card_title">Links:</h1>
 					<LinkEntry
 						icon={[SiGmail, "#EA4335"]}
