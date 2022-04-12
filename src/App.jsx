@@ -1,8 +1,5 @@
-import logo from "./logo.png";
-import "./App.css";
-import LinkEntry from "./components/LinkEntry";
-import InfoEntry from "./components/InfoEntry";
-import CopyEntry from "./components/CopyEntry";
+import { useMemo } from "react";
+import ReactCountryFlag from "react-country-flag";
 import {
 	SiGmail,
 	SiGithub,
@@ -24,11 +21,24 @@ import {
 	SiCss3,
 	SiGo,
 } from "react-icons/si";
-import ReactCountryFlag from "react-country-flag";
+import logo from "./logo.png";
+import LinkEntry from "./components/LinkEntry";
+import InfoEntry from "./components/InfoEntry";
+import CopyEntry from "./components/CopyEntry";
 import MarkdownFile from "./components/MarkdownFile";
 import mainText from "./Biography.md";
+import "./App.css";
 
 function App() {
+	const myAge = useMemo(() => {
+		let bdate = new Date(2006, 6, 24);
+		let month_diff = Date.now() - bdate.getTime();
+		let age_dt = new Date(month_diff);
+		let year = age_dt.getUTCFullYear();
+		let age = Math.abs(year - 1970);
+		return age;
+	}, []);
+
 	return (
 		<div className="App">
 			<div className="flex items-center justify-between bg-blue-300 p-3 shadow-md">
@@ -44,19 +54,7 @@ function App() {
 			<div className="mt-1 flex flex-col md:flex-row">
 				<div className="card basis-1/6 md:ml-2">
 					<h1 className="card_title">Informations:</h1>
-					<InfoEntry
-						type={"Age:"}
-						data={[
-							(() => {
-								let bdate = new Date(2006, 6, 24);
-								let month_diff = Date.now() - bdate.getTime();
-								let age_dt = new Date(month_diff);
-								let year = age_dt.getUTCFullYear();
-								let age = Math.abs(year - 1970);
-								return age;
-							})(),
-						]}
-					/>
+					<InfoEntry type={"Age:"} data={[myAge]} />
 					<InfoEntry
 						type={"Country:"}
 						data={[
