@@ -1,4 +1,4 @@
-# AFCM's Website
+# AFCM's Site
 
 [![GitHub Super-Linter](https://github.com/AFCMS/AFCMS.github.io/workflows/Linting/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
@@ -20,7 +20,7 @@
 
 `npm run start`
 
-### Deploy on Github Pages
+### Deploy on GitHub Pages
 
 `npm run deploy`
 
@@ -34,8 +34,8 @@ The `prettier` and `prettier-plugin-tailwindcss` npm packages needs to be instal
 
 - [ ] Rewrite main text
 - [ ] More informations in the Informations tab
-- [ ] Make sure website works on most devices
+- [ ] Make sure site works on most devices
 - [ ] Add more links?
 - [ ] Add footer?
 - [x] Add `Dependabot`
-- [ ] Add `Prettier` in the Github Actions workflow?
+- [ ] Add `Prettier` in the GitHub Actions workflow?

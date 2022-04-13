@@ -6,9 +6,9 @@ I have a passion for computers. I especially like to play games with my friends 
 
 I started programming about 3 years ago and learned more and more programing languages with the time.
 
-I now know **Lua**, **Python**, **Javascript** and started exploring the possibilities of all the web technologies.
+I now know **Lua**, **Python**, **JavaScript** and started exploring the possibilities of all the web technologies.
 
-I also make 3d Models, Renders and VFX with **Blender**.
+I also make 3D Models, Renders and VFX with **Blender**.
 
 I even made short action films (up to 30mn) with friends (scenario, recording, video editing, vfx, etc)
 
