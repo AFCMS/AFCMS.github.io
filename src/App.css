@@ -6,22 +6,24 @@
 	strong {
 		@apply text-blue-900;
 	}
+
 	a {
 		@apply text-blue-600 visited:text-blue-600 hover:text-blue-700;
 	}
-	.link_icon {
+
+	.link-icon {
 		@apply m-1 inline h-5 w-auto;
 	}
+
 	.card {
 		@apply m-1 mb-2 rounded bg-blue-200;
 	}
+
 	h1 {
 		@apply m-2 text-xl font-bold text-blue-500;
 	}
+
 	h2 {
 		@apply m-2 mt-4 mb-1 text-lg font-bold text-blue-500;
-	}
-	.card_text {
-		@apply m-2 mb-2 text-base text-gray-800;
 	}
 }

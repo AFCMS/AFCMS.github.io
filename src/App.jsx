@@ -59,7 +59,7 @@ function App() {
 						type={"Country:"}
 						data={[
 							<ReactCountryFlag
-								className="link_icon m-1"
+								className="link-icon m-1"
 								countryCode="FR"
 								title="France"
 								svg
@@ -70,32 +70,32 @@ function App() {
 						type={"Languages:"}
 						data={[
 							<SiLua
-								className="link_icon"
+								className="link-icon"
 								title="Lua"
 								style={{ color: "#2C2D72" }}
 							/>,
 							<SiPython
-								className="link_icon"
+								className="link-icon"
 								title="Python"
 								style={{ color: "#3776AB" }}
 							/>,
 							<SiJavascript
-								className="link_icon"
+								className="link-icon"
 								title="Javascript"
 								style={{ color: "#F7DF1E" }}
 							/>,
 							<SiHtml5
-								className="link_icon"
+								className="link-icon"
 								title="HTML5"
 								style={{ color: "#E34F26" }}
 							/>,
 							<SiCss3
-								className="link_icon"
+								className="link-icon"
 								title="CSS3"
 								style={{ color: "#1572B6" }}
 							/>,
 							<SiGo
-								className="link_icon"
+								className="link-icon"
 								title="Golang"
 								style={{ color: "#00ADD8" }}
 							/>,
@@ -105,17 +105,17 @@ function App() {
 						type={"Tools:"}
 						data={[
 							<SiVisualstudiocode
-								className="link_icon"
+								className="link-icon"
 								title="Visual Studio Code"
 								style={{ color: "#007ACC" }}
 							/>,
 							<SiPycharm
-								className="link_icon"
+								className="link-icon"
 								title="Pycharm"
 								style={{ color: "#000000" }}
 							/>,
 							<SiIntellijidea
-								className="link_icon"
+								className="link-icon"
 								title="Intellijidea"
 								style={{ color: "#000000" }}
 							/>,
@@ -125,12 +125,12 @@ function App() {
 						type={"Systems:"}
 						data={[
 							<SiUbuntu
-								className="link_icon"
+								className="link-icon"
 								title="Ubuntu (Good)"
 								style={{ color: "#E95420" }}
 							/>,
 							<SiWindows
-								className="link_icon"
+								className="link-icon"
 								title="Windows (Bad)"
 								style={{ color: "#0078D6" }}
 							/>,
@@ -162,7 +162,7 @@ function App() {
 					/>
 					<CopyEntry
 						icon={
-							<SiDiscord className="link_icon" style={{ color: "#5865F2" }} />
+							<SiDiscord className="link-icon" style={{ color: "#5865F2" }} />
 						}
 						stitle={"Discord"}
 						title={"AFCM#9333"}
