@@ -26,6 +26,7 @@ const MarkdownFile = (props) => {
 				strong: "mf-strong",
 				p: "mf-text",
 			}}
+			skipHtml={true}
 		>
 			{content.md}
 		</ReactMarkdown>
