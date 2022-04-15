@@ -1,4 +1,4 @@
-<!-- markdownlint-disable-next-line MD026 -->
+<!-- markdownlint-disable MD026 -->
 
 # Hi everyone!
 
