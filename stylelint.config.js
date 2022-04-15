@@ -16,6 +16,8 @@ module.exports = {
 			},
 		],
 		indentation: null,
+		"value-list-comma-newline-after": null,
+		"declaration-colon-newline-after": null,
 	},
 	//ignoreFiles: ["/node_modules", "/build"],
 };
