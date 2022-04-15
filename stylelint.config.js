@@ -15,6 +15,7 @@ module.exports = {
 				],
 			},
 		],
+		indentation: null,
 	},
 	//ignoreFiles: ["/node_modules", "/build"],
 };
