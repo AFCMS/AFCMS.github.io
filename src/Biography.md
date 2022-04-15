@@ -1,3 +1,5 @@
+<!-- markdownlint-disable-next-line MD026 -->
+
 # Hi everyone!
 
 ## The Begining
