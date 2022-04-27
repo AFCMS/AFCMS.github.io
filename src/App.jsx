@@ -9,6 +9,7 @@ import {
 	SiReddit,
 	SiMastodon,
 	SiSketchfab,
+	SiElement,
 	SiLua,
 	SiPython,
 	SiJavascript,
@@ -166,6 +167,13 @@ function App() {
 						}
 						stitle={"Discord"}
 						title={"AFCM#9333"}
+					/>
+					<CopyEntry
+						icon={
+							<SiElement className="link-icon" style={{ color: "#0DBD8B" }} />
+						}
+						stitle={"Matrix"}
+						title={"@afcm:matrix.org"}
 					/>
 					<LinkEntry
 						icon={[SiYoutube, "#FF0000"]}
