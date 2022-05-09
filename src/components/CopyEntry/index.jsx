@@ -39,20 +39,4 @@ CopyEntry.propTypes = {
 	title: PropTypes.string.isRequired,
 };
 
-/*
-<Popup
-				title={"Discord"}
-				content={
-					<button
-						className="rounded bg-blue-300"
-						onClick={() => navigator.clipboard.writeText(title)}
-					>
-						<span className="m-1">{title}</span>
-					</button>
-				}
-				open={open}
-				setOpen={setOpen}
-			></Popup>
-*/
-
 export default CopyEntry;
