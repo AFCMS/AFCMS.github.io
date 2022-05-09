@@ -162,16 +162,12 @@ function App() {
 						title={"AFCMS"}
 					/>
 					<CopyEntry
-						icon={
-							<SiDiscord className="link-icon" style={{ color: "#5865F2" }} />
-						}
+						icon={[SiDiscord, "#5865F2"]}
 						stitle={"Discord"}
 						title={"AFCM#9333"}
 					/>
 					<CopyEntry
-						icon={
-							<SiElement className="link-icon" style={{ color: "#0DBD8B" }} />
-						}
+						icon={[SiElement, "#0DBD8B"]}
 						stitle={"Matrix"}
 						title={"@afcm:matrix.org"}
 					/>
