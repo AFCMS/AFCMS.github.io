@@ -51,7 +51,7 @@
 	},
 	"devDependencies": {
 		"eslint-plugin-jsonc": "^2.2.1",
-		"gh-pages": "^3.2.3",
+		"gh-pages": "^4.0.0",
 		"htmlhint": "^1.1.4",
 		"markdownlint": "^0.25.1",
 		"postcss-scss": "^4.0.4",
