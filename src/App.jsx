@@ -31,14 +31,15 @@ import mainText from "./Biography.md";
 import "./App.css";
 
 function App() {
-	const myAge = useMemo(() => {
+	// BROKEN CODE
+	/*const myAge = useMemo(() => {
 		let bdate = new Date(2006, 6, 24);
 		let month_diff = Date.now() - bdate.getTime();
 		let age_dt = new Date(month_diff);
 		let year = age_dt.getUTCFullYear();
 		let age = Math.abs(year - 1970);
 		return age;
-	}, []);
+	}, []);*/
 
 	return (
 		<div className="App">
@@ -55,7 +56,7 @@ function App() {
 			<div className="mt-1 flex flex-col md:flex-row">
 				<div className="card basis-1/6 md:ml-2">
 					<h1 className="card_title">Informations:</h1>
-					<InfoEntry type={"Age:"} data={[myAge]} />
+					<InfoEntry type={"Age:"} data={[16]} />
 					<InfoEntry
 						type={"Country:"}
 						data={[
