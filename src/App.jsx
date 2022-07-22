@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+//import { useMemo } from "react";
 import ReactCountryFlag from "react-country-flag";
 import {
 	SiGmail,
@@ -42,7 +42,7 @@ function App() {
 	}, []);*/
 
 	return (
-		<div className="App">
+		<div className="flex flex-col">
 			<div className="flex items-center justify-between bg-blue-300 p-3 shadow-md">
 				<div className="flex min-w-min">
 					<img
@@ -53,7 +53,7 @@ function App() {
 					<p className="text-4xl font-bold text-blue-500">AFCM</p>
 				</div>
 			</div>
-			<div className="mt-1 flex flex-col md:flex-row">
+			<div className="mt-1 flex h-max flex-col md:flex-row">
 				<div className="card basis-1/6 md:ml-2">
 					<h1 className="card_title">Informations:</h1>
 					<InfoEntry type={"Age:"} data={[16]} />
