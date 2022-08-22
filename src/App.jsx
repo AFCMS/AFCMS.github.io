@@ -21,6 +21,7 @@ import {
 	SiHtml5,
 	SiCss3,
 	SiGo,
+	SiFiverr,
 } from "react-icons/si";
 import logo from "./logo.png";
 import LinkEntry from "./components/LinkEntry";
@@ -195,6 +196,12 @@ function App() {
 						link={"https://sketchfab.com/afcm.contact"}
 						stitle={"Sketchfab"}
 						title={"afcm.contact"}
+					/>
+					<LinkEntry
+						icon={[SiFiverr, "#1DBF73"]}
+						link={"https://fiverr.com/afcm20"}
+						stitle={"Fiverr"}
+						title={"afcm20"}
 					/>
 				</div>
 			</div>
