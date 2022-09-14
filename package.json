@@ -54,7 +54,7 @@
 		"gh-pages": "^4.0.0",
 		"htmlhint": "^1.1.4",
 		"markdownlint": "^0.26.2",
-		"postcss-scss": "^4.0.4",
+		"postcss-scss": "^4.0.5",
 		"prettier": "^2.7.1",
 		"prettier-plugin-tailwindcss": "^0.1.13",
 		"stylelint": "^14.11.0",
