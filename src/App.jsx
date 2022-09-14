@@ -1,27 +1,29 @@
 //import { useMemo } from "react";
 import ReactCountryFlag from "react-country-flag";
 import {
-	SiGmail,
+	SiCss3,
+	SiDiscord,
+	SiElement,
+	SiFiverr,
 	SiGithub,
 	SiGitlab,
-	SiDiscord,
-	SiYoutube,
-	SiReddit,
-	SiMastodon,
-	SiSketchfab,
-	SiElement,
-	SiLua,
-	SiPython,
-	SiJavascript,
-	SiUbuntu,
-	SiWindows,
-	SiVisualstudiocode,
-	SiPycharm,
-	SiIntellijidea,
-	SiHtml5,
-	SiCss3,
+	SiGmail,
 	SiGo,
-	SiFiverr,
+	SiHtml5,
+	SiIntellijidea,
+	SiJavascript,
+	SiLua,
+	SiMastodon,
+	SiTwitter,
+	SiPycharm,
+	SiPython,
+	SiReddit,
+	SiSketchfab,
+	SiUbuntu,
+	SiVisualstudiocode,
+	SiWebstorm,
+	SiWindows,
+	SiYoutube,
 } from "react-icons/si";
 import logo from "./logo.png";
 import LinkEntry from "./components/LinkEntry";
@@ -30,17 +32,17 @@ import CopyEntry from "./components/CopyEntry";
 import MarkdownFile from "./components/MarkdownFile";
 import mainText from "./Biography.md";
 import "./App.css";
+import {useMemo} from "react";
 
 function App() {
-	// BROKEN CODE
-	/*const myAge = useMemo(() => {
+	// PARTIALLY BROKEN CODE: DOESN'T COUNT DAYS
+	const myAge = useMemo(() => {
 		let bdate = new Date(2006, 6, 24);
-		let month_diff = Date.now() - bdate.getTime();
-		let age_dt = new Date(month_diff);
+		let diff = Date.now() - bdate.getTime();
+		let age_dt = new Date(diff);
 		let year = age_dt.getUTCFullYear();
-		let age = Math.abs(year - 1970);
-		return age;
-	}, []);*/
+		return Math.abs(year - 1970);
+	}, []);
 
 	return (
 		<div className="flex flex-col">
@@ -57,7 +59,7 @@ function App() {
 			<div className="mt-1 flex h-max flex-col md:flex-row">
 				<div className="card basis-1/6 md:ml-2">
 					<h1 className="card_title">Informations:</h1>
-					<InfoEntry type={"Age:"} data={[16]} />
+					<InfoEntry type={"Age:"} data={[myAge]} />
 					<InfoEntry
 						type={"Country:"}
 						data={[
@@ -122,6 +124,11 @@ function App() {
 								title="Intellijidea"
 								style={{ color: "#000000" }}
 							/>,
+							<SiWebstorm
+								className="link-icon"
+								title="Webstorm"
+								style={{color: "#000000"}}
+							/>
 						]}
 					/>
 					<InfoEntry
@@ -190,6 +197,12 @@ function App() {
 						link={"https://mastodon.social/web/@AFCM"}
 						stitle={"Mastodon"}
 						title={"@AFCM@mastodon.social"}
+					/>
+					<LinkEntry
+						icon={[SiTwitter, "#1DA1F2"]}
+						link={"https://twitter.com/AFCM_Dev"}
+						stitle={"Twitter"}
+						title={"@AFCM_Dev"}
 					/>
 					<LinkEntry
 						icon={[SiSketchfab, "#1CAAD9"]}
