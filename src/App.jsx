@@ -1,4 +1,3 @@
-//import { useMemo } from "react";
 import ReactCountryFlag from "react-country-flag";
 import {
 	SiCss3,
@@ -32,7 +31,7 @@ import CopyEntry from "./components/CopyEntry";
 import MarkdownFile from "./components/MarkdownFile";
 import mainText from "./Biography.md";
 import "./App.css";
-import {useMemo} from "react";
+import { useMemo } from "react";
 
 function App() {
 	// PARTIALLY BROKEN CODE: DOESN'T COUNT DAYS
@@ -127,8 +126,8 @@ function App() {
 							<SiWebstorm
 								className="link-icon"
 								title="Webstorm"
-								style={{color: "#000000"}}
-							/>
+								style={{ color: "#000000" }}
+							/>,
 						]}
 					/>
 					<InfoEntry
