@@ -8,7 +8,6 @@
 - React-Icons
 - React-Markdown
 - ReactCountryFlag
-- React-Gist
 - Postcss
 - TailwindCSS
 - gh-pages
