@@ -34,13 +34,15 @@ import "./App.css";
 import { useMemo } from "react";
 
 function App() {
-	// PARTIALLY BROKEN CODE: DOESN'T COUNT DAYS
+	// calculate my age in years
 	const myAge = useMemo(() => {
-		let bdate = new Date(2006, 6, 24);
-		let diff = Date.now() - bdate.getTime();
-		let age_dt = new Date(diff);
-		let year = age_dt.getUTCFullYear();
-		return Math.abs(year - 1970);
+		const birthDate = new Date(2006, 10, 24);
+		const today = new Date();
+		let age = today.getFullYear() - birthDate.getFullYear();
+		const month = today.getMonth() - birthDate.getMonth();
+		if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
+			age--;
+		}
 	}, []);
 
 	return (
