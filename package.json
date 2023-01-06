@@ -49,7 +49,7 @@
 		]
 	},
 	"devDependencies": {
-		"eslint-plugin-jsonc": "^2.5.0",
+		"eslint-plugin-jsonc": "^2.6.0",
 		"gh-pages": "^4.0.0",
 		"htmlhint": "^1.1.4",
 		"markdownlint": "^0.27.0",
