@@ -11,6 +11,7 @@ const SocialIcon = (props: {
 		<div className="h-16 w-16 rounded-md bg-slate-300 ">
 			<a
 				className="flex h-full w-full place-items-center items-center p-2 align-middle"
+				target="__blank"
 				href={props.link}
 			>
 				<Icon
