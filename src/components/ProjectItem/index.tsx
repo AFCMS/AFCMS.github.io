@@ -72,7 +72,11 @@ const ProjectItem = ({
 									<ProjectItemImage
 										src={e[1]}
 										key={i}
-										setCurrentImage={setCurrentImage}
+										setCurrentImage={
+											setCurrentImage as React.Dispatch<
+												React.SetStateAction<string | undefined>
+											>
+										}
 									/>
 								);
 							}
