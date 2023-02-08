@@ -19,6 +19,10 @@ function format_date(d: Date): string {
 	return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
 }
 
+export enum ProjectItemContent {
+	image = "image",
+}
+
 const ProjectItem = ({
 	title,
 	dates,
@@ -30,7 +34,7 @@ const ProjectItem = ({
 	title: string;
 	dates?: Array<Date>;
 	desc: any;
-	content?: Array<Array<string>>;
+	content?: Array<{ type: ProjectItemContent; src: string }>;
 	links?: Array<Array<string>>;
 	setCurrentImage?: React.Dispatch<React.SetStateAction<string | undefined>>;
 }) => {
@@ -67,10 +71,10 @@ const ProjectItem = ({
 				{content ? (
 					<div className="mb-4 h-auto w-full max-w-md rounded">
 						{content.map((e, i) => {
-							if (e[0] === "image") {
+							if (e.type === "image") {
 								return (
 									<ProjectItemImage
-										src={e[1]}
+										src={e.src}
 										key={i}
 										setCurrentImage={
 											setCurrentImage as React.Dispatch<

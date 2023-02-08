@@ -1,6 +1,7 @@
-import ProjectItem from "../ProjectItem";
+import ProjectItem, { ProjectItemContent } from "../ProjectItem";
 import Section from "../Section";
 import subway_miner from "./images/subway_miner.png";
+import react_wordle from "./images/react_wordle.png";
 
 const ProjectsSection = (props: {
 	setCurrentImage: React.Dispatch<React.SetStateAction<string | undefined>>;
@@ -71,7 +72,7 @@ const ProjectsSection = (props: {
 								place over 26 participants
 							</>
 						}
-						content={[["image", subway_miner]]}
+						content={[{ type: ProjectItemContent.image, src: subway_miner }]}
 						setCurrentImage={props.setCurrentImage}
 						links={[
 							["Source Code", "https://github.com/AFCMS/Subway-Miner"],
@@ -85,6 +86,8 @@ const ProjectsSection = (props: {
 						title="React Wordle"
 						desc="I created a wordle game with React as a training, to try out the GitHub Codespace feature"
 						dates={[new Date(2022, 5, 7)]}
+						content={[{ type: ProjectItemContent.image, src: react_wordle }]}
+						setCurrentImage={props.setCurrentImage}
 						links={[
 							["Source Code", "https://github.com/AFCMS/react-wordle"],
 							["Try Out", "https://react-wordle-afcm.vercel.app"],
