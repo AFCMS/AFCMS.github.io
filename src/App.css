@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 @layer components {
-	strong {
-		@apply text-blue-900;
+	* {
+		@apply font-sans;
 	}
 
-	a {
-		@apply text-blue-600 visited:text-blue-600 hover:text-blue-700;
+	strong {
+		@apply text-blue-900;
 	}
 
 	.link-icon {
@@ -20,10 +20,10 @@
 	}
 
 	h1 {
-		@apply m-2 text-xl font-bold text-blue-500;
+		@apply m-2 text-xl font-bold text-blue-600;
 	}
 
 	h2 {
-		@apply m-2 mt-4 mb-1 text-lg font-bold text-blue-500;
+		@apply m-2 mt-4 mb-1 text-lg font-bold text-blue-600;
 	}
 }

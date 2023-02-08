@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="theme-color" content="#000000" />
 		<meta name="description" content="AFCM's Website" />
@@ -10,8 +10,8 @@
 		<!--Embeed Configuration for Discord and other social medias-->
 		<meta property="og:title" content="AFCM's Website" />
 		<meta property="og:description" content="AFCM's personal portfolio" />
-		<meta property="og:url" content="%PUBLIC_URL%" />
-		<meta property="og:image" content="%PUBLIC_URL%/favicon.png" />
+		<meta property="og:url" content="/" />
+		<meta property="og:image" content="/favicon.png" />
 		<meta content="#43B581" data-react-helmet="true" name="theme-color" />
 
 		<!--Verification key used to prove the ownership of the site in the Google Search Console-->
@@ -20,17 +20,7 @@
 			content="0oK_4G11mT3ELYqarosUht656tOQAw5s0n8QMrZpuXU"
 		/>
 
-		<link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
-		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-		<!--
-		Notice the use of %PUBLIC_URL% in the tags above.
-		It will be replaced with the URL of the `public` folder during the build.
-		Only files inside the `public` folder can be referenced from the HTML.
-
-		Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-		work correctly both with client-side routing and a non-root public URL.
-		Learn how to configure a non-root public URL by running `npm run build`.
-		-->
+		<link rel="apple-touch-icon" href="/favicon.png" />
 		<title>AFCM</title>
 	</head>
 	<body>
@@ -38,5 +28,6 @@
 		<a rel="me" href="https://mastodon.social/@AFCM" hidden>Mastodon</a>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
 		<div id="root"></div>
+		<script type="module" src="/src/index.tsx"></script>
 	</body>
 </html>
