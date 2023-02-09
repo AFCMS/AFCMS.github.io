@@ -1,6 +1,7 @@
 import Section from "../Section";
 import SkillItem, { SkillItemLevel } from "../SkillItem";
 import {
+	SiBlender,
 	SiGithub,
 	SiGithubactions,
 	SiGo,
@@ -9,6 +10,7 @@ import {
 	SiMinetest,
 	SiPython,
 	SiReact,
+	SiVisualstudiocode,
 } from "react-icons/si";
 
 const SkillsSection = () => {
@@ -86,6 +88,22 @@ const SkillsSection = () => {
 						alt="GitHub Actions Icon"
 						color="#2088FF"
 						desc="I often use React to automate things"
+						level={SkillItemLevel.advanced}
+					/>
+					<SkillItem
+						name="Blender"
+						icon={SiBlender}
+						alt="Blender Icon"
+						color="#F5792A"
+						desc="I make 3D models and videos using Blender"
+						level={SkillItemLevel.advanced}
+					/>
+					<SkillItem
+						name="Visual Studio Code"
+						icon={SiVisualstudiocode}
+						alt="Visual Studio Code Icon"
+						color="#007ACC"
+						desc="VSCode is my prefered editor"
 						level={SkillItemLevel.advanced}
 					/>
 				</div>
