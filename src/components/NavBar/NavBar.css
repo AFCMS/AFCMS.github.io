@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav a {
+	@apply text-center font-bold text-blue-700 hover:text-blue-500;
+}
