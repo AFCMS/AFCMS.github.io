@@ -1,3 +1,4 @@
+import ReactMarkdown from "react-markdown";
 import ProjectItemImage from "../ProjectItemImage";
 
 const months = [
@@ -33,7 +34,7 @@ const ProjectItem = ({
 }: {
 	title: string;
 	dates?: Array<Date>;
-	desc: any;
+	desc: Array<string>;
 	content?: Array<{ type: ProjectItemContent; src: string }>;
 	links?: Array<Array<string>>;
 	setCurrentImage?: React.Dispatch<React.SetStateAction<string | undefined>>;
@@ -67,7 +68,11 @@ const ProjectItem = ({
 						})}
 					</div>
 				) : undefined}
-				<p className="mt-2 mb-4 text-gray-700">{desc}</p>
+				<div className="mt-2 mb-4 max-w-md text-gray-700">
+					{desc.map((e, i) => {
+						return <ReactMarkdown key={i}>{e}</ReactMarkdown>;
+					})}
+				</div>
 				{content ? (
 					<div className="mb-4 h-auto w-full max-w-md rounded">
 						{content.map((e, i) => {
