@@ -79,7 +79,7 @@ const SkillsSection = () => {
 						icon={SiGithub}
 						alt="GitHub Icon"
 						color="#181717"
-						desc="I often use React to automate things"
+						desc="I host most of my projects on GitHub"
 						level={SkillItemLevel.expert}
 					/>
 					<SkillItem
