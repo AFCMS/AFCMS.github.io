@@ -3,6 +3,7 @@ import Section from "../Section";
 import subway_miner from "./images/subway_miner.png";
 import react_wordle from "./images/react_wordle.png";
 import palamod from "./images/palamod.png";
+import mineclone2 from "./images/mineclone2.png";
 import mineclone2_mapart from "./images/mineclone2_mapart.png";
 
 const ProjectsSection = (props: {
@@ -36,6 +37,8 @@ const ProjectsSection = (props: {
 							"I joined the **MineClone2** team in 2021, which is a clone of the popular **Minecraft** game, based on the **Minetest** engine.",
 							"I did more than 200 contributions, mostly improving modding API. I also made the barrels, the target block and the lanterns.",
 						]}
+						setCurrentImage={props.setCurrentImage}
+						content={[{ type: ProjectItemContent.image, src: mineclone2 }]}
 						links={[
 							[
 								"Source Code",
