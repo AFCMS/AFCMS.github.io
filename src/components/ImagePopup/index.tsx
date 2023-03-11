@@ -64,7 +64,7 @@ const ImagePopup = (props: {
 								}}
 								ref={cancelButtonRef}
 							>
-								<XMarkIcon className="rounded-md bg-slate-600 bg-opacity-75 text-slate-900" />
+								<XMarkIcon className="appearance-none rounded-md bg-slate-600 bg-opacity-75 text-slate-900" />
 							</button>
 
 							<img
