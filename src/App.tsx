@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import ImagePopup from "./components/ImagePopup";
 import NavBar from "./components/NavBar";
 import AboutSection from "./components/AboutSection";
