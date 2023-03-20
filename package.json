@@ -16,7 +16,7 @@
 		"react-country-flag": "^3.0.2",
 		"react-dom": "^18.2.0",
 		"react-icons": "^4.8.0",
-		"react-markdown": "^8.0.5",
+		"react-markdown": "^8.0.6",
 		"remark-emoji": "^3.1.1",
 		"remark-gfm": "^3.0.1",
 		"tailwindcss": "^3.2.7",
