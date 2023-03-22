@@ -1,4 +1,5 @@
 import {
+	SiCodeberg,
 	SiDiscord,
 	SiElement,
 	//SiFiverr,
@@ -37,6 +38,12 @@ const SocialSection = () => {
 						icon={SiGitlab}
 						icon_color="#FCA121"
 						link="https://gitlab.com/AFCMS"
+						hover="@AFCMS"
+					/>
+					<SocialIcon
+						icon={SiCodeberg}
+						icon_color="#2185D0"
+						link="https://codeberg.org/AFCMS"
 						hover="@AFCMS"
 					/>
 					<SocialIconCopy
