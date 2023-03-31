@@ -9,6 +9,7 @@ import {
 	SiMastodon,
 	SiReddit,
 	SiSketchfab,
+	SiTwitch,
 	SiTwitter,
 	SiYoutube,
 } from "react-icons/si";
@@ -81,6 +82,12 @@ const SocialSection = () => {
 						icon_color="#FF0000"
 						link="https://www.youtube.com/channel/UCK0mMW2SlIb7X5pKi00ZcYw"
 						hover="@AFCMS"
+					/>
+					<SocialIcon
+						icon={SiTwitch}
+						icon_color="#9146FF"
+						link="https://www.twitch.tv/afcms"
+						hover="@afcms"
 					/>
 					<SocialIcon
 						icon={SiReddit}
