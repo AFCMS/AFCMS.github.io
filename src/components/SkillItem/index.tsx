@@ -19,7 +19,7 @@ const SkillItem = (props: {
 		<div className="skill-item">
 			<Icon className="m-2 inline h-10 w-10" style={{ color: props.color }} />
 
-			<div className="flex w-full flex-col justify-center">
+			<div className="flex w-full flex-col">
 				<div className="flex w-full flex-row place-content-between">
 					<h3 className="text-lg text-blue-800">{props.name}</h3>
 					{(() => {

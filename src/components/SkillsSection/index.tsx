@@ -18,8 +18,8 @@ const SkillsSection = () => {
 		<Section id="skills">
 			<div className="w-full px-6 pt-2 pb-6">
 				<h1 className="font-bold text-blue-700">My skills</h1>
-				<h2 className="font-bold text-blue-700">Languages</h2>
-				<div className="row-auto grid w-full grid-cols-1 items-center gap-4 p-2 md:grid-cols-2">
+				<h2 className="font-bold text-blue-700">Programming Languages</h2>
+				<div className="grid w-full auto-rows-max grid-cols-1 gap-4 p-2 md:grid-cols-2">
 					<SkillItem
 						name="Lua"
 						icon={SiLua}
