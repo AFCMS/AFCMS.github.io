@@ -8,6 +8,7 @@ import {
 	SiGmail,
 	SiMastodon,
 	SiReddit,
+	SiRevoltdotchat,
 	SiSketchfab,
 	SiSteam,
 	SiTwitch,
@@ -22,7 +23,7 @@ import SocialIconCopy from "../SocialIconCopy";
 const SocialSection = () => {
 	return (
 		<Section id="social" className="mb-20">
-			<div className="w-full px-6 pt-2 pb-6">
+			<div className="w-full px-6 pb-6 pt-2">
 				<h1 className="font-bold text-blue-700">Social Links</h1>
 				<div className="mx-2 mt-6 flex w-full flex-wrap gap-4">
 					<SocialIcon
@@ -60,6 +61,12 @@ const SocialSection = () => {
 						icon_color="#0DBD8B"
 						text="@afcm:matrix.org"
 						hover="@afcm:matrix.org"
+					/>
+					<SocialIconCopy
+						icon={SiRevoltdotchat}
+						icon_color="#FF4655"
+						text="AFCM"
+						hover="@AFCM"
 					/>
 					<SocialIcon
 						icon={SiTwitter}
