@@ -9,8 +9,10 @@ import {
 	SiMastodon,
 	SiReddit,
 	SiSketchfab,
+	SiSteam,
 	SiTwitch,
 	SiTwitter,
+	SiXbox,
 	SiYoutube,
 } from "react-icons/si";
 import Section from "../Section";
@@ -94,6 +96,18 @@ const SocialSection = () => {
 						icon_color="#FF4500"
 						link="https://www.reddit.com/user/AFCMS"
 						hover="u/AFCMS"
+					/>
+					<SocialIcon
+						icon={SiSteam}
+						icon_color="#000000"
+						link="https://steamcommunity.com/id/AFCMS/"
+						hover="AFCMS"
+					/>
+					<SocialIcon
+						icon={SiXbox}
+						icon_color="#107C10"
+						link="https://account.xbox.com/fr-fr/profile?gamertag=AFCM2020"
+						hover="AFCM2020"
 					/>
 					{
 						//TODO: eanble link again when account get enabled again
