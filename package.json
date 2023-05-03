@@ -54,7 +54,7 @@
 		"postcss-scss": "^4.0.6",
 		"prettier": "^2.8.8",
 		"prettier-plugin-tailwindcss": "^0.2.8",
-		"stylelint": "^15.6.0",
+		"stylelint": "^15.6.1",
 		"stylelint-config-standard": "^33.0.0",
 		"textlint": "^13.3.2",
 		"typescript": "^5.0.4"
