@@ -48,7 +48,7 @@
 		]
 	},
 	"devDependencies": {
-		"eslint-plugin-jsonc": "^2.7.0",
+		"eslint-plugin-jsonc": "^2.8.0",
 		"htmlhint": "^1.1.4",
 		"markdownlint": "^0.28.2",
 		"postcss-scss": "^4.0.6",
