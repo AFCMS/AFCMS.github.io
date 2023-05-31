@@ -4,7 +4,7 @@ import logo from "./logo.png";
 
 const AboutSection = (): JSX.Element => {
 	const myAge = useMemo<number>(() => {
-		const birthDate = new Date(2006, 10, 24);
+		const birthDate = new Date(2006, 4, 24);
 		const today = new Date();
 		let age = today.getFullYear() - birthDate.getFullYear();
 		const month = today.getMonth() - birthDate.getMonth();
