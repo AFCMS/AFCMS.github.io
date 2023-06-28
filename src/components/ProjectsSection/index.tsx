@@ -81,7 +81,7 @@ const ProjectsSection = (props: {
 					<ProjectItem
 						title="React Wordle"
 						desc={[
-							"I created a wordle game with React as a training, to try out the GitHub Codespace feature.",
+							"I created a **Wordle** game with **React** as a training, to try out the **GitHub Codespace** feature.",
 						]}
 						dates={[new Date(2022, 5, 7)]}
 						content={[{ type: ProjectItemContent.image, src: react_wordle }]}
