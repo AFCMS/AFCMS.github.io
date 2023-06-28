@@ -5,6 +5,7 @@ import react_wordle from "./images/react_wordle.png";
 import palamod from "./images/palamod.png";
 import mineclone2 from "./images/mineclone2.png";
 import mineclone2_mapart from "./images/mineclone2_mapart.png";
+import minetest_collection_manager from "./images/minetest_collection_manager.png";
 
 const ProjectsSection = (props: {
 	setCurrentImage: React.Dispatch<React.SetStateAction<string | undefined>>;
@@ -101,6 +102,26 @@ const ProjectsSection = (props: {
 						setCurrentImage={props.setCurrentImage}
 						links={[
 							["Source Code", "https://github.com/AFCMS/minetest-skin-server"],
+						]}
+					/>
+					<ProjectItem
+						title="Minetest Collection Manager"
+						desc={[
+							"I made a script in **Python** based on the **Rich** and **Click** frameworks to help me keeping updated my huge Minetest content collection.",
+						]}
+						dates={[new Date(2023, 5, 13)]}
+						content={[
+							{
+								type: ProjectItemContent.image,
+								src: minetest_collection_manager,
+							},
+						]}
+						setCurrentImage={props.setCurrentImage}
+						links={[
+							[
+								"Source Code",
+								"https://github.com/AFCMS/minetest-collection-manager",
+							],
 						]}
 					/>
 				</ol>
