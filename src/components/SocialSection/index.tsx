@@ -53,8 +53,8 @@ const SocialSection = () => {
 					<SocialIconCopy
 						icon={SiDiscord}
 						icon_color="#5865F2"
-						text="AFCM#9333"
-						hover="AFCM#9333"
+						text="afcms"
+						hover="AFCM (afcms)"
 					/>
 					<SocialIconCopy
 						icon={SiElement}
