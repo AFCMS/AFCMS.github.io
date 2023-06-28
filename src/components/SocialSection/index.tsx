@@ -89,7 +89,7 @@ const SocialSection = () => {
 					<SocialIcon
 						icon={SiYoutube}
 						icon_color="#FF0000"
-						link="https://www.youtube.com/channel/UCK0mMW2SlIb7X5pKi00ZcYw"
+						link="https://www.youtube.com/@AFCMS"
 						hover="@AFCMS"
 					/>
 					<SocialIcon
