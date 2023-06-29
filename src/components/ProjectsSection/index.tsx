@@ -6,6 +6,7 @@ import palamod from "./images/palamod.png";
 import mineclone2 from "./images/mineclone2.png";
 import mineclone2_mapart from "./images/mineclone2_mapart.png";
 import minetest_collection_manager from "./images/minetest_collection_manager.png";
+import ctf_discord_bot from "./images/ctf_discord_bot.png";
 
 const ProjectsSection = (props: {
 	setCurrentImage: React.Dispatch<React.SetStateAction<string | undefined>>;
@@ -89,6 +90,21 @@ const ProjectsSection = (props: {
 						links={[
 							["Source Code", "https://github.com/AFCMS/react-wordle"],
 							["Try Out", "https://react-wordle-afcm.vercel.app"],
+						]}
+					/>
+					<ProjectItem
+						title="Capture The Flag's Discord Bot"
+						dates={[new Date(2022, 7, 29)]}
+						desc={[
+							"I entirely rewrited the **Discord** bot of the **Capture The Flag** **Minetest** server, to follow latest Discord features like slash commands and moderation improvements.",
+						]}
+						content={[
+							{ type: ProjectItemContent.image, src: ctf_discord_bot },
+						]}
+						setCurrentImage={props.setCurrentImage}
+						links={[
+							["Server's Website", "http://ctf.rubenwardy.com"],
+							["Bot Source Code", "https://github.com/MT-CTF/ctf-discord-bot"],
 						]}
 					/>
 					<ProjectItem
