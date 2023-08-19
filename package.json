@@ -50,7 +50,7 @@
 	"devDependencies": {
 		"eslint-plugin-jsonc": "^2.9.0",
 		"htmlhint": "^1.1.4",
-		"markdownlint": "^0.29.0",
+		"markdownlint": "^0.30.0",
 		"postcss-scss": "^4.0.6",
 		"prettier": "^3.0.1",
 		"prettier-plugin-tailwindcss": "^0.5.3",
