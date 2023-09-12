@@ -77,6 +77,10 @@ const ProjectsSection = (props: {
 								"ContentDB",
 								"https://content.minetest.net/packages/AFCM/subway_miner/",
 							],
+							[
+								"Nodecast Interview",
+								"https://youtube.com/watch?v=kxg4jlPDlKk&t=1856",
+							],
 						]}
 					/>
 					<ProjectItem
