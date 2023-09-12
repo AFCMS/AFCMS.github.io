@@ -107,7 +107,7 @@ const ProjectsSection = (props: {
 						]}
 						setCurrentImage={props.setCurrentImage}
 						links={[
-							["Server's Website", "http://ctf.rubenwardy.com"],
+							["Server's Website", "https://ctf.rubenwardy.com"],
 							["Bot Source Code", "https://github.com/MT-CTF/ctf-discord-bot"],
 						]}
 					/>
