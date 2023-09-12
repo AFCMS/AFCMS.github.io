@@ -10,18 +10,33 @@
 - ReactCountryFlag
 - Postcss
 - TailwindCSS
-- gh-pages
 - Prettier
 
 ## Usage
 
-### Local Run
+### Development Server
 
-`npm run start`
+```shell
+npm run start
+```
 
-### Deploy on GitHub Pages
+### Production Build
 
-`npm run deploy`
+```shell
+npm run build
+```
+
+### Serve Production Build
+
+```shell
+npm run serve
+```
+
+### Deploy on GitHub Pages (Using GitHub CLI)
+
+```shell
+gh workflow run 47919864
+```
 
 ### Autoformatter
 
