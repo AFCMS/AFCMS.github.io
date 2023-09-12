@@ -1,0 +1,29 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Start Development",
+			"request": "launch",
+			"runtimeArgs": ["run-script", "start"],
+			"runtimeExecutable": "npm",
+			"skipFiles": ["<node_internals>/**"],
+			"type": "node"
+		},
+		{
+			"name": "Build Production",
+			"request": "launch",
+			"runtimeArgs": ["run-script", "build"],
+			"runtimeExecutable": "npm",
+			"skipFiles": ["<node_internals>/**"],
+			"type": "node"
+		},
+		{
+			"name": "Serve Production",
+			"request": "launch",
+			"runtimeArgs": ["run-script", "serve"],
+			"runtimeExecutable": "npm",
+			"skipFiles": ["<node_internals>/**"],
+			"type": "node"
+		}
+	]
+}
