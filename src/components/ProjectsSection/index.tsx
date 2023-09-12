@@ -37,7 +37,7 @@ const ProjectsSection = (props: {
 						dates={[new Date(2021, 1, 18)]}
 						desc={[
 							"I joined the **MineClone2** team in 2021, which is a clone of the popular **Minecraft** game, based on the **Minetest** engine.",
-							"I did more than 200 contributions, mostly improving modding API. I also made the barrels, the target block and the lanterns.",
+							"I did more than 200 contributions, mostly improving modding API. I also made the barrels, the target block, the lanterns and improved game menus a lot.",
 						]}
 						setCurrentImage={props.setCurrentImage}
 						content={[{ type: ProjectItemContent.image, src: mineclone2 }]}
