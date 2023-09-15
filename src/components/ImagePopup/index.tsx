@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, Fragment } from "react";
+import React, { useState, useEffect, useRef, Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -57,7 +57,7 @@ const ImagePopup = (props: {
 					>
 						<div className="z-80 fixed top-0 left-0 flex h-screen w-screen items-center justify-center">
 							<button
-								className="fixed top-10 right-10 h-8 w-8 appearance-none"
+								className="fixed top-10 right-10 h-8 w-8 appearance-none outline-none"
 								onClick={() => {
 									setOpen(false);
 									props.setCurrentImage(undefined);
