@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 type ImagePopupProps = {
 	currentImage: string | undefined;
@@ -69,7 +70,7 @@ const ImagePopup = (props: ImagePopupProps) => {
 								<XMarkIcon className="appearance-none rounded-md bg-slate-600 bg-opacity-75 text-slate-900" />
 							</button>
 
-							<img
+							<LazyLoadImage
 								className="max-h-[600px] max-w-[800px] rounded-md object-cover"
 								src={props.currentImage}
 							/>

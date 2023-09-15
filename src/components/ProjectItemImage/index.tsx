@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 type ProjectItemImageProps = {
 	src: string;
@@ -7,7 +8,7 @@ type ProjectItemImageProps = {
 
 const ProjectItemImage = (props: ProjectItemImageProps) => {
 	return (
-		<img
+		<LazyLoadImage
 			className="h-auto w-full rounded"
 			src={props.src}
 			alt=""
