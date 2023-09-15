@@ -1,5 +1,8 @@
+import React from "react";
 import ProjectItem, { ProjectItemContent } from "../ProjectItem";
 import Section from "../Section";
+
+// Import Images
 import subway_miner from "./images/subway_miner.png";
 import react_wordle from "./images/react_wordle.png";
 import palamod from "./images/palamod.png";
@@ -102,9 +105,7 @@ const ProjectsSection = (props: {
 						desc={[
 							"I entirely rewrited the **Discord** bot of the **Capture The Flag** **Minetest** server, to follow latest Discord features like slash commands and moderation improvements.",
 						]}
-						content={[
-							{ type: ProjectItemContent.image, src: ctf_discord_bot },
-						]}
+						content={[{ type: ProjectItemContent.image, src: ctf_discord_bot }]}
 						setCurrentImage={props.setCurrentImage}
 						links={[
 							["Server's Website", "https://ctf.rubenwardy.com"],
