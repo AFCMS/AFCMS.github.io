@@ -1,11 +1,15 @@
+import React from "react";
+
 type Icon = React.FC<{ className: string; color: string; title: string }>;
 
-const SocialIcon = (props: {
+type SocialIconProps = {
 	icon: Icon;
 	icon_color: string;
 	link: string;
 	hover: string;
-}) => {
+};
+
+const SocialIcon = (props: SocialIconProps) => {
 	const Icon = props.icon;
 	return (
 		<div className="h-16 w-16 rounded-md bg-slate-300 ">
