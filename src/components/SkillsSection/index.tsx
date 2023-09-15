@@ -12,14 +12,15 @@ import {
 	SiReact,
 	SiVisualstudiocode,
 } from "react-icons/si";
+import "./SkillsSection.css";
 
 const SkillsSection = () => {
 	return (
 		<Section id="skills">
-			<div className="w-full px-6 pt-2 pb-6">
+			<div className="w-full px-6 pb-6 pt-2">
 				<h1 className="font-bold text-blue-700">My skills</h1>
 				<h2 className="font-bold text-blue-700">Programming Languages</h2>
-				<div className="grid w-full auto-rows-max grid-cols-1 gap-4 p-2 md:grid-cols-2">
+				<div className="skills-section-grid">
 					<SkillItem
 						name="Lua"
 						icon={SiLua}
@@ -54,7 +55,7 @@ const SkillsSection = () => {
 					/>
 				</div>
 				<h2>Frameworks / Engines</h2>
-				<div className="row-auto grid w-full grid-cols-1 items-center gap-4 p-2 md:grid-cols-2">
+				<div className="skills-section-grid">
 					<SkillItem
 						name="Minetest"
 						icon={SiMinetest}
@@ -74,6 +75,7 @@ const SkillsSection = () => {
 				</div>
 				<h2>Tools</h2>
 				<div className="row-auto grid w-full grid-cols-1 items-center gap-4 p-2 md:grid-cols-2">
+				<div className="skills-section-grid">
 					<SkillItem
 						name="GitHub"
 						icon={SiGithub}

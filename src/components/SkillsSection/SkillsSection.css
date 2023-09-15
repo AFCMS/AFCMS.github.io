@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skills-section-grid {
+    @apply grid w-full auto-rows-max grid-cols-1 gap-4 p-2 md:grid-cols-2
+}
