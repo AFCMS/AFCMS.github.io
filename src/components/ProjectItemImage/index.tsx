@@ -1,25 +1,21 @@
-import PropTypes from "prop-types";
+import React from "react";
 
-const ProjectItemImage = (props: {
+type ProjectItemImageProps = {
 	src: string;
 	setCurrentImage: React.Dispatch<React.SetStateAction<string | undefined>>;
-}) => {
+};
+
+const ProjectItemImage = (props: ProjectItemImageProps) => {
 	return (
 		<img
 			className="h-auto w-full rounded"
 			src={props.src}
 			alt=""
 			onClick={() => {
-				console.log("CALLED");
 				props.setCurrentImage(props.src);
 			}}
 		/>
 	);
-};
-
-ProjectItemImage.propsTypes = {
-	src: PropTypes.string.isRequired,
-	setCurrentImage: PropTypes.func.isRequired,
 };
 
 export default ProjectItemImage;
