@@ -35,7 +35,9 @@ const SkillItem = (props: SkillItemProps): JSX.Element => {
 						}
 					})()}
 				</div>
-				<p className="overflow-ellipsis text-slate-800">{props.desc}</p>
+				<p className="overflow-ellipsis text-slate-800 text-left">
+					{props.desc}
+				</p>
 			</div>
 		</div>
 	);
