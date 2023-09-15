@@ -86,16 +86,9 @@ const ProjectItem = (props: ProjectItemProps) => {
 					</div>
 				) : undefined}
 				{props.links ? (
-					<div>
+					<div className="flex flex-row flex-wrap gap-2">
 						{props.links.map((e, i) => {
-							return (
-								<ButtonLink
-									key={i}
-									href={e[1]}
-									text={e[0]}
-									className={"mr-2"}
-								/>
-							);
+							return <ButtonLink key={i} href={e[1]} text={e[0]} />;
 						})}
 					</div>
 				) : undefined}
