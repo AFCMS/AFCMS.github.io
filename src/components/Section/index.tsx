@@ -1,10 +1,12 @@
-import PropTypes from "prop-types";
+import React from "react";
 
-const Section = (props: {
+type SectionProps = {
 	id: string;
 	children: React.ReactNode;
 	className?: string;
-}) => {
+};
+
+const Section = (props: SectionProps) => {
 	return (
 		<section id={props.id}>
 			<div
