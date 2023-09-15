@@ -2,10 +2,12 @@ import React, { useState, useEffect, useRef, Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
-const ImagePopup = (props: {
+type ImagePopupProps = {
 	currentImage: string | undefined;
 	setCurrentImage: React.Dispatch<React.SetStateAction<string | undefined>>;
-}) => {
+};
+
+const ImagePopup = (props: ImagePopupProps) => {
 	const [open, setOpen] = useState(false);
 	const cancelButtonRef = useRef<HTMLButtonElement>(null);
 
