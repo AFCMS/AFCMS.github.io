@@ -4,13 +4,13 @@
 
 ## Used Libraries
 
-- React
-- React-Icons
-- React-Markdown
-- ReactCountryFlag
-- Postcss
-- TailwindCSS
-- Prettier
+- [**React**](https://reactjs.org)
+- [**Vite**](https://vitejs.dev)
+- [**TailwindCSS**](https://tailwindcss.com)
+- [**HeadlessUI**](https://headlessui.com)
+- [**React Icons**](https://react-icons.github.io/react-icons)
+- [**React Markdown**](https://github.com/remarkjs/react-markdown)
+- [**Prettier**](https://prettier.io)
 
 ## Usage
 
@@ -43,13 +43,3 @@ gh workflow run 47919864
 Install the Prettier VSCode extention and add it as base formatter, enable format on save.
 
 The `prettier` and `prettier-plugin-tailwindcss` npm packages needs to be installed. (They are in the dev dependencies)
-
-## TODO
-
-- [ ] Rewrite main text
-- [ ] More informations in the Informations tab
-- [ ] Make sure site works on most devices
-- [ ] Add more links?
-- [ ] Add footer?
-- [x] Add `Dependabot`
-- [ ] Add `Prettier` in the GitHub Actions workflow?
