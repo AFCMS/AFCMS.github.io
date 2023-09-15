@@ -1,13 +1,15 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 type Icon = React.FC<{ className: string; color: string; title: string }>;
 
-const SocialIconCopy = (props: {
+type SocialIconCopyProps = {
 	icon: Icon;
 	icon_color: string;
 	text: string;
 	hover: string;
-}) => {
+};
+
+const SocialIconCopy = (props: SocialIconCopyProps) => {
 	const Icon = props.icon;
 
 	const [copied, setCopied] = useState<boolean>(false);
@@ -17,7 +19,7 @@ const SocialIconCopy = (props: {
 			className="relative flex h-16 w-16 place-items-center items-center rounded-md bg-slate-300 p-2 align-middle"
 			onClick={() => {
 				if (!copied) {
-					navigator.clipboard.writeText(props.text);
+					navigator.clipboard.writeText(props.text).catch();
 					setCopied(true);
 					setTimeout(() => {
 						setCopied(false);
