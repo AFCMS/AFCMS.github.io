@@ -12,7 +12,7 @@ import {
 	SiSketchfab,
 	SiSteam,
 	SiTwitch,
-	SiTwitter,
+	SiX,
 	SiXbox,
 	SiYoutube,
 } from "react-icons/si";
@@ -69,9 +69,9 @@ const SocialSection = () => {
 						hover="@AFCM"
 					/>
 					<SocialIcon
-						icon={SiTwitter}
-						icon_color="#1DA1F2"
-						link="https://twitter.com/AFCM_Dev"
+						icon={SiX}
+						icon_color="#000000"
+						link="https://x.com/AFCM_Dev"
 						hover="@AFCM_Dev"
 					/>
 					<SocialIcon
