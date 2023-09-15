@@ -1,3 +1,4 @@
+import React from "react";
 import "./SkillItem.css";
 
 export enum SkillItemLevel {
@@ -6,14 +7,16 @@ export enum SkillItemLevel {
 	expert = "expert",
 }
 
-const SkillItem = (props: {
+type SkillItemProps = {
 	name: string;
 	icon: React.FC<{ className?: string; style: { color: string } }>;
 	alt: string;
 	color: string;
 	desc: string;
 	level: SkillItemLevel;
-}): JSX.Element => {
+};
+
+const SkillItem = (props: SkillItemProps): JSX.Element => {
 	const Icon = props.icon;
 	return (
 		<div className="skill-item">
