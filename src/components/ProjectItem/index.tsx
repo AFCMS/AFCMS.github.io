@@ -1,3 +1,4 @@
+import React, { Fragment } from "react";
 import ReactMarkdown from "react-markdown";
 import ProjectItemImage from "../ProjectItemImage";
 
@@ -39,7 +40,6 @@ const ProjectItem = ({
 	links?: Array<Array<string>>;
 	setCurrentImage?: React.Dispatch<React.SetStateAction<string | undefined>>;
 }) => {
-	//console.log(dates);
 	return (
 		<li>
 			<div className="flex-start flex items-center">
@@ -50,20 +50,15 @@ const ProjectItem = ({
 				{dates ? (
 					<div>
 						{dates.map((e, i) => {
-							//console.log(e, i);
-							//console.log(100 - i);
 							return (
-								<>
-									<span className="text-sm text-blue-600" key={i}>
+								<Fragment key={i}>
+									<span className="text-sm text-blue-600">
 										{format_date(e)}
 									</span>
-									<span
-										className="mx-2 text-sm text-blue-600 last:hidden"
-										key={100 - i}
-									>
+									<span className="mx-2 text-sm text-blue-600 last:hidden">
 										-
 									</span>
-								</>
+								</Fragment>
 							);
 						})}
 					</div>
