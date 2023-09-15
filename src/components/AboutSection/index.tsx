@@ -18,7 +18,7 @@ const AboutSection = (): JSX.Element => {
 		<Section id="about">
 			<div className="flex flex-col">
 				<div className="flex flex-row items-center gap-6 p-6">
-					<img src={logo} alt="logo" className="h-20 w-auto" />
+					<img src={logo} alt="logo" className="h-20 w-20" />
 					<h1 className="title-font text-3xl font-medium text-black sm:text-4xl">
 						Hi, I'm AFCM.
 					</h1>
