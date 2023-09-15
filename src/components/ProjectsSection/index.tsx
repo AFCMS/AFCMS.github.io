@@ -49,6 +49,10 @@ const ProjectsSection = (props: {
 								"Source Code",
 								"https://git.minetest.land/MineClone2/MineClone2",
 							],
+							[
+								"ContentDB",
+								"https://content.minetest.net/packages/Wuzzy/mineclone2",
+							],
 						]}
 					/>
 					<ProjectItem
