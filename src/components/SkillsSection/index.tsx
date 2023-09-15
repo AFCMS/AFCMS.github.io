@@ -2,14 +2,22 @@ import Section from "../Section";
 import SkillItem, { SkillItemLevel } from "../SkillItem";
 import {
 	SiBlender,
+	SiDiscord,
+	SiDocker,
+	SiGimp,
+	SiGit,
 	SiGithub,
 	SiGithubactions,
 	SiGo,
+	SiGtk,
 	SiJavascript,
+	SiKrita,
 	SiLua,
 	SiMinetest,
 	SiPython,
 	SiReact,
+	SiRedis,
+	SiUnrealengine,
 	SiVisualstudiocode,
 } from "react-icons/si";
 import "./SkillsSection.css";
@@ -72,26 +80,60 @@ const SkillsSection = () => {
 						desc="React is my go-to frontend library, I used it in litterally all my web projects"
 						level={SkillItemLevel.advanced}
 					/>
+					<SkillItem
+						name="DiscordJS"
+						icon={SiDiscord}
+						alt="DiscordJS Icon"
+						color="#3776AB"
+						desc="I use DiscordJS when it comes to Discord bots"
+						level={SkillItemLevel.advanced}
+					/>
+					<SkillItem
+						name="Unreal Engine"
+						icon={SiUnrealengine}
+						alt="Unreal Engine Icon"
+						color="#0E1128"
+						desc="I am currently learning this engine, with a secret project in mind :)"
+						level={SkillItemLevel.beginner}
+					/>
 				</div>
-				<h2>Tools</h2>
-				<div className="row-auto grid w-full grid-cols-1 items-center gap-4 p-2 md:grid-cols-2">
+				<h2>Development Tools</h2>
 				<div className="skills-section-grid">
 					<SkillItem
 						name="GitHub"
 						icon={SiGithub}
 						alt="GitHub Icon"
 						color="#181717"
-						desc="I host most of my projects on GitHub"
+						desc="I host 99% of my projects on GitHub, managing several organisations"
 						level={SkillItemLevel.expert}
 					/>
 					<SkillItem
-						name="GitHub Actions"
-						icon={SiGithubactions}
-						alt="GitHub Actions Icon"
-						color="#2088FF"
-						desc="I often use React to automate things"
+						name="Git"
+						icon={SiGit}
+						alt="Git Icon"
+						color="#F05032"
+						desc={`Who uses SVN in ${new Date().getFullYear()}?`}
 						level={SkillItemLevel.advanced}
 					/>
+					<SkillItem
+						name="Visual Studio Code"
+						icon={SiVisualstudiocode}
+						alt="Visual Studio Code Icon"
+						color="#007ACC"
+						desc="VSCode is my prefered editor, I already worked with the extension API"
+						level={SkillItemLevel.advanced}
+					/>
+					<SkillItem
+						name="Docker"
+						icon={SiDocker}
+						alt="Docker Icon"
+						color="#2496ED"
+						desc="Used it in some of my last development and liked it!"
+						level={SkillItemLevel.beginner}
+					/>
+				</div>
+				<h2>Other Tools</h2>
+				<div className="skills-section-grid">
 					<SkillItem
 						name="Blender"
 						icon={SiBlender}
@@ -101,11 +143,11 @@ const SkillsSection = () => {
 						level={SkillItemLevel.advanced}
 					/>
 					<SkillItem
-						name="Visual Studio Code"
-						icon={SiVisualstudiocode}
-						alt="Visual Studio Code Icon"
-						color="#007ACC"
-						desc="VSCode is my prefered editor"
+						name="GIMP"
+						icon={SiGimp}
+						alt="Gimp Icon"
+						color="#000000"
+						desc="I make pixel art for video games"
 						level={SkillItemLevel.advanced}
 					/>
 				</div>
