@@ -1,13 +1,15 @@
-import { Fragment, useRef } from "react";
+import React, { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
-const Popup = (props: {
+type PopupProps = {
 	open: boolean;
 	setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 	title: string;
 	content: React.ReactNode;
-}) => {
+};
+
+const Popup = (props: PopupProps) => {
 	const open = props.open;
 	const setOpen = props.setOpen;
 	const cancelButtonRef = useRef(null);
