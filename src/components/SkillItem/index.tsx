@@ -1,4 +1,5 @@
 import React from "react";
+import { GiRank1, GiRank2, GiRank3 } from "react-icons/gi";
 import "./SkillItem.css";
 
 export enum SkillItemLevel {
@@ -27,11 +28,23 @@ const SkillItem = (props: SkillItemProps): JSX.Element => {
 					<h3 className="text-lg text-blue-800">{props.name}</h3>
 					{(() => {
 						if (props.level === "beginner") {
-							return <div className="skill-item-level-beginner">Beginner</div>;
+							return (
+								<GiRank1
+									className="skill-item-level-beginner"
+									title="Beginner"
+								/>
+							);
 						} else if (props.level === "advanced") {
-							return <div className="skill-item-level-advanced">Advanced</div>;
+							return (
+								<GiRank2
+									className="skill-item-level-advanced"
+									title="Advanced"
+								/>
+							);
 						} else {
-							return <div className="skill-item-level-expert">Expert</div>;
+							return (
+								<GiRank3 className="skill-item-level-expert" title="Expert" />
+							);
 						}
 					})()}
 				</div>

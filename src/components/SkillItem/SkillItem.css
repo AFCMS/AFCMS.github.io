@@ -10,7 +10,7 @@
 }
 
 .skill-item-level {
-	@apply rounded pr-1 font-bold;
+	@apply rounded pr-1 font-bold text-3xl;
 }
 
 .skill-item-level-expert {
