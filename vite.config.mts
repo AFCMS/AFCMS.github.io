@@ -7,7 +7,7 @@ export default defineConfig({
 		outDir: "build",
 	},
 	plugins: [react(), imagetools({
-		defaultDirectives: new URLSearchParams("?format=webp&quality=100")
+		defaultDirectives: new URLSearchParams("?format=webp&quality=90")
 	})],
 	assetsInclude: ["**/*.md"],
 });
