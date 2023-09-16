@@ -30,7 +30,11 @@ type ProjectItemProps = {
 	title: string;
 	dates?: Array<Date>;
 	desc: Array<string>;
-	content?: Array<{ type: ProjectItemContent; src: string }>;
+	content?: Array<{
+		type: ProjectItemContent;
+		src: string;
+		srcPlaceholder?: string;
+	}>;
 	links?: Array<Array<string>>;
 	setCurrentImage?: React.Dispatch<React.SetStateAction<string | undefined>>;
 };
@@ -73,6 +77,7 @@ const ProjectItem = (props: ProjectItemProps) => {
 								return (
 									<ProjectItemImage
 										src={e.src}
+										srcPlaceholder={e.srcPlaceholder}
 										key={i}
 										setCurrentImage={
 											props.setCurrentImage as React.Dispatch<

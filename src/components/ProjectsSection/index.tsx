@@ -4,12 +4,25 @@ import Section from "../Section";
 
 // Import Images
 import subway_miner from "./images/subway_miner.png";
+import subway_miner_placeholder from "./images/subway_miner.png?w=100&imagetools";
+
 import react_wordle from "./images/react_wordle.png";
+import react_wordle_placeholder from "./images/react_wordle.png?w=100&imagetools";
+
 import palamod from "./images/palamod.png";
+import palamod_placeholder from "./images/palamod.png?w=100&imagetools";
+
 import mineclone2 from "./images/mineclone2.png";
+import mineclone2_placeholder from "./images/mineclone2.png?w=100&imagetools";
+
 import mineclone2_mapart from "./images/mineclone2_mapart.png";
+import mineclone2_mapart_placeholder from "./images/mineclone2_mapart.png?w=100&imagetools";
+
 import minetest_collection_manager from "./images/minetest_collection_manager.png";
+import minetest_collection_manager_placeholder from "./images/minetest_collection_manager.png?w=100&imagetools";
+
 import ctf_discord_bot from "./images/ctf_discord_bot.png";
+import ctf_discord_bot_placeholder from "./images/ctf_discord_bot.png?w=100&imagetools";
 
 const ProjectsSection = (props: {
 	setCurrentImage: React.Dispatch<React.SetStateAction<string | undefined>>;
@@ -26,7 +39,13 @@ const ProjectsSection = (props: {
 							"My first real personal project was a clone of the modpack of the **Paladium** french Minecraft server.",
 						]}
 						setCurrentImage={props.setCurrentImage}
-						content={[{ type: ProjectItemContent.image, src: palamod }]}
+						content={[
+							{
+								type: ProjectItemContent.image,
+								src: palamod,
+								srcPlaceholder: palamod_placeholder,
+							},
+						]}
 						links={[
 							["Source Code", "https://github.com/minetest-palamod/palamod"],
 							[
@@ -43,7 +62,13 @@ const ProjectsSection = (props: {
 							"I did more than 200 contributions, mostly improving modding API. I also made the barrels, the target block, the lanterns and improved game menus a lot.",
 						]}
 						setCurrentImage={props.setCurrentImage}
-						content={[{ type: ProjectItemContent.image, src: mineclone2 }]}
+						content={[
+							{
+								type: ProjectItemContent.image,
+								src: mineclone2,
+								srcPlaceholder: mineclone2_placeholder,
+							},
+						]}
 						links={[
 							[
 								"Source Code",
@@ -62,7 +87,11 @@ const ProjectsSection = (props: {
 							"I created a **Python CLI** to generate **MineClone2** schematics from images, used to create MapArts.",
 						]}
 						content={[
-							{ type: ProjectItemContent.image, src: mineclone2_mapart },
+							{
+								type: ProjectItemContent.image,
+								src: mineclone2_mapart,
+								srcPlaceholder: mineclone2_mapart_placeholder,
+							},
 						]}
 						setCurrentImage={props.setCurrentImage}
 						links={[
@@ -76,7 +105,13 @@ const ProjectsSection = (props: {
 							"I took part into the Minetest Game Jam 2021 with my entry called **Subway Miner**",
 							"It was heavily inspired by **Subway Surfers** and **Temple Run** and won the second place over 26 participants",
 						]}
-						content={[{ type: ProjectItemContent.image, src: subway_miner }]}
+						content={[
+							{
+								type: ProjectItemContent.image,
+								src: subway_miner,
+								srcPlaceholder: subway_miner_placeholder,
+							},
+						]}
 						setCurrentImage={props.setCurrentImage}
 						links={[
 							["Source Code", "https://github.com/AFCMS/Subway-Miner"],
@@ -96,7 +131,13 @@ const ProjectsSection = (props: {
 							"I created a **Wordle** game with **React** as a training, to try out the **GitHub Codespace** feature.",
 						]}
 						dates={[new Date(2022, 5, 7)]}
-						content={[{ type: ProjectItemContent.image, src: react_wordle }]}
+						content={[
+							{
+								type: ProjectItemContent.image,
+								src: react_wordle,
+								srcPlaceholder: react_wordle_placeholder,
+							},
+						]}
 						setCurrentImage={props.setCurrentImage}
 						links={[
 							["Source Code", "https://github.com/AFCMS/react-wordle"],
@@ -109,7 +150,13 @@ const ProjectsSection = (props: {
 						desc={[
 							"I entirely rewrited the **Discord** bot of the **Capture The Flag** **Minetest** server, to follow latest Discord features like slash commands and moderation improvements.",
 						]}
-						content={[{ type: ProjectItemContent.image, src: ctf_discord_bot }]}
+						content={[
+							{
+								type: ProjectItemContent.image,
+								src: ctf_discord_bot,
+								srcPlaceholder: ctf_discord_bot_placeholder,
+							},
+						]}
 						setCurrentImage={props.setCurrentImage}
 						links={[
 							["Server's Website", "https://ctf.rubenwardy.com"],
@@ -139,6 +186,7 @@ const ProjectsSection = (props: {
 							{
 								type: ProjectItemContent.image,
 								src: minetest_collection_manager,
+								srcPlaceholder: minetest_collection_manager_placeholder,
 							},
 						]}
 						setCurrentImage={props.setCurrentImage}
