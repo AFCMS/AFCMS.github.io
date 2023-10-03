@@ -1,4 +1,6 @@
-module.exports = {
+import type { Config } from "tailwindcss";
+
+export default {
 	mode: "jit",
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
@@ -10,4 +12,4 @@ module.exports = {
 			visibility: ["group-hover"],
 		},
 	},
-};
+} satisfies Config;
