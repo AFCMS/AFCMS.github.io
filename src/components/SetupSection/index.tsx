@@ -24,8 +24,8 @@ const SetupSection = () => {
 						<Tab
 							key={"hardware"}
 							className={({ selected }) =>
-								`outline-none w-full uppercase font-bold leading-5 text-blue-700 py-2.5 ${
-									selected ? "bg-slate-100 rounded" : ""
+								`w-full py-2.5 font-bold uppercase leading-5 text-blue-700 outline-none ${
+									selected ? "rounded bg-slate-100" : ""
 								}`
 							}
 						>
@@ -34,8 +34,8 @@ const SetupSection = () => {
 						<Tab
 							key={"periphericals"}
 							className={({ selected }) =>
-								`outline-none w-full uppercase font-bold leading-5 text-blue-700 py-2.5 ${
-									selected ? "bg-slate-100 rounded" : ""
+								`w-full py-2.5 font-bold uppercase leading-5 text-blue-700 outline-none ${
+									selected ? "rounded bg-slate-100" : ""
 								}`
 							}
 						>
@@ -44,8 +44,8 @@ const SetupSection = () => {
 						<Tab
 							key={"os"}
 							className={({ selected }) =>
-								`outline-none w-full uppercase font-bold leading-5 text-blue-700 py-2.5 ${
-									selected ? "bg-slate-100 rounded" : ""
+								`w-full py-2.5 font-bold uppercase leading-5 text-blue-700 outline-none ${
+									selected ? "rounded bg-slate-100" : ""
 								}`
 							}
 						>
@@ -54,7 +54,7 @@ const SetupSection = () => {
 					</Tab.List>
 					<Tab.Panels className="mt-2">
 						<Tab.Panel key={"hardware"}>
-							<div className="flex flex-col gap-4 mb-4">
+							<div className="mb-4 flex flex-col gap-4">
 								<SetupComponent
 									icon={MdLaptop}
 									store={
@@ -77,7 +77,7 @@ const SetupSection = () => {
 							</div>
 						</Tab.Panel>
 						<Tab.Panel key={"periphericals"}>
-							<div className="flex flex-col gap-4 mb-4">
+							<div className="mb-4 flex flex-col gap-4">
 								<SetupComponent
 									icon={MdKeyboard}
 									store={
@@ -121,12 +121,12 @@ const SetupSection = () => {
 							</div>
 						</Tab.Panel>
 						<Tab.Panel id={"os"}>
-							<div className={"flex flex-col gap-4 mb-4"}>
+							<div className={"mb-4 flex flex-col gap-4"}>
 								<div className="flex flex-row gap-4 p-2">
 									<div className="border-r border-r-slate-400 pr-4">
 										<SiFedora
 											color={"#51A2DA"}
-											className="text-6xl text-center w-full mb-4"
+											className="mb-4 w-full text-center text-6xl"
 										/>
 										<ButtonLink
 											href="https://fedoraproject.org"
@@ -134,10 +134,10 @@ const SetupSection = () => {
 										/>
 									</div>
 									<div className="">
-										<h3 className="font-bold text-blue-600 text-left">
-											{"Fedora 38"}
+										<h3 className="text-left font-bold text-blue-600">
+											{"Fedora 39"}
 										</h3>
-										<p className={"text-left max-w-2xl"}>
+										<p className={"max-w-2xl text-left"}>
 											I currently use Fedora Workstation with the GNOME desktop
 											environment as my daily driver Linux distro. I previously
 											used Ubuntu, but I switched to get faster updates and a
@@ -149,7 +149,7 @@ const SetupSection = () => {
 									<div className="border-r border-r-slate-400 pr-4">
 										<SiWindows11
 											color={"#0078D4"}
-											className="text-6xl text-center w-full mb-4"
+											className="mb-4 w-full text-center text-6xl"
 										/>
 										<ButtonLink
 											href="https://www.microsoft.com/en-us/windows"
@@ -157,11 +157,11 @@ const SetupSection = () => {
 										/>
 									</div>
 									<div className="">
-										<h3 className="font-bold text-blue-600 text-left">
+										<h3 className="text-left font-bold text-blue-600">
 											{"Windows 11 Pro"}
 										</h3>
 										<ul className="list-disc text-left"></ul>
-										<p className={"text-left max-w-2xl"}>
+										<p className={"max-w-2xl text-left"}>
 											I also have a Windows 11 Pro dual-boot I use for Windows
 											specific software like Microsoft Office, Unreal Engine and
 											some video games.
@@ -173,12 +173,12 @@ const SetupSection = () => {
 					</Tab.Panels>
 					<div className={"relative"}>
 						<span
-							className={"absolute right-0 bottom-3 text"}
+							className={"text absolute bottom-3 right-0"}
 							title={
 								"All links are non-affiliated.\nI only advertize products because I like them."
 							}
 						>
-							<InformationCircleIcon className={"text-blue-600 h-6 w-6"} />
+							<InformationCircleIcon className={"h-6 w-6 text-blue-600"} />
 						</span>
 					</div>
 				</Tab.Group>
