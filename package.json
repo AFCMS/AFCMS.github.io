@@ -53,7 +53,7 @@
 		"@typescript-eslint/eslint-plugin": "^6.12.0",
 		"@typescript-eslint/parser": "^6.7.4",
 		"eslint": "^8.53.0",
-		"eslint-plugin-jsonc": "^2.9.0",
+		"eslint-plugin-jsonc": "^2.10.0",
 		"htmlhint": "^1.1.4",
 		"markdownlint": "^0.31.1",
 		"postcss-scss": "^4.0.9",
