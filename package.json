@@ -29,7 +29,8 @@
 	"scripts": {
 		"start": "vite",
 		"build": "tsc && vite build",
-		"serve": "vite preview"
+		"serve": "vite preview",
+		"generate-pwa-assets": "pwa-assets-generator"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -52,6 +53,7 @@
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^6.12.0",
 		"@typescript-eslint/parser": "^6.12.0",
+		"@vite-pwa/assets-generator": "^0.0.11",
 		"eslint": "^8.54.0",
 		"eslint-plugin-jsonc": "^2.10.0",
 		"htmlhint": "^1.1.4",
@@ -62,6 +64,8 @@
 		"stylelint": "^15.11.0",
 		"stylelint-config-standard": "^34.0.0",
 		"textlint": "^13.4.0",
-		"typescript": "^5.3.2"
+		"typescript": "^5.3.2",
+		"vite-plugin-pwa": "^0.17.0",
+		"workbox-window": "^7.0.0"
 	}
 }

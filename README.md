@@ -6,6 +6,7 @@
 
 - [**React**](https://reactjs.org)
 - [**Vite**](https://vitejs.dev)
+- [**Vite PWA**](https://vite-pwa-org.netlify.app)
 - [**TailwindCSS**](https://tailwindcss.com)
 - [**HeadlessUI**](https://headlessui.com)
 - [**React Icons**](https://react-icons.github.io/react-icons)
@@ -30,6 +31,12 @@ npm run build
 
 ```shell
 npm run serve
+```
+
+### Rebuild PWA Assets
+
+```shell
+npm run generate-pwa-assets
 ```
 
 ### Deploy on GitHub Pages (Using GitHub CLI)
