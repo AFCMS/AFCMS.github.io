@@ -7,7 +7,7 @@ module.exports = {
 	overrides: [
 		{
 			files: ["*.json"],
-			extends: ["plugin:jsonc/recommended-with-json"],
+			extends: ["plugin:jsonc/recommended-with-jsonc"],
 			parser: "jsonc-eslint-parser",
 			parserOptions: {
 				jsonSyntax: "JSON",
