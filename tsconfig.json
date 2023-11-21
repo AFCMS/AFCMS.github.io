@@ -1,3 +1,4 @@
+/* eslint-disable jsonc/no-comments */
 {
     "compilerOptions": {
         "target": "ES2020",
