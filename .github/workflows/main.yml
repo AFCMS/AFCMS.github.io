@@ -29,5 +29,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LINTER_RULES_PATH: /
 
-          JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.js
+          JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.cjs
           CSS_FILE_NAME: stylelint.config.js
