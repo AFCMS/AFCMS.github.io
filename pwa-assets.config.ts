@@ -1,6 +1,6 @@
-import { defineConfig, minimalPreset } from "@vite-pwa/assets-generator/config";
+import { defineConfig } from "@vite-pwa/assets-generator/config";
 
 export default defineConfig({
-	preset: minimalPreset,
+	preset: "minimal-2023",
 	images: ["public/favicon.png"],
 });
