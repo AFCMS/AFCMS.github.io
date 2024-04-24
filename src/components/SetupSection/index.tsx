@@ -118,7 +118,7 @@ const SetupSection = () => {
 										<ButtonLink href="https://fedoraproject.org" text="Website" />
 									</div>
 									<div className="">
-										<h3 className="text-left font-bold text-blue-600">{"Fedora 39"}</h3>
+										<h3 className="text-left font-bold text-blue-600">{"Fedora 40"}</h3>
 										<p className={"max-w-2xl text-left"}>
 											I currently use Fedora Workstation with the GNOME desktop environment as my daily driver Linux
 											distro. I previously used Ubuntu, but I switched to get faster updates and a more vanilla GNOME
