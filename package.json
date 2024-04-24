@@ -51,7 +51,7 @@
 		"markdownlint": "^0.33.0",
 		"postcss-scss": "^4.0.9",
 		"prettier": "^3.2.4",
-		"prettier-plugin-tailwindcss": "^0.5.11",
+		"prettier-plugin-tailwindcss": "^0.5.14",
 		"stylelint": "^16.3.1",
 		"stylelint-config-standard": "^36.0.0",
 		"textlint": "^14.0.4",
