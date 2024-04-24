@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 module.exports = {
 	extends: ["stylelint-config-standard"],
 	customSyntax: "postcss-scss",
@@ -5,14 +6,7 @@ module.exports = {
 		"at-rule-no-unknown": [
 			true,
 			{
-				ignoreAtRules: [
-					"tailwind",
-					"apply",
-					"variants",
-					"responsive",
-					"screen",
-					"layer",
-				],
+				ignoreAtRules: ["tailwind", "apply", "variants", "responsive", "screen", "layer"],
 			},
 		],
 		indentation: null,

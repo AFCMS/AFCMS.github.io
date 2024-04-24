@@ -46,6 +46,7 @@ const pwaConfig: Partial<VitePWAOptions> = {
 	}
 };
 
+// noinspection JSUnusedGlobalSymbols
 export default defineConfig({
 	build: {
 		outDir: "build"
