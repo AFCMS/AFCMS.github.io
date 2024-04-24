@@ -24,9 +24,7 @@ import minetest_collection_manager_placeholder from "./images/minetest_collectio
 import ctf_discord_bot from "./images/ctf_discord_bot.png";
 import ctf_discord_bot_placeholder from "./images/ctf_discord_bot.png?w=100&imagetools";
 
-const ProjectsSection = (props: {
-	setCurrentImage: React.Dispatch<React.SetStateAction<string | undefined>>;
-}) => {
+const ProjectsSection = (props: { setCurrentImage: React.Dispatch<React.SetStateAction<string | undefined>> }) => {
 	return (
 		<Section id="projects">
 			<div className="w-full px-6 pt-2">
@@ -48,10 +46,7 @@ const ProjectsSection = (props: {
 						]}
 						links={[
 							["Source Code", "https://github.com/minetest-palamod/palamod"],
-							[
-								"ContentDB",
-								"https://content.minetest.net/packages/AFCM/palamod/",
-							],
+							["ContentDB", "https://content.minetest.net/packages/AFCM/palamod/"],
 						]}
 					/>
 					<ProjectItem
@@ -70,14 +65,8 @@ const ProjectsSection = (props: {
 							},
 						]}
 						links={[
-							[
-								"Source Code",
-								"https://git.minetest.land/MineClone2/MineClone2",
-							],
-							[
-								"ContentDB",
-								"https://content.minetest.net/packages/Wuzzy/mineclone2",
-							],
+							["Source Code", "https://git.minetest.land/MineClone2/MineClone2"],
+							["ContentDB", "https://content.minetest.net/packages/Wuzzy/mineclone2"],
 						]}
 					/>
 					<ProjectItem
@@ -94,9 +83,7 @@ const ProjectsSection = (props: {
 							},
 						]}
 						setCurrentImage={props.setCurrentImage}
-						links={[
-							["Source Code", "https://github.com/AFCMS/MineClone2_MapArt"],
-						]}
+						links={[["Source Code", "https://github.com/AFCMS/MineClone2_MapArt"]]}
 					/>
 					<ProjectItem
 						title="Minetest Game Jam 2021 (Second Place)"
@@ -115,14 +102,8 @@ const ProjectsSection = (props: {
 						setCurrentImage={props.setCurrentImage}
 						links={[
 							["Source Code", "https://github.com/AFCMS/Subway-Miner"],
-							[
-								"ContentDB",
-								"https://content.minetest.net/packages/AFCM/subway_miner/",
-							],
-							[
-								"Nodecast Interview",
-								"https://youtube.com/watch?v=kxg4jlPDlKk&t=1856",
-							],
+							["ContentDB", "https://content.minetest.net/packages/AFCM/subway_miner/"],
+							["Nodecast Interview", "https://youtube.com/watch?v=kxg4jlPDlKk&t=1856"],
 						]}
 					/>
 					<ProjectItem
@@ -172,9 +153,7 @@ const ProjectsSection = (props: {
 						dates={[new Date(2022, 11, 19)]}
 						//content={[{ type: ProjectItemContent.image, src: react_wordle }]}
 						setCurrentImage={props.setCurrentImage}
-						links={[
-							["Source Code", "https://github.com/AFCMS/minetest-skin-server"],
-						]}
+						links={[["Source Code", "https://github.com/AFCMS/minetest-skin-server"]]}
 					/>
 					<ProjectItem
 						title="Minetest Collection Manager"
@@ -190,12 +169,16 @@ const ProjectsSection = (props: {
 							},
 						]}
 						setCurrentImage={props.setCurrentImage}
-						links={[
-							[
-								"Source Code",
-								"https://github.com/AFCMS/minetest-collection-manager",
-							],
+						links={[["Source Code", "https://github.com/AFCMS/minetest-collection-manager"]]}
+					/>
+					<ProjectItem
+						title="DevPet"
+						desc={[
+							"I am in the process of making a **IoT** pet targeting developers using an **ESP32** board, **PlatformIO**, the **GitHub** GraphQL API and a **NodeJS** backend as part of my studies.",
 						]}
+						dates={[new Date(2023, 11, 20)]}
+						content={[]}
+						setCurrentImage={props.setCurrentImage}
 					/>
 				</ol>
 			</div>
