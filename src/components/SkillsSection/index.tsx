@@ -124,8 +124,8 @@ const SkillsSection = () => {
 						icon={SiDocker}
 						alt="Docker Icon"
 						color="#2496ED"
-						desc="Used it in some of my last development and liked it!"
-						level={SkillItemLevel.beginner}
+						desc="I used it in several projects including advanced topics like cross-platform builds"
+						level={SkillItemLevel.advanced}
 					/>
 				</div>
 				<h2>Other Tools</h2>
