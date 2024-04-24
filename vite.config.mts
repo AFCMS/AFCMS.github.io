@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import { imagetools } from "vite-imagetools";
+//import { imagetools } from "vite-imagetools";
 import { VitePWA, VitePWAOptions } from "vite-plugin-pwa";
 
 const pwaConfig: Partial<VitePWAOptions> = {
@@ -53,9 +53,10 @@ export default defineConfig({
 	},
 	plugins: [
 		react(),
-		imagetools({
+		/*imagetools({
 			defaultDirectives: new URLSearchParams("?format=webp&quality=90")
-		}),
-		VitePWA(pwaConfig)],
+		}),*/
+		VitePWA(pwaConfig)
+	],
 	assetsInclude: ["**/*.md"]
 });
