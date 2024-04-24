@@ -9,7 +9,7 @@
 		"@testing-library/jest-dom": "^6.4.2",
 		"@testing-library/react": "^14.1.2",
 		"@testing-library/user-event": "^14.5.2",
-		"@types/react-lazy-load-image-component": "^1.6.3",
+		"@types/react-lazy-load-image-component": "^1.6.4",
 		"@vitejs/plugin-react": "^4.2.1",
 		"autoprefixer": "^10.4.17",
 		"postcss": "^8.4.33",
