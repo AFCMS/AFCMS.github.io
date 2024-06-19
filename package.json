@@ -1,7 +1,6 @@
 {
-	"homepage": "https://afcms.github.io/",
+	"homepage": "https://afcms.github.io",
 	"name": "afcm_site",
-	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
 		"@headlessui/react": "^1.7.19",
@@ -9,10 +8,22 @@
 		"@testing-library/jest-dom": "^6.4.2",
 		"@testing-library/react": "^14.1.2",
 		"@testing-library/user-event": "^14.5.2",
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
 		"@types/react-lazy-load-image-component": "^1.6.4",
+		"@typescript-eslint/eslint-plugin": "^7.7.1",
+		"@typescript-eslint/parser": "^7.7.0",
+		"@vite-pwa/assets-generator": "^0.2.4",
 		"@vitejs/plugin-react": "^4.2.1",
 		"autoprefixer": "^10.4.17",
-		"postcss": "^8.4.33",
+		"eslint": "^8.56.0",
+		"eslint-plugin-jsonc": "^2.15.1",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.7",
+		"postcss": "^8.4.38",
+		"postcss-scss": "^4.0.9",
+		"prettier": "^3.3.2",
+		"prettier-plugin-tailwindcss": "^0.5.14",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-icons": "^5.0.1",
@@ -20,13 +31,17 @@
 		"react-markdown": "^9.0.1",
 		"remark-emoji": "^4.0.1",
 		"remark-gfm": "^4.0.0",
+		"stylelint": "^16.6.1",
+		"stylelint-config-standard": "^36.0.0",
 		"tailwindcss": "^3.4.1",
+		"typescript": "^5.4.5",
 		"vite": "^5.2.9",
 		"vite-imagetools": "^7.0.1",
-		"vite-plugin-svgr": "^4.2.0",
-		"web-vitals": "^3.5.1"
+		"vite-plugin-pwa": "^0.19.8",
+		"vite-plugin-svgr": "^4.2.0"
 	},
 	"scripts": {
+		"preinstall": "npx only-allow pnpm",
 		"start": "vite",
 		"build": "tsc && vite build",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -39,24 +54,5 @@
 			"react-app/jest"
 		]
 	},
-	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^7.7.1",
-		"@typescript-eslint/parser": "^7.7.0",
-		"@vite-pwa/assets-generator": "^0.2.4",
-		"eslint": "^8.56.0",
-		"eslint-plugin-jsonc": "^2.15.1",
-		"eslint-plugin-react-hooks": "^4.6.0",
-		"eslint-plugin-react-refresh": "^0.4.7",
-		"htmlhint": "^1.1.4",
-		"markdownlint": "^0.34.0",
-		"postcss-scss": "^4.0.9",
-		"prettier": "^3.3.2",
-		"prettier-plugin-tailwindcss": "^0.5.14",
-		"stylelint": "^16.6.1",
-		"stylelint-config-standard": "^36.0.0",
-		"textlint": "^14.0.4",
-		"typescript": "^5.4.5",
-		"vite-plugin-pwa": "^0.19.8",
-		"workbox-window": "^7.0.0"
-	}
+	"packageManager": "pnpm@9.4.0"
 }

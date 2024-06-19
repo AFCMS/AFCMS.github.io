@@ -12,25 +12,26 @@
 - [**React Icons**](https://react-icons.github.io/react-icons)
 - [**React Markdown**](https://github.com/remarkjs/react-markdown)
 - [**Prettier**](https://prettier.io)
+- [**PNPM**](https://pnpm.io)
 
 ## Usage
 
 ### Development Server
 
 ```shell
-npm run start
+pnpm run start
 ```
 
 ### Production Build
 
 ```shell
-npm run build
+pnpm run build
 ```
 
 ### Serve Production Build
 
 ```shell
-npm run serve
+pnpm run serve
 ```
 
 ### Rebuild PWA Assets
