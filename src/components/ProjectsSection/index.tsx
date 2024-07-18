@@ -174,11 +174,12 @@ const ProjectsSection = (props: { setCurrentImage: React.Dispatch<React.SetState
 					<ProjectItem
 						title="DevPet"
 						desc={[
-							"I am in the process of making a **IoT** pet targeting developers using an **ESP32** board, **PlatformIO**, the **GitHub** GraphQL API and a **NodeJS** backend as part of my studies.",
+							"I made a 3D printed virtual pet targeting developers using an **ESP32** board, **PlatformIO**, the **GitHub** GraphQL API and a **NodeJS** backend as part of my studies.",
 						]}
-						dates={[new Date(2023, 11, 20)]}
+						dates={[new Date(2023, 11, 20), new Date(2024, 6, 1)]}
 						content={[]}
 						setCurrentImage={props.setCurrentImage}
+						links={[["Main Repository", "https://github.com/AFCMS/devpet_meta"]]}
 					/>
 				</ol>
 			</div>
