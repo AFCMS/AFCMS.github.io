@@ -1,4 +1,4 @@
-import { Tab } from "@headlessui/react";
+import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
 import { SiFedora, SiWindows11 } from "react-icons/si";
 import { MdCameraAlt, MdHeadsetMic, MdKeyboard, MdLaptop, MdMouse, MdPhoneAndroid, MdTablet } from "react-icons/md";
@@ -12,8 +12,8 @@ const SetupSection = () => {
 		<Section id="setup">
 			<div className="w-full px-6 pt-2">
 				<h1 className="font-bold text-blue-700">My setup</h1>
-				<Tab.Group>
-					<Tab.List className="flex space-x-1 border-b border-slate-400 bg-slate-300 p-1">
+				<TabGroup>
+					<TabList className="flex space-x-1 border-b border-slate-400 bg-slate-300 p-1">
 						<Tab
 							key={"hardware"}
 							className={({ selected }) =>
@@ -44,9 +44,9 @@ const SetupSection = () => {
 						>
 							Operating system
 						</Tab>
-					</Tab.List>
-					<Tab.Panels className="mt-2">
-						<Tab.Panel key={"hardware"}>
+					</TabList>
+					<TabPanels className="mt-2">
+						<TabPanel key={"hardware"}>
 							<div className="mb-4 flex flex-col gap-4">
 								<SetupComponent
 									icon={MdLaptop}
@@ -61,8 +61,8 @@ const SetupSection = () => {
 									description_elements={["4G", "128Go"]}
 								/>
 							</div>
-						</Tab.Panel>
-						<Tab.Panel key={"periphericals"}>
+						</TabPanel>
+						<TabPanel key={"periphericals"}>
 							<div className="mb-4 flex flex-col gap-4">
 								<SetupComponent
 									icon={MdKeyboard}
@@ -109,8 +109,8 @@ const SetupSection = () => {
 									description_elements={["USB-A", "4096 presure levels", "GNOME integration"]}
 								/>
 							</div>
-						</Tab.Panel>
-						<Tab.Panel id={"os"}>
+						</TabPanel>
+						<TabPanel id={"os"}>
 							<div className={"mb-4 flex flex-col gap-4"}>
 								<div className="flex flex-row gap-4 p-2">
 									<div className="border-r border-r-slate-400 pr-4">
@@ -141,8 +141,8 @@ const SetupSection = () => {
 									</div>
 								</div>
 							</div>
-						</Tab.Panel>
-					</Tab.Panels>
+						</TabPanel>
+					</TabPanels>
 					<div className={"relative"}>
 						<span
 							className={"text absolute bottom-3 right-0"}
@@ -151,7 +151,7 @@ const SetupSection = () => {
 							<InformationCircleIcon className={"h-6 w-6 text-blue-600"} />
 						</span>
 					</div>
-				</Tab.Group>
+				</TabGroup>
 			</div>
 		</Section>
 	);
