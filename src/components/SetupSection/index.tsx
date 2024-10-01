@@ -52,7 +52,7 @@ const SetupSection = () => {
 									icon={MdLaptop}
 									store={"https://www.asus.com/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-a15-2023/"}
 									title="ASUS TUF Gaming A15"
-									description_elements={["Ryzen 7 7735HS", "32GB RAM", "Nvidia RTX 4060 8Go", "1.5To SSD"]}
+									description_elements={["Ryzen 7 7735HS", "32GB RAM", "Nvidia RTX 4060 8Go", "2.5To SSD"]}
 								/>
 								<SetupComponent
 									icon={MdPhoneAndroid}
