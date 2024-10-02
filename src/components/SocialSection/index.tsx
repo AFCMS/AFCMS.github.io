@@ -2,7 +2,7 @@ import {
 	SiCodeberg,
 	SiDiscord,
 	SiElement,
-	//SiFiverr,
+	SiFiverr,
 	SiGithub,
 	SiGitlab,
 	SiGmail,
@@ -116,16 +116,7 @@ const SocialSection = () => {
 						link="https://www.xbox.com/fr-FR/play/user/AFCM2020"
 						hover="AFCM2020"
 					/>
-					{
-						//TODO: eanble link again when account get enabled again
-						/*
-					<SocialIcon
-						icon={SiFiverr}
-						icon_color="#1DBF73"
-						link="https://fiverr.com/afcm20"
-						hover="afcm20"
-					/>*/
-					}
+					<SocialIcon icon={SiFiverr} icon_color="#1DBF73" link="https://fiverr.com/afcm20" hover="afcm20" />
 				</div>
 			</div>
 		</Section>
