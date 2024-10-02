@@ -113,7 +113,7 @@ const SocialSection = () => {
 					<SocialIcon
 						icon={SiXbox}
 						icon_color="#107C10"
-						link="https://account.xbox.com/fr-fr/profile?gamertag=AFCM2020"
+						link="https://www.xbox.com/fr-FR/play/user/AFCM2020"
 						hover="AFCM2020"
 					/>
 					{
