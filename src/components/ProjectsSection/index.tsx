@@ -12,11 +12,11 @@ import react_wordle_placeholder from "./images/react_wordle.png?w=100&imagetools
 import palamod from "./images/palamod.png";
 import palamod_placeholder from "./images/palamod.png?w=100&imagetools";
 
-import mineclone2 from "./images/mineclone2.png";
-import mineclone2_placeholder from "./images/mineclone2.png?w=100&imagetools";
+import voxelibre from "./images/mineclone2.png";
+import voxelibre_placeholder from "./images/mineclone2.png?w=100&imagetools";
 
-import mineclone2_mapart from "./images/mineclone2_mapart.png";
-import mineclone2_mapart_placeholder from "./images/mineclone2_mapart.png?w=100&imagetools";
+import voxelibre_mapart from "./images/voxelibre_mapart.png";
+import voxelibre_mapart_placeholder from "./images/voxelibre_mapart.png?w=100&imagetools";
 
 import minetest_collection_manager from "./images/minetest_collection_manager.png";
 import minetest_collection_manager_placeholder from "./images/minetest_collection_manager.png?w=100&imagetools";
@@ -31,7 +31,7 @@ const ProjectsSection = (props: { setCurrentImage: React.Dispatch<React.SetState
 				<h1 className="font-bold text-blue-700">My projects</h1>
 				<ol className="m-2 mt-6 border-l-2 border-blue-600">
 					<ProjectItem
-						title="Palamod Modpack for MineClone2"
+						title="Palamod Modpack for VoxeLibre"
 						dates={[new Date(2020, 7, 26)]}
 						desc={[
 							"My first real personal project was a clone of the modpack of the **Paladium** french Minecraft server.",
@@ -50,36 +50,36 @@ const ProjectsSection = (props: { setCurrentImage: React.Dispatch<React.SetState
 						]}
 					/>
 					<ProjectItem
-						title="MineClone2"
+						title="VoxeLibre (fka. MineClone2)"
 						dates={[new Date(2021, 1, 18)]}
 						desc={[
-							"I joined the **MineClone2** team in 2021, which is a clone of the popular **Minecraft** game, based on the **Minetest** engine.",
+							"I joined the **VoxeLibre** team in 2021, which is a game inspired by the popular **Minecraft**, based on the **Minetest** engine.",
 							"I did more than 200 contributions, mostly improving modding API. I also made the barrels, the target block, the lanterns and improved game menus a lot.",
 						]}
 						setCurrentImage={props.setCurrentImage}
 						content={[
 							{
 								type: ProjectItemContent.image,
-								src: mineclone2,
-								srcPlaceholder: mineclone2_placeholder,
+								src: voxelibre,
+								srcPlaceholder: voxelibre_placeholder,
 							},
 						]}
 						links={[
-							["Source Code", "https://git.minetest.land/MineClone2/MineClone2"],
+							["Source Code", "https://git.minetest.land/VoxeLibre/VoxeLibre"],
 							["ContentDB", "https://content.minetest.net/packages/Wuzzy/mineclone2"],
 						]}
 					/>
 					<ProjectItem
-						title="MapArt tool for MineClone2"
+						title="MapArt tool for VoxeLibre"
 						dates={[new Date(2021, 10, 19)]}
 						desc={[
-							"I created a **Python CLI** to generate **MineClone2** schematics from images, used to create MapArts.",
+							"I created a **Python CLI** to generate **VoxeLibre** schematics from images, used to create MapArts.",
 						]}
 						content={[
 							{
 								type: ProjectItemContent.image,
-								src: mineclone2_mapart,
-								srcPlaceholder: mineclone2_mapart_placeholder,
+								src: voxelibre_mapart,
+								srcPlaceholder: voxelibre_mapart_placeholder,
 							},
 						]}
 						setCurrentImage={props.setCurrentImage}
