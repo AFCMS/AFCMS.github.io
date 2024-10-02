@@ -1,5 +1,5 @@
 ---
-name: "Build"
+name: "CI"
 
 on:
   push:
@@ -45,6 +45,12 @@ jobs:
 
       - name: Install Dependencies
         run: pnpm install
+
+      - name: Lint
+        run: pnpm run lint
+
+      - name: Check PWA Assets
+        run: pnpm run generate-pwa-assets && git diff --exit-code
 
       - name: Build
         run: pnpm run build
