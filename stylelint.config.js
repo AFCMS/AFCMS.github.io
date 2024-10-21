@@ -9,9 +9,7 @@ module.exports = {
 				ignoreAtRules: ["tailwind", "apply", "variants", "responsive", "screen", "layer"],
 			},
 		],
-		indentation: null,
-		"value-list-comma-newline-after": null,
-		"declaration-colon-newline-after": null,
+		"selector-class-pattern": false,
 	},
 	//ignoreFiles: ["/node_modules", "/build"],
 };
