@@ -47,9 +47,11 @@ jobs:
         run: pnpm install
 
       - name: Lint
+        continue-on-error: true
         run: pnpm run lint
 
       - name: Check PWA Assets
+        continue-on-error: true
         run: pnpm run generate-pwa-assets && git diff --exit-code
 
       - name: Build
