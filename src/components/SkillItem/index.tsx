@@ -17,7 +17,7 @@ type SkillItemProps = {
 	level: SkillItemLevel;
 };
 
-const SkillItem = (props: SkillItemProps): JSX.Element => {
+const SkillItem = (props: SkillItemProps) => {
 	const Icon = props.icon;
 	return (
 		<div className="skill-item">
@@ -28,29 +28,15 @@ const SkillItem = (props: SkillItemProps): JSX.Element => {
 					<h3 className="text-lg text-blue-800">{props.name}</h3>
 					{(() => {
 						if (props.level === "beginner") {
-							return (
-								<GiRank1
-									className="skill-item-level-beginner"
-									title="Beginner"
-								/>
-							);
+							return <GiRank1 className="skill-item-level-beginner" title="Beginner" />;
 						} else if (props.level === "advanced") {
-							return (
-								<GiRank2
-									className="skill-item-level-advanced"
-									title="Advanced"
-								/>
-							);
+							return <GiRank2 className="skill-item-level-advanced" title="Advanced" />;
 						} else {
-							return (
-								<GiRank3 className="skill-item-level-expert" title="Expert" />
-							);
+							return <GiRank3 className="skill-item-level-expert" title="Expert" />;
 						}
 					})()}
 				</div>
-				<p className="overflow-ellipsis text-slate-800 text-left">
-					{props.desc}
-				</p>
+				<p className="overflow-ellipsis text-left text-slate-800">{props.desc}</p>
 			</div>
 		</div>
 	);
