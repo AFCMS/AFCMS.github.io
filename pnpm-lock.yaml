@@ -59,9 +59,6 @@ importers:
       globals:
         specifier: ^15.13.0
         version: 15.13.0
-      jiti:
-        specifier: ^2.4.1
-        version: 2.4.1
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
@@ -6733,7 +6730,8 @@ snapshots:
 
   jiti@1.21.6: {}
 
-  jiti@2.4.1: {}
+  jiti@2.4.1:
+    optional: true
 
   js-tokens@4.0.0: {}
 
