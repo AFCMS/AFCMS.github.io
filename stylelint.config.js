@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-undef
 module.exports = {
 	extends: ["stylelint-config-standard"],
 	customSyntax: "postcss-scss",
