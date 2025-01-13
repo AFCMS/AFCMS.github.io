@@ -9,7 +9,7 @@
 		"@types/react": "^19.0.1",
 		"@types/react-dom": "^19.0.1",
 		"@types/react-lazy-load-image-component": "^1.6.4",
-		"@typescript-eslint/eslint-plugin": "^8.17.0",
+		"@typescript-eslint/eslint-plugin": "^8.20.0",
 		"@typescript-eslint/parser": "^8.17.0",
 		"@vite-pwa/assets-generator": "^0.2.6",
 		"@vitejs/plugin-react": "^4.3.4",
