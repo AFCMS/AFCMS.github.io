@@ -1,6 +1,7 @@
 const links = {
 	LINKEDIN: "https://www.linkedin.com/in/louis-walter",
 	GITHUB: "https://github.com/AFCMS",
+	YOUTUBE: "https://www.youtube.com/@AFCMS",
 	CONTENTDB: "https://content.luanti.org/users/AFCM",
 	ECOLEHEXAGONE: "https://www.ecole-hexagone.com",
 	LUANTI: "https://www.luanti.org",
