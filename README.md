@@ -1,6 +1,6 @@
 # AFCM's Site
 
-[![GitHub Super-Linter](https://github.com/AFCMS/AFCMS.github.io/workflows/Linting/badge.svg)](https://github.com/marketplace/actions/super-linter)
+AFCM's personal portfolio website.
 
 ## Used Libraries
 
