@@ -18,7 +18,7 @@ import logo_github from "./assets/github.svg";
 export default function Experience() {
 	return (
 		<section class="text-header mx-auto mb-4 grid w-full max-w-4xl grid-cols-1 gap-4 md:auto-rows-[16rem] md:grid-cols-2">
-			<GridCard bgImage={logo_luanti}>
+			<GridCard bgImage={logo_luanti} class2="flex-col">
 				<h2 class="mb-3 font-medium">Luanti</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-12">
@@ -34,7 +34,7 @@ export default function Experience() {
 					<img class="h-10 w-10 rounded" title="Luanti" src={logo_luanti} alt="Luanti Logo" />
 				</div>
 			</GridCard>
-			<GridCard>
+			<GridCard class2="flex-col">
 				<h2 class="mb-3 font-medium">Experience</h2>
 				<ul class="flex flex-col gap-2">
 					<li class="glass-effect flex w-full flex-row items-center gap-2 rounded-lg p-2">
@@ -50,7 +50,7 @@ export default function Experience() {
 					</li>
 				</ul>
 			</GridCard>
-			<GridCard bgImage={logo_react} class="md:col-span-2">
+			<GridCard bgImage={logo_react} class="md:col-span-2" class2="flex-col">
 				<h2 class="mb-3 font-medium">Frontend</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-12">I worked on many web based projects on various tech stacks.</p>
@@ -70,7 +70,7 @@ export default function Experience() {
 					<img class="h-10 w-10 rounded" title="React" src={logo_react} alt="React Logo" />
 				</div>
 			</GridCard>
-			<GridCard bgImage={logo_supabase} class="">
+			<GridCard bgImage={logo_supabase} class2="flex-col">
 				<h2 class="mb-3 font-medium">Backend</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-24">
@@ -87,7 +87,7 @@ export default function Experience() {
 					<img class="h-10 w-10 rounded" title="Supabase" src={logo_supabase} alt="Supabase Logo" />
 				</div>
 			</GridCard>
-			<GridCard bgImage={logo_docker} class="">
+			<GridCard bgImage={logo_docker} class2="flex-col">
 				<h2 class="mb-3 font-medium">Containerisation</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-24">
@@ -104,7 +104,7 @@ export default function Experience() {
 					<img class="h-10 w-10 rounded" title="Docker" src={logo_docker} alt="Docker Logo" />
 				</div>
 			</GridCard>
-			<GridCard bgImage={logo_discord} class="">
+			<GridCard bgImage={logo_discord} class2="flex-col">
 				<h2 class="mb-3 font-medium">Discord Bots</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-24">
@@ -118,7 +118,7 @@ export default function Experience() {
 					<img class="h-10 w-10 rounded" title="NodeJS" src={logo_node} alt="NodeJS Logo" />
 				</div>
 			</GridCard>
-			<GridCard bgImage={logo_github} class="">
+			<GridCard bgImage={logo_github} class2="flex-col">
 				<h2 class="mb-3 font-medium">Git & GitHub</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-24">
