@@ -9,7 +9,9 @@ interface GridCardProps {
 export default function GridCard(props: GridCardProps) {
 	return (
 		<div
-			class={"relative row-span-1 flex h-full w-full flex-col space-y-4" + (props.class ? " " + props.class : "")}
+			class={
+				"relative row-span-1 flex h-full w-full flex-col space-y-4 rounded-lg" + (props.class ? " " + props.class : "")
+			}
 			style={
 				props.bgImage
 					? {
