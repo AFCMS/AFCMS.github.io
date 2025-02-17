@@ -8,10 +8,10 @@ import { VitePWA, VitePWAOptions } from "vite-plugin-pwa";
 const pwaConfig: Partial<VitePWAOptions> = {
 	registerType: "autoUpdate",
 	manifest: {
-		id: "afcm-website",
-		name: "AFCM's Website",
-		short_name: "AFCM's Website",
-		description: "AFCM's personal portfolio",
+		id: "afcms-portfolio",
+		name: "AFCMS • Portfolio",
+		short_name: "AFCMS • Portfolio",
+		description: "AFCMS' personal portfolio",
 		screenshots: [],
 		categories: ["business", "entertainment", "games", "social"],
 		dir: "ltr",
