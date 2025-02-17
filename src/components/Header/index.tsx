@@ -8,12 +8,10 @@ export default function Header() {
 				<nav class="">
 					<ul class="text-header font-inter flex items-center gap-4 px-4 text-xs font-medium uppercase">
 						<li>
-							<a href="" class="">
-								fun
-							</a>
+							<a href="#projects">projects</a>
 						</li>
 						<li>
-							<a href="">projects</a>
+							<a href="#contact">contact</a>
 						</li>
 					</ul>
 				</nav>
