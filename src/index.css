@@ -1,12 +1,38 @@
-body {
-	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-		Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+@import "tailwindcss";
+
+@theme {
+	--font-inter: "Inter", var(--font-sans);
+	--color-background: hsl(234 84% 07%);
+	--color-header: var(--color-slate-300);
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+@utility glass-effect {
+	@apply z-10 rounded-lg border border-indigo-300/20 bg-indigo-300/20 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-xl;
+}
+
+@utility underline-anim {
+	@apply relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-indigo-500 after:transition-transform after:duration-250 after:content-[''] hover:after:origin-bottom-left hover:after:scale-x-100;
+}
+
+@utility underline-static {
+	@apply relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-100 after:bg-indigo-500/50 after:content-[''] after:hover:bg-indigo-500;
+}
+
+@utility text-shadow-indigo {
+	text-shadow: 0 0 1rem var(--color-indigo-950);
+}
+
+.grid-text-paragraph {
+	@apply text-shadow-indigo;
+}
+
+.grid-text-paragraph a {
+	@apply underline-static font-bold;
+}
+.grid-text-paragraph > p {
+	@apply mb-2;
+}
+
+* {
+	@apply font-inter;
 }

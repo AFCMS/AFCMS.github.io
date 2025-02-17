@@ -4,13 +4,11 @@ AFCM's personal portfolio website.
 
 ## Used Libraries
 
-- [**React**](https://reactjs.org)
-- [**Vite**](https://vitejs.dev)
+- [**Preact**](https://preactjs.com)
+- [**Vite**](https://vite.dev)
 - [**Vite PWA**](https://vite-pwa-org.netlify.app)
 - [**TailwindCSS**](https://tailwindcss.com)
-- [**HeadlessUI**](https://headlessui.com)
 - [**React Icons**](https://react-icons.github.io/react-icons)
-- [**React Markdown**](https://github.com/remarkjs/react-markdown)
 - [**Prettier**](https://prettier.io)
 - [**PNPM**](https://pnpm.io)
 
@@ -51,3 +49,9 @@ gh workflow run 47919864
 Install the Prettier VSCode extention and add it as base formatter, enable format on save.
 
 The `prettier` and `prettier-plugin-tailwindcss` npm packages needs to be installed. (They are in the dev dependencies)
+
+### Sources
+
+- https://www.svgrepo.com/svg/378837/node
+- https://www.svgrepo.com/svg/512317/github-142
+- https://www.svgrepo.com/svg/353655/discord-icon
