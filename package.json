@@ -1,59 +1,53 @@
 {
-	"homepage": "https://afcms.github.io",
-	"name": "afcm_site",
-	"private": true,
-	"dependencies": {
-		"@eslint/js": "^9.16.0",
-		"@headlessui/react": "^2.2.0",
-		"@heroicons/react": "^2.2.0",
-		"@types/react": "^19.0.1",
-		"@types/react-dom": "^19.0.1",
-		"@types/react-lazy-load-image-component": "^1.6.4",
-		"@typescript-eslint/eslint-plugin": "^8.17.0",
-		"@typescript-eslint/parser": "^8.17.0",
-		"@vite-pwa/assets-generator": "^0.2.6",
-		"@vitejs/plugin-react": "^4.3.4",
-		"autoprefixer": "^10.4.20",
-		"eslint": "^9.16.0",
-		"eslint-plugin-jsonc": "^2.18.2",
-		"eslint-plugin-react": "^7.37.2",
-		"eslint-plugin-react-hooks": "^5.1.0",
-		"eslint-plugin-react-refresh": "^0.4.16",
-		"globals": "^15.13.0",
-		"postcss": "^8.4.49",
-		"postcss-scss": "^4.0.9",
-		"prettier": "^3.4.2",
-		"prettier-plugin-tailwindcss": "^0.6.9",
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0",
-		"react-icons": "5.3.0",
-		"react-lazy-load-image-component": "^1.6.2",
-		"react-markdown": "^9.0.1",
-		"remark-emoji": "^5.0.1",
-		"remark-gfm": "^4.0.0",
-		"stylelint": "^16.11.0",
-		"stylelint-config-standard": "^36.0.1",
-		"tailwindcss": "^3.4.16",
-		"typescript": "^5.7.2",
-		"typescript-eslint": "^8.17.0",
-		"vite": "^6.0.3",
-		"vite-imagetools": "^7.0.5",
-		"vite-plugin-pwa": "^0.21.1",
-		"vite-plugin-svgr": "^4.3.0"
-	},
-	"scripts": {
-		"preinstall": "npx only-allow pnpm",
-		"start": "vite",
-		"build": "tsc && vite build",
-		"lint": "eslint . --config eslint.config.mjs src/*.{ts,tsx}",
-		"preview": "vite preview",
-		"generate-pwa-assets": "pwa-assets-generator"
-	},
-	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
-	},
-	"packageManager": "pnpm@9.15.0"
+    "homepage": "https://afcms.github.io",
+    "name": "afcm_site",
+    "private": true,
+    "dependencies": {
+        "@eslint/js": "^9.20.0",
+        "@preact/preset-vite": "^2.10.1",
+        "@tailwindcss/postcss": "^4.0.6",
+        "@tailwindcss/vite": "^4.0.6",
+        "@typescript-eslint/eslint-plugin": "^8.24.0",
+        "@typescript-eslint/parser": "^8.24.0",
+        "@vite-pwa/assets-generator": "^0.2.6",
+        "eslint": "^9.20.1",
+        "eslint-plugin-jsonc": "^2.19.1",
+        "eslint-plugin-react": "^7.37.4",
+        "eslint-plugin-react-hooks": "^5.1.0",
+        "eslint-plugin-react-refresh": "^0.4.19",
+        "globals": "^15.15.0",
+        "preact": "^10.26.0",
+        "preact-iso": "^2.9.0",
+        "prettier": "^3.5.1",
+        "prettier-plugin-tailwindcss": "^0.6.11",
+        "react-icons": "5.4.0",
+        "react-markdown": "^9.0.3",
+        "tailwindcss": "^4.0.6",
+        "typescript": "^5.7.3",
+        "typescript-eslint": "^8.24.0",
+        "vite": "^6.1.0",
+        "vite-imagetools": "^7.0.5",
+        "vite-plugin-pwa": "^0.21.1",
+        "vite-plugin-svgr": "^4.3.0"
+    },
+    "scripts": {
+        "preinstall": "npx only-allow pnpm",
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "lint": "eslint . --config eslint.config.mjs src/*.{ts,tsx}",
+        "preview": "vite preview",
+        "generate-pwa-assets": "pwa-assets-generator"
+    },
+    "eslintConfig": {
+        "extends": []
+    },
+    "packageManager": "pnpm@10.4.1",
+    "pnpm": {
+        "ignoredBuiltDependencies": [
+            "esbuild"
+        ],
+        "onlyBuiltDependencies": [
+            "esbuild"
+        ]
+    }
 }

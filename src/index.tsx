@@ -1,14 +1,20 @@
-import React from "react";
-import ReactDOMClient from "react-dom/client";
+import { render } from "preact";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./Home";
+
 import "./index.css";
-import App from "./App";
 
-const container = document.getElementById("root");
+const element = document.getElementById("app")!;
 
-const root = ReactDOMClient.createRoot(container as HTMLElement);
-
-root.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>
+render(
+	<div class="bg-background px-4">
+		<div class="relative min-h-full overflow-x-hidden">
+			<Header />
+			<div class="h-20"></div>
+			<Home />
+			<Footer />
+		</div>
+	</div>,
+	element,
 );
