@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="SVGRoot"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs824">
+    <rect
+       x="6"
+       y="128"
+       width="244"
+       height="122"
+       id="rect110813" />
+    <rect
+       x="0"
+       y="6"
+       width="250"
+       height="244"
+       id="rect29986" />
+    <rect
+       x="128"
+       y="128"
+       width="75.402222"
+       height="80.670326"
+       id="rect10123" />
+    <linearGradient
+       id="linearGradient2573">
+      <stop
+         style="stop-color:#3465a4;stop-opacity:1"
+         offset="0"
+         id="stop2569" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop2571" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient2573"
+       id="linearGradient2581"
+       x1="128"
+       y1="6"
+       x2="128"
+       y2="250"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad" />
+  </defs>
+  <g
+     id="layer1">
+    <circle
+       style="opacity:1;mix-blend-mode:normal;fill:url(#linearGradient2581);fill-opacity:1;stroke:#3465a4;stroke-width:11;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1994"
+       cx="128"
+       cy="128"
+       r="122" />
+    <text
+       xml:space="preserve"
+       id="text10121"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect10123);fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(3.0835305,0,0,3.55753,-314.41565,-403.12421)" />
+    <text
+       xml:space="preserve"
+       id="text29984"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect29986);fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="font-size:80px;line-height:3.25;font-family:'Hack Nerd Font';-inkscape-font-specification:'Hack Nerd Font';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;white-space:pre;fill:#3465a4"
+       d="m 50.96875,101.47163 h 9.570312 l 17.851563,58.32032 H 70.226562 L 65.929687,144.59663 H 45.5 l -4.21875,15.19532 h -8.164063 z m 13.085937,36.79688 -8.320312,-29.84375 -8.320313,29.84375 z M 88.9375,101.47163 h 34.33594 v 6.64063 H 96.867187 v 17.96875 H 120.8125 v 6.64062 H 96.867187 v 27.07032 H 88.9375 Z m 68.04687,59.45313 q -5.46875,0 -9.88281,-1.95313 -4.375,-1.95312 -7.5,-5.97656 -6.17187,-8.00781 -6.17187,-22.26562 0,-9.53125 2.8125,-16.28907 2.8125,-6.79687 8.08593,-10.39062 5.3125,-3.63281 12.65625,-3.63281 3.78907,0 6.79688,0.74218 3.04687,0.74219 6.13281,2.46094 v 8.08594 q -2.85156,-2.38281 -6.21094,-3.63281 -3.39843,-1.25 -6.75781,-1.25 -7.61719,0 -11.44531,5.9375 -3.82813,5.9375 -3.82813,17.92968 0,23.82813 15.35157,23.82813 3.35937,0 6.75781,-1.25 3.28125,-1.25 6.13281,-3.63281 v 8.08593 q -3.08594,1.60157 -6.17187,2.42188 -3.125,0.78125 -6.75782,0.78125 z m 22.53907,-59.45313 h 10.54687 l 10.07813,29.6875 10.15625,-29.6875 h 10.58593 v 58.32032 h -7.30468 v -51.52344 l -10.39063,30.74219 h -5.97656 l -10.42969,-30.74219 v 51.52344 h -7.26562 z"
+       id="text39860"
+       aria-label="AFCM" />
+    <text
+       xml:space="preserve"
+       id="text110811"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect110813);fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       style="font-size:40px;line-height:3.3;text-align:center;text-anchor:middle;white-space:pre;fill:#3465a4"
+       d="m 138.53711,182.26316 q 1.50391,0 1.50391,1.50391 v 13.55468 q 0,1.50391 -1.50391,1.50391 h -8.02734 q 0.74218,1.73828 3.51562,3.00781 h -12.05078 q 2.77344,-1.26953 3.51562,-3.00781 h -8.02734 q -1.50391,0 -1.50391,-1.50391 v -13.55468 q 0,-1.50391 1.50391,-1.50391 z m 0,13.55469 v -12.05078 h -21.07422 v 12.05078 z"
+       id="text125957"
+       aria-label="" />
+  </g>
+</svg>
