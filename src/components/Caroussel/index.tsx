@@ -19,8 +19,8 @@ export default function Caroussel(props: CarousselProps) {
 	};
 
 	return (
-		<div className="relative h-full w-full rounded-lg">
-			<div className="glass-effect relative z-10 flex h-[484px] w-full overflow-hidden p-4">
+		<div class="relative h-full w-full rounded-lg select-none">
+			<div class="glass-effect relative z-10 flex h-[484px] w-full overflow-hidden p-4">
 				{props.children.map((element, index) => (
 					<div
 						key={index}
@@ -46,23 +46,12 @@ export default function Caroussel(props: CarousselProps) {
 				></div>
 			</div>
 			<button
-				className="absolute top-1/2 left-0 z-10 -translate-y-1/2 transform bg-gray-800 p-2 text-white"
+				class="absolute top-1/2 left-0 z-20 h-full w-[50%] -translate-y-1/2 transform"
 				aria-label="Previous Slide"
 				onClick={prevSlide}
-			>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke-width="1.5"
-					stroke="currentColor"
-					class="size-6"
-				>
-					<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-				</svg>
-			</button>
+			></button>
 			<button
-				className="absolute top-1/2 right-0 z-10 -translate-y-1/2 transform bg-gray-800 p-2 text-white"
+				class="absolute top-1/2 right-0 z-20 flex h-full w-[50%] -translate-y-1/2 transform flex-row-reverse"
 				aria-label="Next Slide"
 				onClick={nextSlide}
 			>
@@ -72,7 +61,7 @@ export default function Caroussel(props: CarousselProps) {
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
 					stroke="currentColor"
-					class="size-6"
+					class="text-shadow-indigo my-auto mr-4 size-6 hover:text-slate-200"
 				>
 					<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
 				</svg>
@@ -81,7 +70,7 @@ export default function Caroussel(props: CarousselProps) {
 				{props.children.map((_, index) => (
 					<div
 						key={index}
-						className={`mx-1 h-2 w-2 rounded-full ${index === currentIndex ? "bg-gray-800" : "bg-gray-400"}`}
+						className={`text-shadow-indigo mx-1 h-2 w-2 rounded-full ${index === currentIndex ? "bg-slate-600" : "bg-slate-400"}`}
 						onClick={() => setCurrentIndex(index)}
 					/>
 				))}
