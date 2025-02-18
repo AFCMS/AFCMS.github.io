@@ -4,12 +4,12 @@ import GridCard from "../GridCard";
 import links from "../../utils/links";
 
 import logo_spotify from "../Experience/assets/spotify.svg";
+import cover_minecraft from "./assets/cover_minecraft.png?h=450&w=300&imagetools";
 
 const warthunder_cover = "https://steamcdn-a.akamaihd.net/steam/apps/236390/library_600x900.jpg";
 const tlou_cover = "https://steamcdn-a.akamaihd.net/steam/apps/1888930/library_600x900.jpg";
 const metro_exodus_cover = "https://steamcdn-a.akamaihd.net/steam/apps/412020/library_600x900.jpg";
 const sotr_cover = "https://steamcdn-a.akamaihd.net/steam/apps/750920/library_600x900.jpg";
-const minecraft_cover = "https://cdn2.steamgriddb.com/grid/a73027901f88055aaa0fd1a9e25d36c7.png";
 
 export default function Games() {
 	return (
@@ -76,7 +76,7 @@ export default function Games() {
 						),
 					},
 					{
-						image: minecraft_cover,
+						image: cover_minecraft,
 						alt: "Minecraft",
 						content: (
 							<>
