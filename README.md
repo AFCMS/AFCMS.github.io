@@ -55,3 +55,4 @@ The `prettier` and `prettier-plugin-tailwindcss` npm packages needs to be instal
 - https://www.svgrepo.com/svg/378837/node
 - https://www.svgrepo.com/svg/512317/github-142
 - https://www.svgrepo.com/svg/353655/discord-icon
+- https://www.steamgriddb.com/grid/36537
