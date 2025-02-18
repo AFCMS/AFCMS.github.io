@@ -3,8 +3,8 @@ import Caroussel from "../Caroussel";
 import GridCard from "../GridCard";
 import links from "../../utils/links";
 
-import logo_spotify from "../Experience/assets/spotify.svg";
-import cover_minecraft from "./assets/cover_minecraft.png?h=450&w=300&imagetools";
+import logo_spotify from "../../assets/spotify.svg";
+import cover_minecraft from "../../assets/cover_minecraft.png?h=450&w=300&imagetools";
 
 const warthunder_cover = "https://steamcdn-a.akamaihd.net/steam/apps/236390/library_600x900.jpg";
 const tlou_cover = "https://steamcdn-a.akamaihd.net/steam/apps/1888930/library_600x900.jpg";

@@ -3,8 +3,8 @@ import CardImage from "../CardImage";
 import GlassButton from "../GlassButton";
 import GridCard from "../GridCard";
 
-import picture_devpet from "./assets/devpet.jpg?w=382&h=214&imagetools";
-import picture_subway_miner from "./assets/subway_miner.png?w=382&h=214&imagetools";
+import picture_devpet from "../../assets/project_devpet.jpg?aspect=16:9&w=384&imagetools";
+import picture_subway_miner from "../../assets/project_subway_miner.png?aspect=16:9&w=384&imagetools";
 
 export default function Projects() {
 	return (
