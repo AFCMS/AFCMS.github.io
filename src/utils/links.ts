@@ -1,8 +1,14 @@
 const links = {
+	// My Profiles
 	LINKEDIN: "https://www.linkedin.com/in/louis-walter",
 	GITHUB: "https://github.com/AFCMS",
 	YOUTUBE: "https://www.youtube.com/@AFCMS",
+	TWITCH: "https://www.twitch.tv/afcms",
+	STEAM: "https://steamcommunity.com/id/AFCMS",
+	NAMEMC: "https://namemc.com/profile/AFCMS.1",
+	SPOTIFY: "https://open.spotify.com/user/7ysbf79u6lsoh7cg9j1jljiou",
 	CONTENTDB: "https://content.luanti.org/users/AFCM",
+	// Projects/Other
 	ECOLEHEXAGONE: "https://www.ecole-hexagone.com",
 	LUANTI: "https://www.luanti.org",
 	VOXELIBRE: "https://content.luanti.org/packages/wuzzy/mineclone2",
