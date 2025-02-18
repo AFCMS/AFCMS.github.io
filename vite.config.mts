@@ -3,7 +3,7 @@ import preact from "@preact/preset-vite";
 import tailwindcss from "@tailwindcss/vite";
 
 import { imagetools } from "vite-imagetools";
-import { VitePWA, VitePWAOptions } from "vite-plugin-pwa";
+/***import { VitePWA, VitePWAOptions } from "vite-plugin-pwa";
 
 const pwaConfig: Partial<VitePWAOptions> = {
 	registerType: "autoUpdate",
@@ -47,11 +47,11 @@ const pwaConfig: Partial<VitePWAOptions> = {
 		orientation: "portrait",
 	},
 	workbox: {
-		globPatterns: ["**/*.{js,css,html,png,webp}"],
+		globPatterns: ["----/*.{js,css,html,png,webp}"],
 		clientsClaim: true,
 		skipWaiting: true,
 	},
-};
+};**/
 
 // noinspection JSUnusedGlobalSymbols
 export default defineConfig({
@@ -65,7 +65,7 @@ export default defineConfig({
 			defaultDirectives: new URLSearchParams("?format=webp&quality=90"),
 		}),
 		tailwindcss(),
-		VitePWA(pwaConfig),
+		// VitePWA(pwaConfig),
 	],
 	assetsInclude: ["**/*.md"],
 });
