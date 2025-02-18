@@ -21,7 +21,7 @@ export default function GridCard(props: GridCardProps) {
 					}}
 				></div>
 			) : null}
-			<div class={"glass-effect flex h-full w-full p-4" + (props.class2 ? " " + props.class2 : "")}>
+			<div class={"glass-effect z-10 flex h-full w-full p-4" + (props.class2 ? " " + props.class2 : "")}>
 				{props.children}
 			</div>
 		</div>
