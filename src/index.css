@@ -2,7 +2,7 @@
 
 @theme {
 	--font-inter: "Inter", var(--font-sans);
-	--color-background: hsl(234 84% 07%);
+	--color-background: oklch(14.06% 0.0583 269.32);
 	--color-header: var(--color-slate-300);
 }
 
