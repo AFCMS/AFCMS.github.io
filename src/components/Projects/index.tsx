@@ -21,7 +21,7 @@ export default function Projects() {
 					<h2 class="mb-3 font-medium">
 						Malley <span class="text-header/80 font-normal">- 2025</span>
 					</h2>
-					<p>A X-like social media platform project, currently in developpement.</p>
+					<p>An X-like social media platform project, currently in development.</p>
 					<p>
 						It's a project made during my studies at <strong>École Hexagone</strong>.
 					</p>
@@ -51,8 +51,8 @@ export default function Projects() {
 						DevPet <span class="text-header/80 font-normal">- 2024</span>
 					</h2>
 					<p>
-						A virtual pet for developers made with during my studies at <strong>École Hexagone</strong>. It's integrated
-						with your <strong>GitHub</strong> and <strong>Spotify</strong> account.
+						A virtual pet for developers made during my studies at <strong>École Hexagone</strong>. It's integrated with
+						your <strong>GitHub</strong> and <strong>Spotify</strong> account.
 					</p>
 				</div>
 				<CardImage class="hidden aspect-[16/9] w-96 md:block" alt="DevPet" src={picture_devpet} />

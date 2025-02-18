@@ -17,7 +17,7 @@ export default function Games() {
 			<div class="border-t-2 border-t-indigo-950"></div>
 			<h2 class="text-left text-lg font-semibold">Wanna game?</h2>
 			<GridCard class="">
-				<p>Video games are what brought me to programming and take a huge part in my life</p>
+				<p>Video games are what brought me to programming and play a huge part in my life.</p>
 			</GridCard>
 			<Caroussel>
 				{[
@@ -29,7 +29,7 @@ export default function Games() {
 								<h3 class="text-xl font-bold">War Thunder</h3>
 								<p>Military vehicle combat MMO, from World War II to modern combat.</p>
 								<p>
-									I have been enjoying the high quality graphics and amount of vehicles of this well optimised and Linux
+									I have been enjoying the high-quality graphics and amount of vehicles of this well-optimized and Linux
 									native game for a long time.
 								</p>
 							</>
@@ -41,9 +41,9 @@ export default function Games() {
 						content: (
 							<>
 								<h3 class="text-xl font-bold">The Last of Us Part I</h3>
-								<p>Story driven linear post-apocaliptic adventure game.</p>
-								<p>Top tier graphics, acting, story, music and gameplay.</p>
-								<p>Part I was an amazing experience that I can definitly recommend to anyone.</p>
+								<p>Story-driven linear post-apocalyptic adventure game.</p>
+								<p>Top-tier graphics, acting, story, music, and gameplay.</p>
+								<p>Part I was an amazing experience that I can recommend to anyone.</p>
 							</>
 						),
 					},
@@ -56,10 +56,10 @@ export default function Games() {
 								<h3 class="text-xl font-bold">Metro Exodus</h3>
 								<p>First-person post-apocalyptic adventure game.</p>
 								<p>
-									Stunning raytraced graphics, immersive environments, nice music, a story full of emotion, warm
+									Stunning raytraced graphics, immersive environments, nice music, a story full of emotion, and warm
 									relationships between the characters.
 								</p>
-								<p>It's a must play for anyone who likes post-apocalyptic worlds.</p>
+								<p>It's a must-play for anyone who likes post-apocalyptic worlds.</p>
 							</>
 						),
 					},
@@ -70,7 +70,7 @@ export default function Games() {
 							<>
 								<h3 class="text-xl font-bold">Shadow of the Tomb Raider</h3>
 								<p>Solid adventure game.</p>
-								<p>Amazing looking environments, nice combat system.</p>
+								<p>Amazing looking environments and nice combat system.</p>
 								<p>
 									It's a long and fun game that I can recommend, as well as <strong>Rise of the Tomb Raiser</strong> and{" "}
 									<strong>Tomb Raider (2013)</strong>.
@@ -84,7 +84,7 @@ export default function Games() {
 						content: (
 							<>
 								<h3 class="text-xl font-bold">Minecraft</h3>
-								<p>The classic, universal game.</p>
+								<p>A classic, universal game.</p>
 								<p>
 									This game is truly what brought me to programming, by getting involved in <strong>Luanti</strong> and{" "}
 									<strong>VoxeLibre</strong>.
@@ -101,7 +101,7 @@ export default function Games() {
 						I mostly listen to <strong>Electronic</strong> and <strong>Epicore</strong> music.
 					</p>
 					<p class="">
-						Checkout my{" "}
+						Check out my{" "}
 						<a class="underline-static font-bold" href={links.SPOTIFY}>
 							Spotify
 						</a>{" "}

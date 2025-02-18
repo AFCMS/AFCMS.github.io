@@ -22,11 +22,11 @@ export default function Experience() {
 				<h2 class="mb-3 font-medium">Luanti</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-12">
-						I worked on multiple projects based on the open source <a href={links.LUANTI}>Luanti</a> voxel game engine.
+						I worked on multiple projects based on the open-source <a href={links.LUANTI}>Luanti</a> voxel game engine.
 					</p>
 					<p>
-						I notably worked within the <a href={links.VOXELIBRE}>VoxeLibre</a> team with{" "}
-						<strong class="font-medium">500+</strong> commits total.
+						I notably worked within the <a href={links.VOXELIBRE}>VoxeLibre</a> team, with{" "}
+						<strong class="font-medium">500+</strong> commits in total.
 					</p>
 					<p>I also made several fixes and improvements to the engine itself.</p>
 				</div>
@@ -53,13 +53,13 @@ export default function Experience() {
 			<GridCard bgImage={logo_react} class="md:col-span-2" class2="flex-col">
 				<h2 class="mb-3 font-medium">Frontend</h2>
 				<div class="grid-text-paragraph">
-					<p class="mr-12">I worked on many web based projects on various tech stacks.</p>
+					<p class="mr-12">I worked on many web-based projects on various tech stacks.</p>
 					<p>
-						It includes a lot of personal projects of various size, contributions to open-source full stack apps,
+						It includes many personal projects of various sizes, contributions to open-source full-stack apps, and
 						unreleased apps for private use.
 					</p>
 					<p>
-						For frontend I primarily use <a href={links.VITE}>Vite</a>, <a href={links.REACT}>React</a> and{" "}
+						For frontend, I primarily use <a href={links.VITE}>Vite</a>, <a href={links.REACT}>React</a>, and{" "}
 						<a href={links.TAILWINDCSS}>TailwindCSS</a> but I also use <a href={links.PREACT}>Preact</a> and{" "}
 						<a href={links.BOOTSTRAP}>Bootstrap</a>.
 					</p>
@@ -74,12 +74,12 @@ export default function Experience() {
 				<h2 class="mb-3 font-medium">Backend</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-24">
-						For most of my full stack projects I used <a href={links.SUPABASE}>Supabase</a> or custom{" "}
+						For most of my full-stack projects, I used <a href={links.SUPABASE}>Supabase</a> or custom{" "}
 						<a href={links.GOLANG}>Golang</a> servers.
 					</p>
 					<p>
 						I also have contributed to projects using <a href={links.SYMFONY}>Symfony</a>,{" "}
-						<a href={links.FLASK}>Flask</a> and <a href={links.DJANGO}>Django</a>.
+						<a href={links.FLASK}>Flask</a>, and <a href={links.DJANGO}>Django</a>.
 					</p>
 				</div>
 				<div class="absolute top-0 right-0 m-4 flex flex-row gap-2">
@@ -88,7 +88,7 @@ export default function Experience() {
 				</div>
 			</GridCard>
 			<GridCard bgImage={logo_docker} class2="flex-col">
-				<h2 class="mb-3 font-medium">Containerisation</h2>
+				<h2 class="mb-3 font-medium">Containerization</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-24">
 						I have experience with image crafting leveraging advanced <a href={links.DOCKER}>Docker</a> features like
@@ -108,10 +108,10 @@ export default function Experience() {
 				<h2 class="mb-3 font-medium">Discord Bots</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-24">
-						I leveraged <a href={links.DISCORDJS}>Discord.js</a>, <a href={links.NODE}>NodeJS</a> and{" "}
+						I leveraged <a href={links.DISCORDJS}>Discord.js</a>, <a href={links.NODE}>NodeJS</a>, and{" "}
 						<a href={links.DENO}>Deno</a> to create or update multiple bots for various servers.
 					</p>
-					<p>This includes database management, bot containerisation, etc.</p>
+					<p>This includes database management, bot containerization, etc.</p>
 				</div>
 				<div class="absolute top-0 right-0 m-4 flex flex-row gap-2">
 					<img class="h-10 w-10 rounded" title="Discord" src={logo_discord} alt="Discord Logo" />
