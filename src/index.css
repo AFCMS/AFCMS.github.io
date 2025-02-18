@@ -10,6 +10,18 @@
 	@apply z-10 rounded-lg border border-indigo-300/20 bg-indigo-300/20 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-xl;
 }
 
+@utility glass-effect-dark {
+	@apply z-10 rounded-lg border border-indigo-300/20 bg-indigo-950/60 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-xl;
+}
+
+@utility glass-effect-none {
+	@apply z-10 border-none bg-none shadow-none;
+	backdrop-filter: none !important;
+	box-shadow: none !important;
+	background: none !important;
+	border: none !important;
+}
+
 @utility underline-anim {
 	@apply relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-indigo-500 after:transition-transform after:duration-250 after:content-[''] hover:after:origin-bottom-left hover:after:scale-x-100;
 }
