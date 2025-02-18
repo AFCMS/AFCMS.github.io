@@ -92,7 +92,7 @@ export default function Games() {
 				]}
 			</Caroussel>
 			<div class="grid w-full grid-cols-1 gap-4 md:grid-cols-2">
-				<GridCard class="my-auto w-full" class2="flex-col" bgImage={logo_spotify}>
+				<GridCard class="my-auto w-full" class2="flex-col text-shadow-indigo" bgImage={logo_spotify}>
 					<h2 class="mb-3 font-medium">What about music?</h2>
 					<p class="mb-2">
 						I mostly listen to <strong>Electronic</strong> and <strong>Epicore</strong> music.

@@ -20,22 +20,24 @@ export default function Caroussel(props: CarousselProps) {
 
 	return (
 		<div class="relative h-full w-full rounded-lg select-none">
-			<div class="glass-effect relative z-10 flex h-[484px] w-full overflow-hidden p-4">
+			<div class="glass-effect relative z-10 flex h-[508px] w-full overflow-hidden p-4 md:h-[484px]">
 				{props.children.map((element, index) => (
 					<div
 						key={index}
-						class={`absolute inset-0 m-4 flex flex-row transition-opacity duration-200 ${
+						class={`absolute flex w-full flex-row md:transition-opacity md:duration-200 ${
 							index === currentIndex ? "opacity-100" : "opacity-0"
 						}`}
 					>
 						<CardImage class="aspect-[2/3] w-[300px]" alt={element.alt} src={element.image} />
-						<div class="mx-12 flex h-full w-full flex-col">
-							<div class="my-auto flex h-56 flex-col gap-2">{element.content}</div>
+						<div class="text-shadow-indigo absolute right-0 my-auto mr-16 ml-12 flex h-full w-full max-w-[80%] flex-col md:static">
+							<div class="glass-effect-dark md:glass-effect-none my-auto flex flex-col gap-2 p-4 md:h-56">
+								{element.content}
+							</div>
 						</div>
 					</div>
 				))}
 				<div
-					class="absolute top-0 right-0 bottom-0 left-0 -z-10 h-full w-full rounded-lg bg-cover bg-no-repeat"
+					class="absolute top-0 right-0 bottom-0 left-0 -z-10 hidden h-full w-full rounded-lg bg-cover bg-no-repeat md:block"
 					style={{
 						backgroundImage: `url("${props.children[currentIndex].image}")`,
 						backgroundOrigin: "center",
