@@ -22,7 +22,7 @@ export default function Experience() {
 				<h2 class="mb-3 font-medium">Luanti</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-12">
-						I worked on multiple projects based on the open source <a href={links.LUANTI}>Luanti</a> game engine.
+						I worked on multiple projects based on the open source <a href={links.LUANTI}>Luanti</a> voxel game engine.
 					</p>
 					<p>
 						I notably worked within the <a href={links.VOXELIBRE}>VoxeLibre</a> team with{" "}
