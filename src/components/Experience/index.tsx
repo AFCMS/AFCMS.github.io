@@ -37,7 +37,7 @@ export default function Experience() {
 			<GridCard class2="flex-col">
 				<h2 class="mb-3 font-medium">Experience</h2>
 				<ul class="flex flex-col gap-2">
-					<li class="glass-effect flex w-full flex-row items-center gap-2 rounded-lg p-2">
+					<li class="glass-effect-level-2 flex w-full flex-row items-center gap-2 rounded-lg p-2">
 						<div class="flex aspect-square h-full items-center justify-center">
 							<img class="h-10 w-10 rounded" src={logo_hexagone} alt="Ecole Hexagone Logo" />
 						</div>

@@ -28,10 +28,10 @@ export default function Projects() {
 				</div>
 				{/*<CardImage class="hidden aspect-[16/9] w-96 md:block" alt="Mallay" src={picture_devpet} />*/}
 				<ul class="bottom-0 left-0 mt-4 flex flex-row gap-2 md:absolute md:m-4">
-					<li class="glass-effect px-1 py-0.5 text-sm">React</li>
-					<li class="glass-effect px-1 py-0.5 text-sm">TailwindCSS</li>
-					<li class="glass-effect px-1 py-0.5 text-sm">Supabase</li>
-					<li class="glass-effect px-1 py-0.5 text-sm">Vercel</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">React</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">TailwindCSS</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">Supabase</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">Vercel</li>
 				</ul>
 				<GlassButton
 					class="absolute top-0 right-0 m-4 md:right-auto md:left-0"
@@ -57,11 +57,11 @@ export default function Projects() {
 				</div>
 				<CardImage class="hidden aspect-[16/9] w-96 md:block" alt="DevPet" src={picture_devpet} />
 				<ul class="bottom-0 left-0 mt-4 flex flex-row gap-2 md:absolute md:m-4">
-					<li class="glass-effect px-1 py-0.5 text-sm">PlatformIO</li>
-					<li class="glass-effect px-1 py-0.5 text-sm">C++</li>
-					<li class="glass-effect px-1 py-0.5 text-sm">NodeJS</li>
-					<li class="glass-effect px-1 py-0.5 text-sm">GraphQL</li>
-					<li class="glass-effect px-1 py-0.5 text-sm">Fusion360</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">PlatformIO</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">C++</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">NodeJS</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">GraphQL</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">Fusion360</li>
 				</ul>
 				<GlassButton
 					class="absolute top-0 right-0 m-4 md:right-auto md:left-0"
@@ -89,9 +89,9 @@ export default function Projects() {
 				</div>
 				<CardImage class="hidden aspect-[16/9] w-96 md:block" alt="Suwbway Miner" src={picture_subway_miner} />
 				<ul class="bottom-0 left-0 mt-4 flex flex-row gap-2 md:absolute md:m-4">
-					<li class="glass-effect px-1 py-0.5 text-sm">Luanti</li>
-					<li class="glass-effect px-1 py-0.5 text-sm">Lua</li>
-					<li class="glass-effect px-1 py-0.5 text-sm">Blender</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">Luanti</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">Lua</li>
+					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">Blender</li>
 				</ul>
 				<GlassButton
 					class="absolute top-0 right-0 m-4 md:right-auto md:left-0"
