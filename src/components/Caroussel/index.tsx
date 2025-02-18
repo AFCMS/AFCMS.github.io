@@ -47,6 +47,7 @@ export default function Caroussel(props: CarousselProps) {
 			</div>
 			<button
 				className="absolute top-1/2 left-0 z-10 -translate-y-1/2 transform bg-gray-800 p-2 text-white"
+				aria-label="Previous Slide"
 				onClick={prevSlide}
 			>
 				<svg
@@ -62,6 +63,7 @@ export default function Caroussel(props: CarousselProps) {
 			</button>
 			<button
 				className="absolute top-1/2 right-0 z-10 -translate-y-1/2 transform bg-gray-800 p-2 text-white"
+				aria-label="Next Slide"
 				onClick={nextSlide}
 			>
 				<svg
