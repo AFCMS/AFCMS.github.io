@@ -71,7 +71,10 @@ export default function Games() {
 								<h3 class="text-xl font-bold">Shadow of the Tomb Raider</h3>
 								<p>Solid adventure game.</p>
 								<p>Amazing looking environments, nice combat system.</p>
-								<p>It's a long and fun game that I can recommend.</p>
+								<p>
+									It's a long and fun game that I can recommend, as well as <strong>Rise of the Tomb Raiser</strong> and{" "}
+									<strong>Tomb Raider (2013)</strong>.
+								</p>
 							</>
 						),
 					},
