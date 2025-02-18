@@ -11,6 +11,9 @@ export default function Header() {
 							<a href="#projects">projects</a>
 						</li>
 						<li>
+							<a href="#games">wanna game?</a>
+						</li>
+						<li>
 							<a href="#contact">contact</a>
 						</li>
 					</ul>
