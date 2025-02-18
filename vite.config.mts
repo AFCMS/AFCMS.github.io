@@ -57,6 +57,7 @@ const pwaConfig: Partial<VitePWAOptions> = {
 export default defineConfig({
 	build: {
 		outDir: "build",
+		assetsInlineLimit: 16384,
 	},
 	plugins: [
 		preact(),
