@@ -13,7 +13,7 @@ importers:
         version: 9.20.0
       '@preact/preset-vite':
         specifier: ^2.10.1
-        version: 2.10.1(@babel/core@7.25.2)(preact@10.26.0)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1)(terser@5.34.1)(yaml@2.5.1))
+        version: 2.10.1(@babel/core@7.26.0)(preact@10.26.0)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1)(terser@5.34.1)(yaml@2.5.1))
       '@tailwindcss/postcss':
         specifier: ^4.0.6
         version: 4.0.6
@@ -4163,9 +4163,9 @@ snapshots:
       '@babel/core': 7.26.0
       '@babel/helper-plugin-utils': 7.25.9
 
-  '@babel/plugin-syntax-jsx@7.25.9(@babel/core@7.25.2)':
+  '@babel/plugin-syntax-jsx@7.25.9(@babel/core@7.26.0)':
     dependencies:
-      '@babel/core': 7.25.2
+      '@babel/core': 7.26.0
       '@babel/helper-plugin-utils': 7.25.9
 
   '@babel/plugin-syntax-logical-assignment-operators@7.10.4(@babel/core@7.26.0)':
@@ -4481,20 +4481,20 @@ snapshots:
       '@babel/core': 7.26.0
       '@babel/helper-plugin-utils': 7.25.9
 
-  '@babel/plugin-transform-react-jsx-development@7.25.9(@babel/core@7.25.2)':
+  '@babel/plugin-transform-react-jsx-development@7.25.9(@babel/core@7.26.0)':
     dependencies:
-      '@babel/core': 7.25.2
-      '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.25.2)
+      '@babel/core': 7.26.0
+      '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/plugin-transform-react-jsx@7.25.9(@babel/core@7.25.2)':
+  '@babel/plugin-transform-react-jsx@7.25.9(@babel/core@7.26.0)':
     dependencies:
-      '@babel/core': 7.25.2
+      '@babel/core': 7.26.0
       '@babel/helper-annotate-as-pure': 7.25.9
       '@babel/helper-module-imports': 7.25.9
       '@babel/helper-plugin-utils': 7.25.9
-      '@babel/plugin-syntax-jsx': 7.25.9(@babel/core@7.25.2)
+      '@babel/plugin-syntax-jsx': 7.25.9(@babel/core@7.26.0)
       '@babel/types': 7.26.0
     transitivePeerDependencies:
       - supports-color
@@ -4960,14 +4960,14 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@preact/preset-vite@2.10.1(@babel/core@7.25.2)(preact@10.26.0)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1)(terser@5.34.1)(yaml@2.5.1))':
+  '@preact/preset-vite@2.10.1(@babel/core@7.26.0)(preact@10.26.0)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1)(terser@5.34.1)(yaml@2.5.1))':
     dependencies:
-      '@babel/core': 7.25.2
-      '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.25.2)
-      '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.25.2)
+      '@babel/core': 7.26.0
+      '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.0)
+      '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.26.0)
       '@prefresh/vite': 2.4.7(preact@10.26.0)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1)(terser@5.34.1)(yaml@2.5.1))
       '@rollup/pluginutils': 4.2.1
-      babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.25.2)
+      babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.0)
       debug: 4.3.7
       kolorist: 1.8.0
       vite: 6.1.0(jiti@2.4.2)(lightningcss@1.29.1)(terser@5.34.1)(yaml@2.5.1)
@@ -5539,9 +5539,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-transform-hook-names@1.0.2(@babel/core@7.25.2):
+  babel-plugin-transform-hook-names@1.0.2(@babel/core@7.26.0):
     dependencies:
-      '@babel/core': 7.25.2
+      '@babel/core': 7.26.0
 
   bail@2.0.2: {}
 
