@@ -108,7 +108,7 @@ export default function Games() {
 						profile.
 					</p>
 					<div class="absolute top-0 right-0 m-4 flex aspect-square items-center justify-center">
-						<img class="h-10 w-10 rounded" title="Luanti" src={logo_spotify} alt="Spotify Logo" />
+						<img class="h-10 w-10 rounded" title="" src={logo_spotify} alt="Spotify Logo" />
 					</div>
 				</GridCard>
 				<GridCard class="flex-col">
