@@ -5,7 +5,7 @@
     "dependencies": {
         "@eslint/js": "^9.20.0",
         "@preact/preset-vite": "^2.10.1",
-        "@tailwindcss/postcss": "^4.0.6",
+        "@tailwindcss/postcss": "^4.0.12",
         "@tailwindcss/vite": "^4.0.6",
         "@types/node": "^22.13.4",
         "@typescript-eslint/eslint-plugin": "^8.24.1",
