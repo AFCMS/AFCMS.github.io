@@ -21,7 +21,7 @@ export default function About() {
 				</ul>
 			</div>
 			<h1 class="mt-4 text-3xl italic">
-				<strong class="underline-anim">Developper</strong> & <strong class="underline-anim">Gamer</strong>
+				<strong class="underline-anim">Developer</strong> & <strong class="underline-anim">Gamer</strong>
 			</h1>
 			<p class="mt-6 text-lg leading-8">
 				I'm a <strong>Computer Science</strong> student at <strong class="underline-anim">École Hexagone</strong>. I'm
