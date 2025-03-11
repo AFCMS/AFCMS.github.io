@@ -1,56 +1,56 @@
 {
-    "homepage": "https://afcms.github.io",
-    "name": "afcm_site",
-    "private": true,
-    "dependencies": {
-        "@eslint/js": "^9.20.0",
-        "@preact/preset-vite": "^2.10.1",
-        "@tailwindcss/postcss": "^4.0.6",
-        "@tailwindcss/vite": "^4.0.6",
-        "@types/node": "^22.13.4",
-        "@typescript-eslint/eslint-plugin": "^8.24.1",
-        "@typescript-eslint/parser": "^8.24.1",
-        "@vite-pwa/assets-generator": "^0.2.6",
-        "eslint": "^9.20.1",
-        "eslint-plugin-jsonc": "^2.19.1",
-        "eslint-plugin-react": "^7.37.4",
-        "eslint-plugin-react-hooks": "^5.1.0",
-        "eslint-plugin-react-refresh": "^0.4.19",
-        "globals": "^15.15.0",
-        "preact": "^10.26.2",
-        "preact-iso": "^2.9.0",
-        "prettier": "^3.5.1",
-        "prettier-plugin-tailwindcss": "^0.6.11",
-        "react-icons": "5.4.0",
-        "react-markdown": "^9.0.3",
-        "tailwindcss": "^4.0.6",
-        "typescript": "^5.7.3",
-        "typescript-eslint": "^8.24.1",
-        "vite": "^6.1.0",
-        "vite-imagetools": "^7.0.5",
-        "vite-plugin-pwa": "^0.21.1",
-        "vite-plugin-svgr": "^4.3.0",
-        "workbox-build": "^7.3.0",
-        "workbox-window": "^7.3.0"
-    },
-    "scripts": {
-        "preinstall": "npx only-allow pnpm",
-        "dev": "vite",
-        "build": "tsc && vite build",
-        "lint": "eslint . --config eslint.config.mjs src/*.{ts,tsx}",
-        "preview": "vite preview",
-        "generate-pwa-assets": "pwa-assets-generator"
-    },
-    "eslintConfig": {
-        "extends": []
-    },
-    "packageManager": "pnpm@10.4.1",
-    "pnpm": {
-        "ignoredBuiltDependencies": [
-            "esbuild"
-        ],
-        "onlyBuiltDependencies": [
-            "esbuild"
-        ]
-    }
+  "homepage": "https://afcms.dev",
+  "name": "afcm_site",
+  "private": true,
+  "dependencies": {
+    "@eslint/js": "^9.22.0",
+    "@preact/preset-vite": "^2.10.1",
+    "@tailwindcss/postcss": "^4.0.13",
+    "@tailwindcss/vite": "^4.0.13",
+    "@types/node": "^22.13.10",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "@vite-pwa/assets-generator": "^0.2.6",
+    "eslint": "^9.22.0",
+    "eslint-plugin-jsonc": "^2.19.1",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "preact": "^10.26.4",
+    "preact-iso": "^2.9.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "react-icons": "5.4.0",
+    "tailwindcss": "^4.0.13",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1",
+    "vite": "^6.2.1",
+    "vite-imagetools": "^7.0.5",
+    "vite-plugin-pwa": "^0.21.1",
+    "vite-plugin-svgr": "^4.3.0",
+    "workbox-build": "^7.3.0",
+    "workbox-window": "^7.3.0"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --config eslint.config.mjs src/*.{ts,tsx}",
+    "preview": "vite preview",
+    "generate-pwa-assets": "pwa-assets-generator"
+  },
+  "eslintConfig": {
+    "extends": []
+  },
+  "packageManager": "pnpm@10.6.2",
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "esbuild"
+    ],
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
+  }
 }
