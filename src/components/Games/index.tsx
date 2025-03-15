@@ -9,6 +9,7 @@ import cover_minecraft from "../../assets/cover_minecraft.png?h=450&w=300&imaget
 const warthunder_cover = "https://steamcdn-a.akamaihd.net/steam/apps/236390/library_600x900.jpg";
 const tlou_cover = "https://steamcdn-a.akamaihd.net/steam/apps/1888930/library_600x900.jpg";
 const metro_exodus_cover = "https://steamcdn-a.akamaihd.net/steam/apps/412020/library_600x900.jpg";
+const ulotc_cover = "https://steamcdn-a.akamaihd.net/steam/apps/1659420/library_600x900.jpg";
 const sotr_cover = "https://steamcdn-a.akamaihd.net/steam/apps/750920/library_600x900.jpg";
 
 export default function Games() {
@@ -60,6 +61,20 @@ export default function Games() {
 									relationships between the characters.
 								</p>
 								<p>It's a must-play for anyone who likes post-apocalyptic worlds.</p>
+							</>
+						),
+					},
+					{
+						image: ulotc_cover,
+						alt: "Uncharted: Legacy of Thieves Collection",
+						content: (
+							<>
+								<h3 class="text-xl font-bold">Uncharted: Legacy of Thieves Collection</h3>
+								<p>Amazing adventure game.</p>
+								<p>Incredible looking environments, nice stories and characters.</p>
+								<p>
+									It's a action packed and immersive game that I enjoyed a lot, especially <strong>Uncharted 4</strong>.
+								</p>
 							</>
 						),
 					},
