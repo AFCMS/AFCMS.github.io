@@ -55,3 +55,7 @@
 	scrollbar-width: auto;
 	scrollbar-color: oklch(48.42% 0.0892 274.76) var(--color-background);
 }
+
+:root {
+	color-scheme: dark;
+}
