@@ -29,6 +29,7 @@ const links = {
 	DENO: "https://deno.com",
 	UNREAL: "https://www.unrealengine.com",
 	BLENDER: "https://www.blender.org",
+	GIMP: "https://www.gimp.org",
 	DOTNET: "https://dotnet.microsoft.com",
 	REDOT: "https://www.redotengine.org",
 };

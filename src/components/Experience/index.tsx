@@ -14,6 +14,9 @@ import logo_node from "../../assets/node.svg";
 import logo_discord from "../../assets/discord.svg";
 import logo_git from "../../assets/git.svg";
 import logo_github from "../../assets/github.svg";
+import logo_unreal from "../../assets/unreal.svg";
+import logo_blender from "../../assets/blender.svg";
+import logo_redot from "../../assets/redot.svg";
 
 export default function Experience() {
 	return (
@@ -55,12 +58,12 @@ export default function Experience() {
 				<div class="grid-text-paragraph">
 					<p class="mr-12">I worked on many web-based projects on various tech stacks.</p>
 					<p>
-						It includes many personal projects of various sizes, contributions to open-source full-stack apps, and
+						These include many personal projects of various sizes, contributions to open-source full-stack apps, and
 						unreleased apps for private use.
 					</p>
 					<p>
 						For frontend, I primarily use <a href={links.VITE}>Vite</a>, <a href={links.REACT}>React</a>, and{" "}
-						<a href={links.TAILWINDCSS}>TailwindCSS</a> but I also use <a href={links.PREACT}>Preact</a> and{" "}
+						<a href={links.TAILWINDCSS}>TailwindCSS</a>, but I also use <a href={links.PREACT}>Preact</a> and{" "}
 						<a href={links.BOOTSTRAP}>Bootstrap</a>.
 					</p>
 				</div>
@@ -78,7 +81,7 @@ export default function Experience() {
 						<a href={links.GOLANG}>Golang</a> servers.
 					</p>
 					<p>
-						I also have contributed to projects using <a href={links.SYMFONY}>Symfony</a>,{" "}
+						I have also contributed to projects using <a href={links.SYMFONY}>Symfony</a>,{" "}
 						<a href={links.FLASK}>Flask</a>, and <a href={links.DJANGO}>Django</a>.
 					</p>
 				</div>
@@ -91,8 +94,8 @@ export default function Experience() {
 				<h2 class="mb-3 font-medium">Containerization</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-24">
-						I have experience with image crafting leveraging advanced <a href={links.DOCKER}>Docker</a> features like
-						cache and cross-compilation.
+						I have experience with image crafting, leveraging advanced <a href={links.DOCKER}>Docker</a> features such
+						as caching and cross-compilation.
 					</p>
 					<p>
 						I have used <strong>Docker Compose</strong> extensively and have already worked with{" "}
@@ -108,8 +111,8 @@ export default function Experience() {
 				<h2 class="mb-3 font-medium">Discord Bots</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-24">
-						I leveraged <a href={links.DISCORDJS}>Discord.js</a>, <a href={links.NODE}>NodeJS</a>, and{" "}
-						<a href={links.DENO}>Deno</a> to create or update multiple bots for various servers.
+						I've leveraged <a href={links.DISCORDJS}>Discord.js</a>, <a href={links.NODE}>NodeJS</a>, and{" "}
+						<a href={links.DENO}>Deno</a> to create and maintain multiple bots for various servers.
 					</p>
 					<p>This includes database management, bot containerization, etc.</p>
 				</div>
@@ -134,6 +137,28 @@ export default function Experience() {
 				<div class="absolute top-0 right-0 m-4 flex flex-row gap-2">
 					<img class="h-10 w-10 rounded" title="Git" src={logo_git} alt="Git Logo" />
 					<img class="h-10 w-10 rounded" title="GitHub" src={logo_github} alt="GitHub Logo" />
+				</div>
+			</GridCard>
+			<GridCard bgImage={logo_unreal} class="md:col-span-2" class2="flex-col">
+				<h2 class="mb-3 font-medium">Game Development</h2>
+				<div class="grid-text-paragraph">
+					<p class="mr-36">
+						I've worked with <a href={links.UNREAL}>Unreal Engine</a>, including two months of professional experience
+						in C++, Blueprints, animation systems, and the asset pipeline.
+					</p>
+					<p>
+						I'm experienced with <a href={links.BLENDER}>Blender</a> for modeling, UV unwrapping and rigging (IK/FK), as
+						well as <a href={links.GIMP}>GIMP</a> for pixel-art, PBR&nbsp;textures and masks.
+					</p>
+					<p>
+						I've also worked with the <a href={links.REDOT}>Redot Engine</a> (a Godot fork), using both GDScript and{" "}
+						<a href={links.DOTNET}>C#</a>.
+					</p>
+				</div>
+				<div class="absolute top-0 right-0 m-4 flex flex-row gap-2">
+					<img class="h-10 w-10 rounded" title="Blender" src={logo_blender} alt="Blender Logo" />
+					<img class="h-10 w-10 rounded" title="Redot Engine" src={logo_redot} alt="Redot Engine Logo" />
+					<img class="h-10 w-10 rounded" title="Unreal Engine" src={logo_unreal} alt="Unreal Engine Logo" />
 				</div>
 			</GridCard>
 		</section>
