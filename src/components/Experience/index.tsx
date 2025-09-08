@@ -148,10 +148,10 @@ export default function Experience() {
 					</p>
 					<p>
 						I'm experienced with <a href={links.BLENDER}>Blender</a> for modeling, UV unwrapping and rigging (IK/FK), as
-						well as <a href={links.GIMP}>GIMP</a> for pixel-art, PBR&nbsp;textures and masks.
+						well as <a href={links.GIMP}>GIMP</a> for pixel art, PBR&nbsp;textures, and masks.
 					</p>
 					<p>
-						I've also worked with the <a href={links.REDOT}>Redot Engine</a> (a Godot fork), using both GDScript and{" "}
+						I've also worked with <a href={links.REDOT}>Redot Engine</a> (a Godot fork), using both GDScript and{" "}
 						<a href={links.DOTNET}>C#</a>.
 					</p>
 				</div>

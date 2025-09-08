@@ -10,6 +10,7 @@ const warthunder_cover = "https://steamcdn-a.akamaihd.net/steam/apps/236390/libr
 const tlou_cover = "https://steamcdn-a.akamaihd.net/steam/apps/1888930/library_600x900.jpg";
 const metro_exodus_cover = "https://steamcdn-a.akamaihd.net/steam/apps/412020/library_600x900.jpg";
 const ulotc_cover = "https://steamcdn-a.akamaihd.net/steam/apps/1659420/library_600x900.jpg";
+const coe33_cover = "https://steamcdn-a.akamaihd.net/steam/apps/1903340/library_600x900.jpg";
 const sotr_cover = "https://steamcdn-a.akamaihd.net/steam/apps/750920/library_600x900.jpg";
 
 export default function Games() {
@@ -30,8 +31,8 @@ export default function Games() {
 								<h3 class="text-xl font-bold">War Thunder</h3>
 								<p>Military vehicle combat MMO, from World War II to modern combat.</p>
 								<p>
-									I have been enjoying the high-quality graphics and amount of vehicles of this well-optimized and Linux
-									native game for a long time.
+									I have been enjoying the high-quality graphics and number of vehicles of this well-optimized and
+									Linux-native game for a long time.
 								</p>
 							</>
 						),
@@ -57,7 +58,7 @@ export default function Games() {
 								<h3 class="text-xl font-bold">Metro Exodus</h3>
 								<p>First-person post-apocalyptic adventure game.</p>
 								<p>
-									Stunning raytraced graphics, immersive environments, nice music, a story full of emotion, and warm
+									Stunning ray-traced graphics, immersive environments, nice music, a story full of emotion, and warm
 									relationships between the characters.
 								</p>
 								<p>It's a must-play for anyone who likes post-apocalyptic worlds.</p>
@@ -71,10 +72,26 @@ export default function Games() {
 							<>
 								<h3 class="text-xl font-bold">Uncharted: Legacy of Thieves Collection</h3>
 								<p>Amazing adventure game.</p>
-								<p>Incredible looking environments, nice stories and characters.</p>
+								<p>Incredible-looking environments, nice stories and characters.</p>
 								<p>
-									It's a action packed and immersive game that I enjoyed a lot, especially <strong>Uncharted 4</strong>.
+									It's an action-packed and immersive game that I enjoyed a lot, especially <strong>Uncharted 4</strong>
+									.
 								</p>
+							</>
+						),
+					},
+					{
+						image: coe33_cover,
+						alt: "Clair Obscur: Expedition 33",
+						content: (
+							<>
+								<h3 class="text-xl font-bold">Clair Obscur: Expedition 33</h3>
+								<p>My first-ever turn-based RPG.</p>
+								<p>
+									The extraordinary world-building, the amazing OST, and artistic direction got me hooked enough to go
+									for 100%.
+								</p>
+								<p>It's also a great success story, ambitious yet made by a small team.</p>
 							</>
 						),
 					},
@@ -85,9 +102,9 @@ export default function Games() {
 							<>
 								<h3 class="text-xl font-bold">Shadow of the Tomb Raider</h3>
 								<p>Solid adventure game.</p>
-								<p>Amazing looking environments and nice combat system.</p>
+								<p>Amazing-looking environments and a nice combat system.</p>
 								<p>
-									It's a long and fun game that I can recommend, as well as <strong>Rise of the Tomb Raiser</strong> and{" "}
+									It's a long and fun game that I can recommend, as well as <strong>Rise of the Tomb Raider</strong> and{" "}
 									<strong>Tomb Raider (2013)</strong>.
 								</p>
 							</>
@@ -101,8 +118,8 @@ export default function Games() {
 								<h3 class="text-xl font-bold">Minecraft</h3>
 								<p>A classic, universal game.</p>
 								<p>
-									This game is truly what brought me to programming, by getting involved in <strong>Luanti</strong> and{" "}
-									<strong>VoxeLibre</strong>.
+									This game is truly what brought me to programming by getting me involved in <strong>Luanti</strong>{" "}
+									and <strong>VoxeLibre</strong>.
 								</p>
 							</>
 						),
