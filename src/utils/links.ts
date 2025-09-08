@@ -27,6 +27,10 @@ const links = {
 	DISCORDJS: "https://discord.js.org",
 	NODE: "https://nodejs.org",
 	DENO: "https://deno.com",
+	UNREAL: "https://www.unrealengine.com",
+	BLENDER: "https://www.blender.org",
+	DOTNET: "https://dotnet.microsoft.com",
+	REDOT: "https://www.redotengine.org",
 };
 
 export default links;
