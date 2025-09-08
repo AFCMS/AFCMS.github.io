@@ -35,7 +35,7 @@ pnpm run serve
 ### Rebuild PWA Assets
 
 ```shell
-npm run generate-pwa-assets
+pnpm run generate-pwa-assets
 ```
 
 ### Deploy on GitHub Pages (Using GitHub CLI)
