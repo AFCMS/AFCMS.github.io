@@ -72,7 +72,7 @@ export default function Caroussel(props: CarousselProps) {
 				{props.children.map((_, index) => (
 					<div
 						key={index}
-						className={`text-shadow-indigo mx-1 h-2 w-2 rounded-full ${index === currentIndex ? "bg-slate-600" : "bg-slate-400"}`}
+						className={`text-shadow-indigo mx-1 h-2 w-2 rounded-full ${index === currentIndex ? "bg-slate-400" : "bg-slate-600"}`}
 						onClick={() => setCurrentIndex(index)}
 					/>
 				))}
