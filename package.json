@@ -3,7 +3,7 @@
   "name": "afcm_site",
   "private": true,
   "dependencies": {
-    "@eslint/js": "^9.35.0",
+    "@eslint/js": "^9.36.0",
     "@preact/preset-vite": "^2.10.2",
     "@tailwindcss/postcss": "^4.1.13",
     "@tailwindcss/vite": "^4.1.13",
@@ -11,7 +11,7 @@
     "@typescript-eslint/eslint-plugin": "^8.44.0",
     "@typescript-eslint/parser": "^8.44.0",
     "@vite-pwa/assets-generator": "^1.0.1",
-    "eslint": "^9.35.0",
+    "eslint": "^9.36.0",
     "eslint-plugin-jsonc": "^2.20.1",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
