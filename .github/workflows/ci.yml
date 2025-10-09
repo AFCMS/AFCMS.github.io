@@ -24,7 +24,7 @@ jobs:
         with:
           run_install: false
 
-      - name: Setup Node.js LTS
+      - name: Setup Node LTS/Jod
         uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
@@ -67,7 +67,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v4
 
-      - name: Use Node.js LTS
+      - name: Use Node.js LTS/Jod
         uses: actions/setup-node@v5
         with:
           node-version-file: ".node-version"
