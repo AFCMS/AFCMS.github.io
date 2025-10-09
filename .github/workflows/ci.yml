@@ -24,7 +24,7 @@ jobs:
         with:
           run_install: false
 
-      - name: Setup Node LTS/Jod
+      - name: Setup Node.js LTS
         uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
@@ -67,7 +67,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v4
 
-      - name: Use Node.js LTS/Jod
+      - name: Use Node.js LTS
         uses: actions/setup-node@v5
         with:
           node-version-file: ".node-version"
@@ -80,14 +80,6 @@ jobs:
         run: pnpm run build
         env:
           VITE_DISABLE_VERCEL_ANALYTICS: "true"
-
-      - name: Install Caddy
-        run: |
-          sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https curl
-          curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
-          curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
-          sudo apt update
-          sudo apt install caddy
 
       - name: Run Lighthouse CI
         run: pnpm lhci autorun
