@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -24,8 +24,8 @@ jobs:
         with:
           run_install: false
 
-      - name: Setup Node LTS/Jod
-        uses: actions/setup-node@v4
+      - name: Setup Node LTS/Krypton
+        uses: actions/setup-node@v6
         with:
           node-version-file: .node-version
           cache: "pnpm"
@@ -66,9 +66,11 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
+        with:
+          run_install: false
 
-      - name: Use Node.js LTS/Jod
-        uses: actions/setup-node@v5
+      - name: Use Node.js LTS/Krypton
+        uses: actions/setup-node@v6
         with:
           node-version-file: ".node-version"
           cache: "pnpm"
