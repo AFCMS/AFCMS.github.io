@@ -26,7 +26,7 @@ export default function Projects() {
 					<p>A web based PWA video player.</p>
 					<p>Features local and offline support, system integration.</p>
 				</div>
-				<CardImage class="hidden aspect-[16/9] w-96 md:block" alt="Fluorite" src={picture_fluorite} />
+				<CardImage class="hidden aspect-video w-96 md:block" alt="Fluorite" src={picture_fluorite} />
 				<ul class="bottom-0 left-0 mt-4 flex flex-row flex-wrap gap-2 md:absolute md:m-4">
 					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">PWA</li>
 					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">React</li>
@@ -55,7 +55,7 @@ export default function Projects() {
 						It's a project made during my studies at <strong>École Hexagone</strong>.
 					</p>
 				</div>
-				<CardImage class="hidden aspect-[16/9] w-96 md:block" alt="Malley" src={picture_malley} />
+				<CardImage class="hidden aspect-video w-96 md:block" alt="Malley" src={picture_malley} />
 				<ul class="bottom-0 left-0 mt-4 flex flex-row flex-wrap gap-2 md:absolute md:m-4">
 					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">React</li>
 					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">TailwindCSS</li>
@@ -84,7 +84,7 @@ export default function Projects() {
 						your <strong>GitHub</strong> and <strong>Spotify</strong> account.
 					</p>
 				</div>
-				<CardImage class="hidden aspect-[16/9] w-96 md:block" alt="DevPet" src={picture_devpet} />
+				<CardImage class="hidden aspect-video w-96 md:block" alt="DevPet" src={picture_devpet} />
 				<ul class="bottom-0 left-0 mt-4 flex flex-row flex-wrap gap-2 md:absolute md:m-4">
 					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">PlatformIO</li>
 					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">C++</li>
@@ -116,7 +116,7 @@ export default function Projects() {
 						Endless runner inspired by <strong>Subway Surfers</strong> and <strong>Temple Run</strong>.
 					</p>
 				</div>
-				<CardImage class="hidden aspect-[16/9] w-96 md:block" alt="Suwbway Miner" src={picture_subway_miner} />
+				<CardImage class="hidden aspect-video w-96 md:block" alt="Suwbway Miner" src={picture_subway_miner} />
 				<ul class="bottom-0 left-0 mt-4 flex flex-row flex-wrap gap-2 md:absolute md:m-4">
 					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">Luanti</li>
 					<li class="glass-effect-level-2 px-1 py-0.5 text-sm">Lua</li>
