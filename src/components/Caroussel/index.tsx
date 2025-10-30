@@ -28,7 +28,7 @@ export default function Caroussel(props: CarousselProps) {
 							index === currentIndex ? "opacity-100" : "opacity-0"
 						}`}
 					>
-						<CardImage class="aspect-[2/3] w-[300px]" alt={element.alt} src={element.image} />
+						<CardImage class="aspect-2/3 w-[300px]" alt={element.alt} src={element.image} />
 						<div class="text-shadow-indigo absolute right-0 my-auto mr-16 ml-12 flex h-full w-full max-w-[80%] flex-col md:static">
 							<div class="glass-effect-dark md:glass-effect-none my-auto flex flex-col gap-2 p-4 md:h-56">
 								{element.content}

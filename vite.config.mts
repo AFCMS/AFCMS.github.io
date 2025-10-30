@@ -62,7 +62,7 @@ export default defineConfig({
 	plugins: [
 		preact(),
 		imagetools({
-			defaultDirectives: new URLSearchParams("?format=avif&quality=80"),
+			defaultDirectives: new URLSearchParams("?format=avif&quality=70"),
 		}),
 		tailwindcss(),
 		// VitePWA(pwaConfig),
