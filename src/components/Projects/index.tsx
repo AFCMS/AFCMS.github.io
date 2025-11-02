@@ -52,7 +52,7 @@ export default function Projects() {
 					</h2>
 					<p>An X-like social media platform project.</p>
 					<p>
-						It's a project made during my studies at <strong>École Hexagone</strong>.
+						It&apos;s a project made during my studies at <strong>École Hexagone</strong>.
 					</p>
 				</div>
 				<CardImage class="hidden aspect-video w-96 md:block" alt="Malley" src={picture_malley} />
@@ -80,8 +80,8 @@ export default function Projects() {
 						DevPet <span class="text-header/80 font-normal">- 2024</span>
 					</h2>
 					<p>
-						A virtual pet for developers made during my studies at <strong>École Hexagone</strong>. It's integrated with
-						your <strong>GitHub</strong> and <strong>Spotify</strong> account.
+						A virtual pet for developers made during my studies at <strong>École Hexagone</strong>. It&apos;s integrated
+						with your <strong>GitHub</strong> and <strong>Spotify</strong> account.
 					</p>
 				</div>
 				<CardImage class="hidden aspect-video w-96 md:block" alt="DevPet" src={picture_devpet} />

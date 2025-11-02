@@ -5,7 +5,7 @@ charset = utf-8
 end_of_line = lf
 indent_size = 4
 indent_style = space
-insert_final_newline = false
+insert_final_newline = true
 max_line_length = 120
 tab_width = 4
 ij_continuation_indent_size = 8
@@ -17,6 +17,8 @@ ij_visual_guides =
 ij_wrap_on_typing = false
 
 [*.css]
+indent_style = tab
+tab_width = 2
 ij_css_align_closing_brace_with_properties = false
 ij_css_blank_lines_around_nested_selector = 1
 ij_css_blank_lines_between_blocks = 1
@@ -44,7 +46,7 @@ ij_editorconfig_space_before_colon = false
 ij_editorconfig_space_before_comma = false
 ij_editorconfig_spaces_around_assignment_operators = true
 
-[{*.ats,*.cts,*.mts,*.ts}]
+[{*.ats,*.cts,*.mts,*.ts,*.tsx}]
 indent_size = 2
 indent_style = tab
 tab_width = 2
@@ -222,7 +224,7 @@ ij_typescript_while_brace_force = never
 ij_typescript_while_on_new_line = false
 ij_typescript_wrap_comments = false
 
-[{*.cjs,*.js}]
+[{*.cjs,*.mjs,*.js,*.jsx}]
 indent_size = 2
 indent_style = tab
 tab_width = 2
@@ -397,7 +399,9 @@ ij_javascript_while_on_new_line = false
 ij_javascript_wrap_comments = false
 
 [{*.har,*.jsb2,*.jsb3,*.json,*.jsonc,*.postman_collection,*.postman_environment,.babelrc,.eslintrc,.prettierrc,.stylelintrc,bowerrc,jest.config}]
+indent_style = tab
 indent_size = 2
+tab_width = 2
 ij_json_array_wrapping = split_into_lines
 ij_json_keep_blank_lines_in_code = 0
 ij_json_keep_indents_on_empty_lines = false
