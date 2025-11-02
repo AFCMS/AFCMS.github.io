@@ -6,6 +6,5 @@
  */
 declare module "*&imagetools" {
 	const out;
-	// noinspection JSUnusedGlobalSymbols
-	export default out;
+	export default out as string;
 }
