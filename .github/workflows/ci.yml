@@ -115,12 +115,12 @@ jobs:
         run: pnpm install
 
       - name: Build website
-        run: pnpm --filter "@oktomusic/website" run build
+        run: pnpm run build
 
       - name: Build & Deploy Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./apps/website/.vitepress/dist --project-name=website
+          command: pages deploy ./build --project-name=website
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
