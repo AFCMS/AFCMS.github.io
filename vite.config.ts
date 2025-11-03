@@ -1,8 +1,9 @@
 import { defineConfig } from "vite";
 import preact from "@preact/preset-vite";
 import tailwindcss from "@tailwindcss/vite";
-
 import { imagetools } from "vite-imagetools";
+import sri from "vite-plugin-sri-gen";
+
 /***import { VitePWA, VitePWAOptions } from "vite-plugin-pwa";
 
 const pwaConfig: Partial<VitePWAOptions> = {
@@ -66,6 +67,11 @@ export default defineConfig({
 		}),
 		tailwindcss(),
 		// VitePWA(pwaConfig),
+		sri({
+			algorithm: "sha384",
+			crossorigin: "anonymous",
+			fetchCache: true,
+		}),
 	],
 	assetsInclude: ["**/*.md"],
 });
