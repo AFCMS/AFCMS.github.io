@@ -67,7 +67,7 @@ export default defineConfig({
 		tailwindcss(),
 		// VitePWA(pwaConfig),
 		sri({
-			algorithm: "sha384",
+			algorithm: "sha512",
 			crossorigin: "anonymous",
 			fetchCache: true,
 		}),
