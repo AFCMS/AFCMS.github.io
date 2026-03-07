@@ -147,7 +147,7 @@ export default function Games() {
 					<div class="">
 						<ul class="flex flex-col gap-2">
 							<li class="flex gap-2 align-baseline">
-								<span class="glass-effect-level-2 inline-flex h-[26px] w-[26px] flex-row items-center gap-1 p-1">
+								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
 									<SiSteam />
 								</span>
 								<a class="underline-static" href={links.STEAM}>
@@ -155,7 +155,7 @@ export default function Games() {
 								</a>
 							</li>
 							<li class="flex gap-2 align-baseline">
-								<span class="glass-effect-level-2 inline-flex h-[26px] w-[26px] flex-row items-center gap-1 p-1">
+								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
 									<SiNamemc />
 								</span>
 								<a class="underline-static" href={links.NAMEMC}>
@@ -163,7 +163,7 @@ export default function Games() {
 								</a>
 							</li>
 							<li class="flex gap-2 align-baseline">
-								<span class="glass-effect-level-2 inline-flex h-[26px] w-[26px] flex-row items-center gap-1 p-1">
+								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
 									<SiTwitch />
 								</span>
 								<a class="underline-static" href={links.TWITCH}>

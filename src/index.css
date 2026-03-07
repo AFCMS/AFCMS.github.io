@@ -59,3 +59,10 @@
 :root {
 	color-scheme: dark;
 }
+
+.carousel-background {
+	background-origin: padding-box;
+	transition: background-image 200ms;
+	opacity: 0.3;
+	filter: blur(50px);
+}

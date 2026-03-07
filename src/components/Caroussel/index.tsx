@@ -1,4 +1,4 @@
-import { useState } from "preact/hooks";
+import { useRef, useState, useEffect } from "preact/hooks";
 import CardImage from "../CardImage";
 
 // https://tailkits.com/blog/tailwind-css-carousel-with-react-a-step-by-step-guide/
@@ -9,6 +9,13 @@ interface CarousselProps {
 
 export default function Caroussel(props: CarousselProps) {
 	const [currentIndex, setCurrentIndex] = useState(0);
+	const carouselBgRef = useRef<HTMLDivElement>(null);
+
+	useEffect(() => {
+		if (carouselBgRef.current) {
+			carouselBgRef.current.style.backgroundImage = `url("${props.children[currentIndex].image}")`;
+		}
+	}, [currentIndex, props.children]);
 
 	const nextSlide = () => {
 		setCurrentIndex((prevIndex) => (prevIndex + 1) % props.children.length);
@@ -20,7 +27,7 @@ export default function Caroussel(props: CarousselProps) {
 
 	return (
 		<div class="relative h-full w-full rounded-lg select-none">
-			<div class="glass-effect relative z-10 flex h-[508px] w-full overflow-hidden p-4 md:h-[484px]">
+			<div class="glass-effect relative z-10 flex h-127 w-full overflow-hidden p-4 md:h-121">
 				{props.children.map((element, index) => (
 					<div
 						key={index}
@@ -28,7 +35,7 @@ export default function Caroussel(props: CarousselProps) {
 							index === currentIndex ? "opacity-100" : "opacity-0"
 						}`}
 					>
-						<CardImage class="aspect-2/3 w-[300px]" alt={element.alt} src={element.image} />
+						<CardImage class="aspect-2/3 w-75" alt={element.alt} src={element.image} />
 						<div class="text-shadow-indigo absolute right-0 my-auto mr-16 ml-12 flex h-full w-full max-w-[80%] flex-col md:static">
 							<div class="glass-effect-dark md:glass-effect-none my-auto flex flex-col gap-2 p-4 md:h-56">
 								{element.content}
@@ -37,14 +44,8 @@ export default function Caroussel(props: CarousselProps) {
 					</div>
 				))}
 				<div
-					class="absolute top-0 right-0 bottom-0 left-0 -z-10 hidden h-full w-full rounded-lg bg-cover bg-no-repeat md:block"
-					style={{
-						backgroundImage: `url("${props.children[currentIndex].image}")`,
-						backgroundOrigin: "center",
-						transition: "background-image 200ms",
-						opacity: 0.3,
-						filter: "blur(50px)",
-					}}
+					ref={carouselBgRef}
+					class="carousel-background absolute top-0 right-0 bottom-0 left-0 -z-10 hidden h-full w-full rounded-lg bg-cover bg-no-repeat md:block"
 				></div>
 			</div>
 			<button
