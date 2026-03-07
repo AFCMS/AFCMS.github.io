@@ -1,0 +1,45 @@
+{
+    "name": "AFCMS • Portfolio",
+    "short_name": "AFCMS • Portfolio",
+    "description": "AFCMS' personal portfolio",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "oklch(14.06% 0.0583 269.32)",
+    "theme_color": "oklch(14.06% 0.0583 269.32)",
+    "lang": "en",
+    "scope": "/",
+    "id": "/",
+    "screenshots": [],
+    "categories": [
+        "business",
+        "entertainment",
+        "games",
+        "social"
+    ],
+    "dir": "ltr",
+    "icons": [
+        {
+            "src": "pwa-64x64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "pwa-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "pwa-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "maskable-icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "orientation": "natural"
+}
