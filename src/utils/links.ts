@@ -17,6 +17,7 @@ const links = {
 	PREACT: "https://preactjs.com",
 	TAILWINDCSS: "https://tailwindcss.com",
 	BOOTSTRAP: "https://getbootstrap.com",
+	NESTJS: "https://nestjs.com",
 	SUPABASE: "https://supabase.com",
 	DJANGO: "https://www.djangoproject.com",
 	FLASK: "https://flask.palletsprojects.com",
@@ -32,6 +33,6 @@ const links = {
 	GIMP: "https://www.gimp.org",
 	DOTNET: "https://dotnet.microsoft.com",
 	REDOT: "https://www.redotengine.org",
-};
+} as const satisfies Record<string, `https://${string}`>;
 
 export default links;
