@@ -1,7 +1,7 @@
 interface CardImageProps {
-	class?: string;
-	alt?: string;
-	src: string;
+	readonly class?: string;
+	readonly alt?: string;
+	readonly src: string;
 }
 
 export default function CardImage(props: CardImageProps) {
