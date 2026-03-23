@@ -6,8 +6,8 @@ import logo_luanti from "../../assets/luanti.svg";
 import logo_react from "../../assets/react.svg";
 import logo_tailwind from "../../assets/tailwind.svg";
 import logo_vite from "../../assets/vite.svg";
+import logo_nestjs from "../../assets/nestjs.svg";
 import logo_supabase from "../../assets/supabase.svg";
-import logo_golang from "../../assets/golang_aqua.svg";
 import logo_docker from "../../assets/docker.svg";
 import logo_kubernetes from "../../assets/kubernetes.svg";
 import logo_node from "../../assets/node.svg";
@@ -73,12 +73,12 @@ export default function Experience() {
 					<img class="h-10 w-10 rounded" title="React" src={logo_react} alt="React Logo" />
 				</div>
 			</GridCard>
-			<GridCard bgImage={logo_supabase} class2="flex-col">
+			<GridCard bgImage={logo_nestjs} class2="flex-col">
 				<h2 class="mb-3 font-medium">Backend</h2>
 				<div class="grid-text-paragraph">
 					<p class="mr-24">
-						For most of my full-stack projects, I used <a href={links.SUPABASE}>Supabase</a> or custom{" "}
-						<a href={links.GOLANG}>Golang</a> servers.
+						For backend development, I worked with <a href={links.NESTJS}>NestJS</a>,{" "}
+						<a href={links.SUPABASE}>Supabase</a>, as well as custom <a href={links.GOLANG}>Golang</a> servers.
 					</p>
 					<p>
 						I have also contributed to projects using <a href={links.SYMFONY}>Symfony</a>,{" "}
@@ -86,7 +86,7 @@ export default function Experience() {
 					</p>
 				</div>
 				<div class="absolute top-0 right-0 m-4 flex flex-row gap-2">
-					<img class="h-10 w-10 rounded" title="Golang" src={logo_golang} alt="Golang Logo" />
+					<img class="h-10 w-10 rounded" title="NestJS" src={logo_nestjs} alt="NestJS Logo" />
 					<img class="h-10 w-10 rounded" title="Supabase" src={logo_supabase} alt="Supabase Logo" />
 				</div>
 			</GridCard>
