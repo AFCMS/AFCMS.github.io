@@ -73,4 +73,7 @@ export default defineConfig({
 		}),
 	],
 	assetsInclude: ["**/*.md"],
+	devtools: {
+		enabled: false,
+	},
 });
