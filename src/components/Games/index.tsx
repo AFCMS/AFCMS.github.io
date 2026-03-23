@@ -45,7 +45,7 @@ export default function Games() {
 								<h3 class="text-xl font-bold">Metro Exodus</h3>
 								<p>First-person post-apocalyptic adventure game.</p>
 								<p>
-									Stunning ray-traced graphics, immersive environments, nice music, a story full of emotion, and warm
+									Stunning ray-traced graphics, immersive environments, nice music, a story full of emotion, and deep
 									relationships between the characters.
 								</p>
 								<p>It's a must-play for anyone who likes post-apocalyptic worlds.</p>
