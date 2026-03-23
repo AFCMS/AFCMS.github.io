@@ -38,19 +38,6 @@ export default function Games() {
 						),
 					},
 					{
-						image: tlou_cover,
-						alt: "The Last of Us Part I",
-						content: (
-							<>
-								<h3 class="text-xl font-bold">The Last of Us Part I</h3>
-								<p>Story-driven linear post-apocalyptic adventure game.</p>
-								<p>Top-tier graphics, acting, story, music, and gameplay.</p>
-								<p>Part I was an amazing experience that I can recommend to anyone.</p>
-							</>
-						),
-					},
-
-					{
 						image: metro_exodus_cover,
 						alt: "Metro Exodus",
 						content: (
@@ -62,6 +49,18 @@ export default function Games() {
 									relationships between the characters.
 								</p>
 								<p>It's a must-play for anyone who likes post-apocalyptic worlds.</p>
+							</>
+						),
+					},
+					{
+						image: tlou_cover,
+						alt: "The Last of Us Part I",
+						content: (
+							<>
+								<h3 class="text-xl font-bold">The Last of Us Part I</h3>
+								<p>Story-driven linear post-apocalyptic adventure game.</p>
+								<p>Top-tier graphics, acting, story, music, and gameplay.</p>
+								<p>Part I was an amazing experience that I can recommend to anyone.</p>
 							</>
 						),
 					},

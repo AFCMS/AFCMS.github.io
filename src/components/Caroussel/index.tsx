@@ -4,7 +4,7 @@ import CardImage from "../CardImage";
 // https://tailkits.com/blog/tailwind-css-carousel-with-react-a-step-by-step-guide/
 
 interface CarousselProps {
-	children: { image: string; alt: string; content: React.ReactNode }[];
+	readonly children: readonly { readonly image: string; readonly alt: string; readonly content: React.ReactNode }[];
 }
 
 export default function Caroussel(props: CarousselProps) {

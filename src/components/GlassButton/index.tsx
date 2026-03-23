@@ -1,11 +1,11 @@
 import { IconType } from "react-icons/lib";
 
 interface GlassButtonProps {
-	href: string;
-	title?: string;
-	label?: string;
-	icon: IconType;
-	class?: string;
+	readonly href: string;
+	readonly title?: string;
+	readonly label?: string;
+	readonly icon: IconType;
+	readonly class?: string;
 }
 
 export default function GlassButton(props: GlassButtonProps) {

@@ -1,11 +1,11 @@
 // https://vite.dev/guide/assets#importing-asset-as-url
 
 interface GridCardProps {
-	class?: string;
-	class2?: string;
-	children: React.ReactNode;
-	bgImage?: string;
-	bgTransparency?: number;
+	readonly class?: string;
+	readonly class2?: string;
+	readonly children: React.ReactNode;
+	readonly bgImage?: string;
+	readonly bgTransparency?: number;
 }
 
 export default function GridCard(props: GridCardProps) {
