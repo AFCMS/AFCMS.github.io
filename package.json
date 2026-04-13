@@ -27,7 +27,7 @@
 		"react-icons": "5.5.0",
 		"tailwindcss": "^4.2.2",
 		"typescript": "^6.0.2",
-		"typescript-eslint": "^8.58.0",
+		"typescript-eslint": "^8.58.2",
 		"vite": "^8.0.7",
 		"vite-imagetools": "^10.0.0",
 		"vite-plugin-pwa": "^1.2.0",
