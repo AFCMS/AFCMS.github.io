@@ -12,7 +12,7 @@
 		"@typescript-eslint/eslint-plugin": "^8.58.2",
 		"@typescript-eslint/parser": "^8.58.2",
 		"@vite-pwa/assets-generator": "^1.0.2",
-		"@vitejs/devtools": "^0.1.13",
+		"@vitejs/devtools": "^0.1.14",
 		"eslint": "^9.39.2",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-jsonc": "^3.1.2",
