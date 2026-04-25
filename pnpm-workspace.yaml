@@ -1,0 +1,11 @@
+allowBuilds:
+  "@tailwindcss/oxide": true
+  sharp: true
+
+# Supply chain security settings
+blockExoticSubdeps: true
+minimumReleaseAge: 360 # 6 hours
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  - rollup@2.80.0
+  - semver
