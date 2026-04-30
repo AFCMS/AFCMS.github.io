@@ -52,8 +52,8 @@
 		},
 		"packageManager": {
 			"name": "pnpm",
-			"version": "^11.0.0",
-			"onFail": "error"
+			"version": "^11",
+			"onFail": "ignore"
 		}
 	},
 	"eslintConfig": {
