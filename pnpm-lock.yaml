@@ -60,8 +60,8 @@ importers:
         specifier: ^10.29.1
         version: 10.29.1
       preact-iso:
-        specifier: ^2.11.1
-        version: 2.11.1(preact-render-to-string@6.6.7(preact@10.29.1))(preact@10.29.1)
+        specifier: ^2.12.0
+        version: 2.12.0(preact-render-to-string@6.6.7(preact@10.29.1))(preact@10.29.1)
       prettier:
         specifier: ^3.8.3
         version: 3.8.3
@@ -3637,8 +3637,8 @@ packages:
     resolution: {integrity: sha512-dM0jVuXJPsDN6DvRpea484tCUaMiXWjuCn++HGTqUWzGDjv5tZkEZldAJ/UMlqRYGFrD/etByo4/xOuC/snX2A==}
     engines: {node: '>=20'}
 
-  preact-iso@2.11.1:
-    resolution: {integrity: sha512-rLy0RmzP/hrDjnFdnEblxFgKtzUj4njkHrpGJBGS7S4QuYw1zv0lA38qsWpeAAB10JAz/hF2CsHrLen9ufCtbw==}
+  preact-iso@2.12.0:
+    resolution: {integrity: sha512-k0Y44UONBJ1zBXXCBhJRAa5O4ww8a5FHdLD6l21IxcnsTmDBto4n7KPQAH6xqegsKDMX4SuJ02qItiUlciIlZQ==}
     peerDependencies:
       preact: '>=10 || >= 11.0.0-0'
       preact-render-to-string: '>=6.4.0'
@@ -8668,7 +8668,7 @@ snapshots:
 
   powershell-utils@0.1.0: {}
 
-  preact-iso@2.11.1(preact-render-to-string@6.6.7(preact@10.29.1))(preact@10.29.1):
+  preact-iso@2.12.0(preact-render-to-string@6.6.7(preact@10.29.1))(preact@10.29.1):
     dependencies:
       preact: 10.29.1
       preact-render-to-string: 6.6.7(preact@10.29.1)
