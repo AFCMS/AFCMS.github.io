@@ -9,4 +9,5 @@ trustPolicy: no-downgrade
 trustPolicyExclude:
   - rollup@2.80.0
   - semver
+  - tinyexec@1.2.2
   - "@trickfilm400/rollup-plugin-off-main-thread@3.0.0-pre1"
