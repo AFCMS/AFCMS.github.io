@@ -21,8 +21,8 @@ importers:
         specifier: ^4.3.0
         version: 4.3.0(vite@8.0.14)
       '@types/node':
-        specifier: ^24.12.2
-        version: 24.12.2
+        specifier: ^24.12.4
+        version: 24.12.4
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.60.0
         version: 8.60.0(@typescript-eslint/parser@8.60.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3)
@@ -82,7 +82,7 @@ importers:
         version: 8.60.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3)
       vite:
         specifier: ^8.0.14
-        version: 8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
+        version: 8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
       vite-imagetools:
         specifier: ^10.0.0
         version: 10.0.0(rollup@4.60.3)(vite@8.0.14)
@@ -1722,8 +1722,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@24.12.2':
-    resolution: {integrity: sha512-A1sre26ke7HDIuY/M23nd9gfB+nrmhtYyMINbjI1zHJxYteKR6qSMX56FsmjMcDb3SMcjJg5BiRRgOCC/yBD0g==}
+  '@types/node@24.12.4':
+    resolution: {integrity: sha512-GUUEShf+PBCGW2KaXwcIt3Yk+e3pkKwWKb9GSyM9WQVE+ep2jzmHdGsHzu4wgcZy5fN9FBdVzjpBQsYlpfpgLA==}
 
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -5897,7 +5897,7 @@ snapshots:
       debug: 4.4.3
       magic-string: 0.30.21
       picocolors: 1.1.1
-      vite: 8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
+      vite: 8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
       vite-prerender-plugin: 0.5.13(vite@8.0.14)
       zimmerframe: 1.1.4
     transitivePeerDependencies:
@@ -5921,7 +5921,7 @@ snapshots:
       '@prefresh/utils': 1.2.1
       '@rollup/pluginutils': 4.2.1
       preact: 10.29.2
-      vite: 8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
+      vite: 8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -6298,7 +6298,7 @@ snapshots:
       '@tailwindcss/node': 4.3.0
       '@tailwindcss/oxide': 4.3.0
       tailwindcss: 4.3.0
-      vite: 8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
+      vite: 8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
 
   '@tootallnate/quickjs-emscripten@0.23.0': {}
 
@@ -6318,7 +6318,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@24.12.2':
+  '@types/node@24.12.4':
     dependencies:
       undici-types: 7.16.0
 
@@ -6328,7 +6328,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 24.12.2
+      '@types/node': 24.12.4
     optional: true
 
   '@typescript-eslint/eslint-plugin@8.60.0(@typescript-eslint/parser@8.60.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3)':
@@ -6445,7 +6445,7 @@ snapshots:
       pathe: 2.0.3
       perfect-debounce: 2.1.0
       tinyexec: 1.2.2
-      vite: 8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
+      vite: 8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
     transitivePeerDependencies:
       - '@modelcontextprotocol/sdk'
       - bufferutil
@@ -6519,7 +6519,7 @@ snapshots:
       pathe: 2.0.3
       perfect-debounce: 2.1.0
       tinyexec: 1.2.2
-      vite: 8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
+      vite: 8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
       vue: 3.5.35(typescript@6.0.3)
       ws: 8.21.0
     transitivePeerDependencies:
@@ -6899,7 +6899,7 @@ snapshots:
 
   chrome-launcher@0.13.4:
     dependencies:
-      '@types/node': 24.12.2
+      '@types/node': 24.12.4
       escape-string-regexp: 1.0.5
       is-wsl: 2.2.0
       lighthouse-logger: 1.2.0
@@ -6910,7 +6910,7 @@ snapshots:
 
   chrome-launcher@1.2.1:
     dependencies:
-      '@types/node': 24.12.2
+      '@types/node': 24.12.4
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 2.0.2
@@ -9079,7 +9079,7 @@ snapshots:
 
   speedline-core@1.4.3:
     dependencies:
-      '@types/node': 24.12.2
+      '@types/node': 24.12.4
       image-ssim: 0.2.0
       jpeg-js: 0.4.4
 
@@ -9453,7 +9453,7 @@ snapshots:
       '@rollup/pluginutils': 5.3.0(rollup@4.60.3)
       imagetools-core: 9.1.0
       sharp: 0.34.5
-      vite: 8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
+      vite: 8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
     transitivePeerDependencies:
       - rollup
 
@@ -9462,7 +9462,7 @@ snapshots:
       debug: 4.4.3
       pretty-bytes: 6.1.1
       tinyglobby: 0.2.16
-      vite: 8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
+      vite: 8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
       workbox-build: 7.4.1
       workbox-window: 7.4.1
     optionalDependencies:
@@ -9473,14 +9473,14 @@ snapshots:
   vite-plugin-sri-gen@1.5.1(vite@8.0.14):
     dependencies:
       parse5: 8.0.1
-      vite: 8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
+      vite: 8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
 
   vite-plugin-svgr@5.2.0(rollup@4.60.3)(typescript@6.0.3)(vite@8.0.14):
     dependencies:
       '@rollup/pluginutils': 5.3.0(rollup@4.60.3)
       '@svgr/core': 8.1.0(typescript@6.0.3)
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@6.0.3))
-      vite: 8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
+      vite: 8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -9494,9 +9494,9 @@ snapshots:
       simple-code-frame: 1.3.0
       source-map: 0.7.6
       stack-trace: 1.0.0-pre2
-      vite: 8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
+      vite: 8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2)
 
-  vite@8.0.14(@types/node@24.12.2)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2):
+  vite@8.0.14(@types/node@24.12.4)(@vitejs/devtools@0.3.1)(jiti@2.6.1)(terser@5.46.2):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
@@ -9504,7 +9504,7 @@ snapshots:
       rolldown: 1.0.2
       tinyglobby: 0.2.16
     optionalDependencies:
-      '@types/node': 24.12.2
+      '@types/node': 24.12.4
       '@vitejs/devtools': 0.3.1(typescript@6.0.3)(vite@8.0.14)
       fsevents: 2.3.3
       jiti: 2.6.1
