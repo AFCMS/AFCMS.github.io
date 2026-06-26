@@ -10,12 +10,7 @@
     "scope": "/",
     "id": "/",
     "screenshots": [],
-    "categories": [
-        "business",
-        "entertainment",
-        "games",
-        "social"
-    ],
+    "categories": ["business", "entertainment", "games", "social"],
     "dir": "ltr",
     "icons": [
         {

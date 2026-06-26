@@ -1,13 +1,28 @@
 {
 	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.defaultFormatter": "oxc.oxc-vscode",
 	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "oxc.oxc-vscode"
 	},
 	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "oxc.oxc-vscode"
 	},
+	"[json]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode",
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode",
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace"
+	},
+	"oxc.fmt.configPath": "oxfmt.config.ts",
 	"tailwindCSS.experimental.classRegex": ["@tw\\s\\*\/\\s+[\"'`]([^\"'`]*)"],
 	"chat.tools.terminal.autoApprove": {
 		"rm": false,
@@ -24,7 +39,5 @@
 		"pnpm run lint": true
 	},
 	"editor.detectIndentation": false,
-	"editor.tabSize": 2,
-	"prettier.requireConfig": true,
-	"prettier.configPath": "prettier.config.ts"
+	"editor.tabSize": 2
 }

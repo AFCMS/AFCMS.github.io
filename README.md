@@ -9,7 +9,7 @@ AFCM's personal portfolio website.
 - [**Vite PWA**](https://vite-pwa-org.netlify.app)
 - [**TailwindCSS**](https://tailwindcss.com)
 - [**React Icons**](https://react-icons.github.io/react-icons)
-- [**Prettier**](https://prettier.io)
+- [**Oxfmt**](https://oxc.rs/docs/guide/usage/formatter)
 - [**PNPM**](https://pnpm.io)
 
 ## Usage
@@ -46,9 +46,9 @@ gh workflow run 47919864
 
 ### Autoformatter
 
-Install the Prettier VSCode extention and add it as base formatter, enable format on save.
+Install the official Oxc VSCode extension and add it as base formatter, enable format on save.
 
-The `prettier` and `prettier-plugin-tailwindcss` npm packages needs to be installed. (They are in the dev dependencies)
+The `oxfmt` npm package needs to be installed locally. (It is in the dependencies)
 
 ### Sources
 

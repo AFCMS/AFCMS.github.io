@@ -2,9 +2,7 @@
 	"ci": {
 		"collect": {
 			"staticDistDir": "build",
-			"url": [
-				"/"
-			],
+			"url": ["/"],
 			"numberOfRuns": 3,
 			"settings": {
 				"formFactor": "desktop",
@@ -24,12 +22,7 @@
 					"disabled": false
 				},
 				"gatherMode": "navigation",
-				"onlyCategories": [
-					"performance",
-					"accessibility",
-					"best-practices",
-					"seo"
-				]
+				"onlyCategories": ["performance", "accessibility", "best-practices", "seo"]
 			}
 		},
 		"assert": {
