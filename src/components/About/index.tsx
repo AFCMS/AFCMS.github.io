@@ -1,9 +1,3 @@
-import { SiLinkedin } from "react-icons/si";
-
-import GlassButton from "../GlassButton";
-
-import links from "../../utils/links";
-
 export default function About() {
 	return (
 		<section class="text-header font-inter relative m-auto w-full max-w-4xl px-4 py-10 lg:py-14">
@@ -12,9 +6,9 @@ export default function About() {
 				<h1 class="font-inter text-header text-2xl font-bold">AFCMS</h1>
 				<span class="grow"></span>
 				<ul class="flex flex-row items-center gap-2">
-					<li>
+					{/*<li>
 						<GlassButton href={links.LINKEDIN} title="LinkedIn" icon={SiLinkedin} />
-					</li>
+					</li>*/}
 					{/*<li>
 						<GlassButton href={links.GITHUB} title="GitHub" icon={SiGithub} />
 					</li>*/}
