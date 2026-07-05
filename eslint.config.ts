@@ -1,17 +1,10 @@
-// noinspection JSCheckFunctionSignatures
-/*export default pluginTypescript.config({
-	files: ["src/**/ /*.{js,jsx,mjs,cjs,ts,tsx}"],
-	languageOptions: { globals: globals.browser },
-	extends: [js.configs.recommended, pluginTypescript.configs.recommended],
-	plugins: { react: pluginReact },
-});*/
-
 /// <reference types="@types/node" />
 
 import js from "@eslint/js";
 import globals from "globals";
 import tseslint from "typescript-eslint";
-import pluginReact from "eslint-plugin-react";
+import e18e from "@e18e/eslint-plugin";
+import pluginReact from "@eslint-react/eslint-plugin";
 import pluginReactRefresh from "eslint-plugin-react-refresh";
 import pluginReactHooks from "eslint-plugin-react-hooks";
 import prettier from "eslint-config-prettier/flat";
@@ -22,7 +15,9 @@ const configBase = [js.configs.recommended, tseslint.configs.recommendedTypeChec
 const configsReact = [
 	js.configs.recommended,
 	tseslint.configs.recommendedTypeChecked,
-	pluginReact.configs.flat.recommended,
+	e18e.configs.recommended,
+	pluginReact.configs["recommended-typescript"],
+	pluginReact.configs["disable-conflict-eslint-plugin-react-hooks"],
 	pluginReactRefresh.configs.vite,
 	pluginReactHooks.configs.flat["recommended-latest"],
 	prettier,
@@ -48,14 +43,7 @@ export default defineConfig([
 				version: "detect",
 			},
 		},
-		rules: {
-			"react/react-in-jsx-scope": "off",
-			"react/no-unescaped-entities": "off",
-			"react/no-unknown-property": [
-				"error",
-				{ ignore: ["class", "stroke-width", "stroke-linecap", "stroke-linejoin"] },
-			],
-		},
+		rules: {},
 	},
 	{
 		files: ["vite.config.ts"],

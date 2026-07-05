@@ -30,7 +30,7 @@ export default function Caroussel(props: CarousselProps) {
 			<div class="glass-effect relative z-10 flex h-127 w-full overflow-hidden p-4 md:h-121">
 				{props.children.map((element, index) => (
 					<div
-						key={index}
+						key={element.image}
 						class={`absolute flex w-full flex-row md:transition-opacity md:duration-200 ${
 							index === currentIndex ? "opacity-100" : "opacity-0"
 						}`}
@@ -70,9 +70,9 @@ export default function Caroussel(props: CarousselProps) {
 				</svg>
 			</button>
 			<div className="absolute right-0 bottom-0 left-0 z-20 mb-4 flex justify-center">
-				{props.children.map((_, index) => (
+				{props.children.map((element, index) => (
 					<div
-						key={index}
+						key={element.image}
 						className={`text-shadow-indigo mx-1 h-2 w-2 rounded-full ${index === currentIndex ? "bg-slate-400" : "bg-slate-600"}`}
 						onClick={() => setCurrentIndex(index)}
 					/>
