@@ -22,7 +22,7 @@
 		"eslint-plugin-react-refresh": "^0.5.3",
 		"globals": "^17.7.0",
 		"oxfmt": "^0.57.0",
-		"preact": "^10.29.4",
+		"preact": "^10.29.5",
 		"preact-iso": "^2.12.0",
 		"react-icons": "5.5.0",
 		"tailwindcss": "^4.3.2",
