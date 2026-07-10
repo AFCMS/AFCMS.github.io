@@ -1,41 +1,8 @@
 {
-	"homepage": "https://afcms.dev",
 	"name": "afcm_site",
 	"private": true,
+	"homepage": "https://afcms.dev",
 	"type": "module",
-	"dependencies": {
-		"@e18e/eslint-plugin": "^0.5.1",
-		"@eslint-react/eslint-plugin": "^5.11.0",
-		"@eslint/js": "^10.0.1",
-		"@preact/preset-vite": "^2.10.5",
-		"@tailwindcss/postcss": "^4.3.2",
-		"@tailwindcss/vite": "^4.3.2",
-		"@types/node": "^24.12.2",
-		"@typescript-eslint/eslint-plugin": "^8.62.1",
-		"@typescript-eslint/parser": "^8.62.1",
-		"@vite-pwa/assets-generator": "^1.0.2",
-		"@vitejs/devtools": "^0.3.4",
-		"eslint": "^10.6.0",
-		"eslint-config-prettier": "^10.1.8",
-		"eslint-plugin-jsonc": "^3.2.0",
-		"eslint-plugin-react-hooks": "^7.1.1",
-		"eslint-plugin-react-refresh": "^0.5.3",
-		"globals": "^17.7.0",
-		"oxfmt": "^0.57.0",
-		"preact": "^10.29.4",
-		"preact-iso": "^2.12.0",
-		"react-icons": "5.5.0",
-		"tailwindcss": "^4.3.2",
-		"typescript": "^6.0.3",
-		"typescript-eslint": "^8.62.1",
-		"vite": "^8.1.3",
-		"vite-imagetools": "^10.0.1",
-		"vite-plugin-pwa": "^1.3.0",
-		"vite-plugin-sri-gen": "^1.7.0",
-		"vite-plugin-svgr": "^5.2.0",
-		"workbox-build": "^7.4.1",
-		"workbox-window": "^7.4.1"
-	},
 	"scripts": {
 		"preinstall": "npx only-allow pnpm",
 		"dev": "vite",
@@ -46,17 +13,50 @@
 		"preview": "vite preview",
 		"generate-pwa-assets": "pwa-assets-generator"
 	},
+	"dependencies": {
+		"@e18e/eslint-plugin": "^0.5.1",
+		"@eslint-react/eslint-plugin": "^5.13.2",
+		"@eslint/js": "^10.0.1",
+		"@preact/preset-vite": "^2.10.5",
+		"@tailwindcss/postcss": "^4.3.2",
+		"@tailwindcss/vite": "^4.3.2",
+		"@types/node": "^24.12.2",
+		"@typescript-eslint/eslint-plugin": "^8.63.0",
+		"@typescript-eslint/parser": "^8.63.0",
+		"@vite-pwa/assets-generator": "^1.0.2",
+		"@vitejs/devtools": "^0.3.4",
+		"eslint": "^10.6.0",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-jsonc": "^3.3.0",
+		"eslint-plugin-react-hooks": "^7.1.1",
+		"eslint-plugin-react-refresh": "^0.5.3",
+		"globals": "^17.7.0",
+		"oxfmt": "^0.58.0",
+		"preact": "^10.29.7",
+		"preact-iso": "^2.12.0",
+		"react-icons": "5.5.0",
+		"tailwindcss": "^4.3.2",
+		"typescript": "^6.0.3",
+		"typescript-eslint": "^8.63.0",
+		"vite": "^8.1.4",
+		"vite-imagetools": "^10.0.1",
+		"vite-plugin-pwa": "^1.3.0",
+		"vite-plugin-sri-gen": "^1.7.1",
+		"vite-plugin-svgr": "^5.2.0",
+		"workbox-build": "^7.4.1",
+		"workbox-window": "^7.4.1"
+	},
+	"devDependencies": {
+		"@lhci/cli": "^0.15.1"
+	},
+	"eslintConfig": {
+		"extends": []
+	},
 	"devEngines": {
 		"runtime": {
 			"name": "node",
 			"version": "^24",
 			"onFail": "error"
 		}
-	},
-	"eslintConfig": {
-		"extends": []
-	},
-	"devDependencies": {
-		"@lhci/cli": "^0.15.1"
 	}
 }

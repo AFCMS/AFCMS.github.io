@@ -7,5 +7,5 @@ export default defineConfig({
 	singleQuote: false,
 	semi: true,
 	sortTailwindcss: true,
-	sortPackageJson: false,
+	sortPackageJson: true,
 });
