@@ -1,17 +1,16 @@
 import { SiNamemc, SiSteam, SiTwitch } from "react-icons/si";
+
+import cover_minecraft from "../../assets/cover_minecraft.png?h=450&w=300&imagetools";
+import logo_spotify from "../../assets/spotify.svg";
+import warthunder_cover from "../../assets/steam/236390.jpg?h=450&w=300&imagetools";
+import metro_exodus_cover from "../../assets/steam/412020.jpg?h=450&w=300&imagetools";
+import sotr_cover from "../../assets/steam/750920.jpg?h=450&w=300&imagetools";
+import ulotc_cover from "../../assets/steam/1659420.jpg?h=450&w=300&imagetools";
+import tlou_cover from "../../assets/steam/1888930.jpg?h=450&w=300&imagetools";
+import coe33_cover from "../../assets/steam/1903340.jpg?h=450&w=300&imagetools";
+import links from "../../utils/links";
 import Caroussel from "../Caroussel";
 import GridCard from "../GridCard";
-import links from "../../utils/links";
-
-import logo_spotify from "../../assets/spotify.svg";
-import cover_minecraft from "../../assets/cover_minecraft.png?h=450&w=300&imagetools";
-
-import warthunder_cover from "../../assets/steam/236390.jpg?h=450&w=300&imagetools";
-import tlou_cover from "../../assets/steam/1888930.jpg?h=450&w=300&imagetools";
-import metro_exodus_cover from "../../assets/steam/412020.jpg?h=450&w=300&imagetools";
-import ulotc_cover from "../../assets/steam/1659420.jpg?h=450&w=300&imagetools";
-import coe33_cover from "../../assets/steam/1903340.jpg?h=450&w=300&imagetools";
-import sotr_cover from "../../assets/steam/750920.jpg?h=450&w=300&imagetools";
 
 export default function Games() {
 	return (

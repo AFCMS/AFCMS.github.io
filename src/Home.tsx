@@ -1,8 +1,8 @@
 import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Games from "./components/Games";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Games from "./components/Games";
+import Projects from "./components/Projects";
 
 export default function Home() {
 	return (

@@ -1,6 +1,7 @@
 import { render } from "preact";
-import Header from "./components/Header";
+
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 import Home from "./Home";
 
 import "./index.css";

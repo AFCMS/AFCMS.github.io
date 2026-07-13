@@ -1,15 +1,14 @@
 import { SiGithub, SiMinetest } from "react-icons/si";
 
+import picture_devpet from "../../assets/project_devpet.jpg?aspect=16:9&w=384&imagetools";
+import picture_fluorite from "../../assets/project_fluorite.png?aspect=16:9&w=384&imagetools";
+import picture_malley from "../../assets/project_malley.png?aspect=16:9&w=384&imagetools";
+import picture_oktomusic from "../../assets/project_oktomusic.png?aspect=16:9&w=384&imagetools";
+import picture_subway_miner from "../../assets/project_subway_miner.png?aspect=16:9&w=384&imagetools";
+import picture_tierchain from "../../assets/project_tierchain.png?aspect=16:9&w=384&imagetools";
 import CardImage from "../CardImage";
 import GlassButton from "../GlassButton";
 import GridCard from "../GridCard";
-
-import picture_oktomusic from "../../assets/project_oktomusic.png?aspect=16:9&w=384&imagetools";
-import picture_tierchain from "../../assets/project_tierchain.png?aspect=16:9&w=384&imagetools";
-import picture_fluorite from "../../assets/project_fluorite.png?aspect=16:9&w=384&imagetools";
-import picture_malley from "../../assets/project_malley.png?aspect=16:9&w=384&imagetools";
-import picture_devpet from "../../assets/project_devpet.jpg?aspect=16:9&w=384&imagetools";
-import picture_subway_miner from "../../assets/project_subway_miner.png?aspect=16:9&w=384&imagetools";
 
 export default function Projects() {
 	return (

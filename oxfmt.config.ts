@@ -8,4 +8,5 @@ export default defineConfig({
 	semi: true,
 	sortTailwindcss: true,
 	sortPackageJson: true,
+	sortImports: true,
 });

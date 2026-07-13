@@ -1,7 +1,7 @@
 import { SiDiscord, SiGithub, SiGmail, SiYoutube } from "react-icons/si";
 
-import GridCard from "../GridCard";
 import links from "../../utils/links";
+import GridCard from "../GridCard";
 
 export default function Contact() {
 	return (

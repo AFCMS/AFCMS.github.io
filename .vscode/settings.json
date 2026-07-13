@@ -22,6 +22,8 @@
 		},
 		"editor.suggest.insertMode": "replace"
 	},
+	"oxc.enable": true,
+	"oxc.configPath": "oxlint.config.ts",
 	"oxc.fmt.configPath": "oxfmt.config.ts",
 	"tailwindCSS.experimental.classRegex": ["@tw\\s\\*\/\\s+[\"'`]([^\"'`]*)"],
 	"chat.tools.terminal.autoApprove": {

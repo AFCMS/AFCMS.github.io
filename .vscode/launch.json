@@ -4,7 +4,7 @@
 		{
 			"name": "Start Development",
 			"request": "launch",
-			"runtimeArgs": ["run-script", "start"],
+			"runtimeArgs": ["run-script", "dev"],
 			"runtimeExecutable": "npm",
 			"skipFiles": ["<node_internals>/**"],
 			"type": "node"

@@ -1,6 +1,6 @@
-import { defineConfig } from "vite";
 import preact from "@preact/preset-vite";
 import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from "vite";
 import { imagetools } from "vite-imagetools";
 import sri from "vite-plugin-sri-gen";
 

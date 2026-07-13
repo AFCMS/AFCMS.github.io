@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from "preact/hooks";
+
 import CardImage from "../CardImage";
 
 // https://tailkits.com/blog/tailwind-css-carousel-with-react-a-step-by-step-guide/
