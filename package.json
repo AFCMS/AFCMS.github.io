@@ -41,11 +41,6 @@
 		"@lhci/cli": "^0.15.1"
 	},
 	"devEngines": {
-		"packageManager": {
-			"name": "pnpm",
-			"version": "^11",
-			"onFail": "ignore"
-		},
 		"runtime": {
 			"name": "node",
 			"version": "^24",

@@ -1,6 +1,7 @@
 {
 	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
 	"editor.defaultFormatter": "oxc.oxc-vscode",
 	"[typescript]": {
 		"editor.defaultFormatter": "oxc.oxc-vscode"
