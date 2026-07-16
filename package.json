@@ -17,7 +17,7 @@
 		"@e18e/eslint-plugin": "^0.5.1",
 		"@preact/preset-vite": "^2.10.5",
 		"@tailwindcss/postcss": "^4.3.2",
-		"@tailwindcss/vite": "^4.3.2",
+		"@tailwindcss/vite": "^4.3.3",
 		"@types/node": "^24.12.2",
 		"@vite-pwa/assets-generator": "^1.0.2",
 		"@vitejs/devtools": "^0.3.4",
