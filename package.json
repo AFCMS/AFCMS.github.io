@@ -23,7 +23,7 @@
 		"@vitejs/devtools": "^0.3.4",
 		"oxfmt": "^0.59.0",
 		"oxlint": "^1.74.0",
-		"oxlint-tsgolint": "^0.25.0",
+		"oxlint-tsgolint": "^7.0.2001",
 		"preact": "^10.29.7",
 		"preact-iso": "^2.12.0",
 		"react-icons": "5.5.0",
