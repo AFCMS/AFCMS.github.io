@@ -50,6 +50,25 @@ Install the official Oxc VSCode extension and add it as base formatter, enable f
 
 The `oxfmt` npm package needs to be installed locally. (It is in the dependencies)
 
+### Fonts
+
+The project uses subsets of the [Inter v4.1](https://rsms.me/inter) variable font.
+
+[FontSubset](https://fontsubset.com) have been used to generate the files.
+
+The following unicode ranges are included:
+
+- Basic Latin
+- Latin-1 Supplement
+- Latin Extended-A
+- General Punctuation
+- Currency Symbols
+- Letterlike Symbols
+- Arrows
+- Mathematical Operators
+
+The CSS part is derived from the official [CDN stylesheet](https://rsms.me/inter/inter.css)
+
 ### Sources
 
 - https://www.svgrepo.com/svg/378837/node

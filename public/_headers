@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'none'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' https://rsms.me; img-src 'self' data: https://static.cloudflareinsights.com; font-src 'self' https://rsms.me; connect-src 'self' https://cloudflareinsights.com; manifest-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests; require-trusted-types-for 'script';
+  Content-Security-Policy: default-src 'none'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self'; img-src 'self' data: https://static.cloudflareinsights.com; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; manifest-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests; require-trusted-types-for 'script';
   Referrer-Policy: no-referrer
   Cross-Origin-Resource-Policy: same-origin
   X-Frame-Options: DENY
