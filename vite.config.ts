@@ -70,6 +70,8 @@ export default defineConfig({
 			algorithm: "sha512",
 			crossorigin: "anonymous",
 			fetchCache: true,
+			runtimePatchDynamicLinks: false,
+			preloadDynamicChunks: false,
 		}),
 	],
 	assetsInclude: ["**/*.md"],
