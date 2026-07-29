@@ -72,8 +72,11 @@ export default function Caroussel(props: CarousselProps) {
 			</button>
 			<div className="absolute right-0 bottom-0 left-0 z-20 mb-4 flex justify-center">
 				{props.children.map((element, index) => (
-					<div
+					<button
 						key={element.image}
+						type="button"
+						aria-label={`Show ${element.alt}`}
+						aria-current={index === currentIndex ? "true" : undefined}
 						className={`text-shadow-indigo mx-1 h-2 w-2 rounded-full ${index === currentIndex ? "bg-slate-400" : "bg-slate-600"}`}
 						onClick={() => setCurrentIndex(index)}
 					/>
