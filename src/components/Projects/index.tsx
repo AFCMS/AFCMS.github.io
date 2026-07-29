@@ -23,7 +23,10 @@ export default function Projects() {
 			>
 				<div class="my-auto flex grow flex-col">
 					<h2 class="mb-3 font-medium">
-						Oktomusic <span class="text-header/80 font-normal">- 2026</span>
+						Oktomusic{" "}
+						<time datetime="2026" class="text-header/80 font-normal">
+							- 2026
+						</time>
 					</h2>
 					<p>
 						An opinionated, self-hosted music streaming server, made during my studies at{" "}
@@ -54,7 +57,10 @@ export default function Projects() {
 			>
 				<div class="my-auto flex grow flex-col">
 					<h2 class="mb-3 font-medium">
-						TierChain <span class="text-header/80 font-normal">- 2026</span>
+						TierChain{" "}
+						<time datetime="2026" class="text-header/80 font-normal">
+							- 2026
+						</time>
 					</h2>
 					<p>
 						A <strong>TierMaker</strong> inspired blockchain based platform.
@@ -85,7 +91,10 @@ export default function Projects() {
 			>
 				<div class="my-auto flex grow flex-col">
 					<h2 class="mb-3 font-medium">
-						Fluorite <span class="text-header/80 font-normal">- 2025</span>
+						Fluorite{" "}
+						<time datetime="2025" class="text-header/80 font-normal">
+							- 2025
+						</time>
 					</h2>
 					<p>A web based PWA video player.</p>
 					<p>Features local and offline support, system integration.</p>
@@ -112,7 +121,10 @@ export default function Projects() {
 			>
 				<div class="my-auto flex grow flex-col">
 					<h2 class="mb-3 font-medium">
-						Malley <span class="text-header/80 font-normal">- 2025</span>
+						Malley{" "}
+						<time datetime="2025" class="text-header/80 font-normal">
+							- 2025
+						</time>
 					</h2>
 					<p>An X-like social media platform project.</p>
 					<p>
@@ -141,7 +153,10 @@ export default function Projects() {
 			>
 				<div class="my-auto flex grow flex-col">
 					<h2 class="mb-3 font-medium">
-						DevPet <span class="text-header/80 font-normal">- 2024</span>
+						DevPet{" "}
+						<time datetime="2024" class="text-header/80 font-normal">
+							- 2024
+						</time>
 					</h2>
 					<p>
 						A virtual pet for developers made during my studies at <strong>École Hexagone</strong>. It&apos;s integrated
@@ -171,7 +186,10 @@ export default function Projects() {
 			>
 				<div class="my-auto flex grow flex-col">
 					<h2 class="mb-3 font-medium">
-						Subway Miner <span class="text-header/80 font-normal">- 2021</span>
+						Subway Miner{" "}
+						<time datetime="2021" class="text-header/80 font-normal">
+							- 2021
+						</time>
 					</h2>
 					<p>
 						Second place winner of the first annual <strong>Luanti</strong> Game Jam.
