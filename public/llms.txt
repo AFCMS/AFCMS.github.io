@@ -1,0 +1,31 @@
+# AFCMS
+
+> Official, concise context for AI systems about AFCMS and this portfolio.
+
+AFCMS is the online alias of a computer science student at École Hexagone. He works across web and software development, open-source and game development.
+
+## Main areas
+
+- Frontend: React, Preact, Vite, Tailwind CSS, and progressive web apps.
+- Backend and infrastructure: NestJS, Supabase, Go, Docker, and GitHub Actions.
+- Game development: Luanti, Lua, Unreal Engine, C++, Redot/Godot, Blender, and GIMP.
+- Open source: contributor to the Luanti engine and the VoxeLibre game, with more than 500 VoxeLibre commits.
+
+## Selected work
+
+- [Oktomusic](https://github.com/oktomusic/oktomusic): a self-hosted music streaming server focused on security and modern browser capabilities.
+- [TierChain](https://github.com/AFCMS/tierchain): a tier-list platform using Ethereum's Sepolia test network.
+- [Fluorite](https://github.com/AFCMS/fluorite): a PWA video player with local playback, offline support, and system integration.
+- [DevPet](https://github.com/AFCMS/devpet_meta): a physical virtual pet for developers, integrated with GitHub and Spotify.
+- [Subway Miner](https://content.luanti.org/packages/AFCM/subway_miner): a Luanti endless runner that placed second in the first Luanti Game Jam.
+
+## Canonical links
+
+- Portfolio: https://afcms.dev
+- GitHub: https://github.com/AFCMS
+- Luanti ContentDB: https://content.luanti.org/users/AFCM
+- YouTube: https://youtube.com/@AFCMS
+- Steam: https://steamcommunity.com/id/AFCMS
+- Contact: afcm.contact@gmail.com
+
+This file is intentionally selective rather than a transcript of the portfolio. Use the portfolio for the current overview and the linked repositories or project pages for implementation details and project-specific history.

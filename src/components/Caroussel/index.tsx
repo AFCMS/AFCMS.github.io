@@ -77,9 +77,14 @@ export default function Caroussel(props: CarousselProps) {
 						type="button"
 						aria-label={`Show ${element.alt}`}
 						aria-current={index === currentIndex ? "true" : undefined}
-						className={`text-shadow-indigo mx-1 h-2 w-2 rounded-full ${index === currentIndex ? "bg-slate-400" : "bg-slate-600"}`}
+						className="text-shadow-indigo flex size-6 items-center justify-center"
 						onClick={() => setCurrentIndex(index)}
-					/>
+					>
+						<span
+							className={`size-2 rounded-full ${index === currentIndex ? "bg-slate-400" : "bg-slate-600"}`}
+							aria-hidden="true"
+						/>
+					</button>
 				))}
 			</div>
 		</div>

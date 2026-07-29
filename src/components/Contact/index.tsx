@@ -27,7 +27,11 @@ export default function Contact() {
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
 									<SiGmail aria-hidden="true" focusable="false" />
 								</span>
-								<a class="underline-static" href="mailto:afcm.contact@gmail.com">
+								<a
+									class="underline-static"
+									href="mailto:afcm.contact@gmail.com"
+									aria-label="Send an email to afcm.contact@gmail.com"
+								>
 									afcm.contact@gmail.com
 								</a>
 							</li>
@@ -35,7 +39,7 @@ export default function Contact() {
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
 									<SiGithub aria-hidden="true" focusable="false" />
 								</span>
-								<a class="underline-static" href={links.GITHUB}>
+								<a class="underline-static" href={links.GITHUB} aria-label="GitHub profile">
 									AFCMS
 								</a>
 							</li>
@@ -49,7 +53,7 @@ export default function Contact() {
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
 									<SiYoutube aria-hidden="true" focusable="false" />
 								</span>
-								<a class="underline-static" href={links.YOUTUBE}>
+								<a class="underline-static" href={links.YOUTUBE} aria-label="YouTube channel">
 									AFCMS
 								</a>
 							</li>

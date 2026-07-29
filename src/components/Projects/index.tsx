@@ -42,7 +42,7 @@ export default function Projects() {
 				<GlassButton
 					class="absolute top-0 right-0 m-4 md:right-auto md:left-0"
 					href="https://github.com/oktomusic/oktomusic"
-					label="GitHub Repository"
+					label="Oktomusic GitHub repository"
 					icon={SiGithub}
 				/>
 			</GridCard>
@@ -73,7 +73,7 @@ export default function Projects() {
 				<GlassButton
 					class="absolute top-0 right-0 m-4 md:right-auto md:left-0"
 					href="https://github.com/AFCMS/tierchain"
-					label="GitHub Repository"
+					label="TierChain GitHub repository"
 					icon={SiGithub}
 				/>
 			</GridCard>
@@ -100,7 +100,7 @@ export default function Projects() {
 				<GlassButton
 					class="absolute top-0 right-0 m-4 md:right-auto md:left-0"
 					href="https://github.com/AFCMS/fluorite"
-					label="GitHub Repository"
+					label="Fluorite GitHub repository"
 					icon={SiGithub}
 				/>
 			</GridCard>
@@ -129,7 +129,7 @@ export default function Projects() {
 				<GlassButton
 					class="absolute top-0 right-0 m-4 md:right-auto md:left-0"
 					href="https://github.com/AFCMS/malley"
-					label="GitHub Repository"
+					label="Malley GitHub repository"
 					icon={SiGithub}
 				/>
 			</GridCard>
@@ -159,7 +159,7 @@ export default function Projects() {
 				<GlassButton
 					class="absolute top-0 right-0 m-4 md:right-auto md:left-0"
 					href="https://github.com/AFCMS/devpet_meta"
-					label="GitHub Repository"
+					label="DevPet GitHub repository"
 					icon={SiGithub}
 				/>
 			</GridCard>

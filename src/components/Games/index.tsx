@@ -154,7 +154,7 @@ export default function Games() {
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
 									<SiSteam aria-hidden="true" focusable="false" />
 								</span>
-								<a class="underline-static" href={links.STEAM}>
+								<a class="underline-static" href={links.STEAM} aria-label="Steam profile">
 									AFCMS
 								</a>
 							</li>
@@ -162,7 +162,7 @@ export default function Games() {
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
 									<SiNamemc aria-hidden="true" focusable="false" />
 								</span>
-								<a class="underline-static" href={links.NAMEMC}>
+								<a class="underline-static" href={links.NAMEMC} aria-label="NameMC profile">
 									AFCMS
 								</a>
 							</li>
@@ -170,7 +170,7 @@ export default function Games() {
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
 									<SiTwitch aria-hidden="true" focusable="false" />
 								</span>
-								<a class="underline-static" href={links.TWITCH}>
+								<a class="underline-static" href={links.TWITCH} aria-label="Twitch profile">
 									afcms
 								</a>
 							</li>

@@ -22,7 +22,7 @@
 					"disabled": false
 				},
 				"gatherMode": "navigation",
-				"onlyCategories": ["performance", "accessibility", "best-practices", "seo"]
+				"onlyCategories": ["performance", "accessibility", "best-practices", "seo", "agentic-browsing"]
 			}
 		},
 		"assert": {
