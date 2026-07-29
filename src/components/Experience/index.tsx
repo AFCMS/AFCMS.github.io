@@ -19,7 +19,7 @@ import GridCard from "../GridCard";
 
 export default function Experience() {
 	return (
-		<section class="text-header mx-auto mb-4 grid w-full max-w-4xl grid-cols-1 gap-4 md:auto-rows-[16rem] md:grid-cols-2">
+		<section class="text-header mx-auto mb-4 grid w-full max-w-4xl grid-cols-1 gap-4 md:auto-rows-64 md:grid-cols-2">
 			<GridCard bgImage={logo_luanti} class2="flex-col">
 				<h2 class="mb-3 font-medium">Luanti</h2>
 				<div class="grid-text-paragraph">

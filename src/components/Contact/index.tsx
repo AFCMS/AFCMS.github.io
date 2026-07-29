@@ -5,9 +5,15 @@ import GridCard from "../GridCard";
 
 export default function Contact() {
 	return (
-		<section id="contact" class="text-header mx-auto mb-4 flex w-full max-w-4xl flex-col gap-4">
+		<section
+			id="contact"
+			aria-labelledby="contact-heading"
+			class="text-header mx-auto mb-4 flex w-full max-w-4xl flex-col gap-4"
+		>
 			<div class="border-t-2 border-t-indigo-950"></div>
-			<h2 class="text-left text-lg font-semibold">Contact me</h2>
+			<h2 id="contact-heading" class="text-left text-lg font-semibold">
+				Contact me
+			</h2>
 
 			<div class="text-header mx-auto mb-4 grid w-full max-w-4xl grid-cols-1 gap-4 md:grid-cols-2">
 				<GridCard class="my-auto" class2="flex-col">
@@ -19,7 +25,7 @@ export default function Contact() {
 						<ul class="flex flex-col gap-2">
 							<li class="flex gap-2 align-baseline">
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
-									<SiGmail />
+									<SiGmail aria-hidden="true" focusable="false" />
 								</span>
 								<a class="underline-static" href="mailto:afcm.contact@gmail.com">
 									afcm.contact@gmail.com
@@ -27,7 +33,7 @@ export default function Contact() {
 							</li>
 							<li class="flex gap-2 align-baseline">
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
-									<SiGithub />
+									<SiGithub aria-hidden="true" focusable="false" />
 								</span>
 								<a class="underline-static" href={links.GITHUB}>
 									AFCMS
@@ -35,13 +41,13 @@ export default function Contact() {
 							</li>
 							<li class="flex gap-2 align-baseline">
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
-									<SiDiscord />
+									<SiDiscord aria-hidden="true" focusable="false" />
 								</span>
 								<span>@afcms</span>
 							</li>
 							<li class="flex gap-2 align-baseline">
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
-									<SiYoutube />
+									<SiYoutube aria-hidden="true" focusable="false" />
 								</span>
 								<a class="underline-static" href={links.YOUTUBE}>
 									AFCMS

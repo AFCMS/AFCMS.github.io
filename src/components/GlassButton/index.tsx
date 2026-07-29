@@ -20,7 +20,7 @@ export default function GlassButton(props: GlassButtonProps) {
 				(props.class ? " " + props.class : "")
 			}
 		>
-			<Icon />
+			<Icon aria-hidden="true" focusable="false" />
 			{props.title ? <span>{props.title}</span> : null}
 		</a>
 	);

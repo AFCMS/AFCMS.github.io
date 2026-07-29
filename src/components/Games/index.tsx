@@ -14,9 +14,15 @@ import GridCard from "../GridCard";
 
 export default function Games() {
 	return (
-		<section id="games" class="text-header mx-auto mb-4 flex w-full max-w-4xl flex-col gap-4">
+		<section
+			id="games"
+			aria-labelledby="games-heading"
+			class="text-header mx-auto mb-4 flex w-full max-w-4xl flex-col gap-4"
+		>
 			<div class="border-t-2 border-t-indigo-950"></div>
-			<h2 class="text-left text-lg font-semibold">Wanna game?</h2>
+			<h2 id="games-heading" class="text-left text-lg font-semibold">
+				Wanna game?
+			</h2>
 			<GridCard class="">
 				<p>Video games are what brought me to programming and play a huge part in my life.</p>
 			</GridCard>
@@ -146,7 +152,7 @@ export default function Games() {
 						<ul class="flex flex-col gap-2">
 							<li class="flex gap-2 align-baseline">
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
-									<SiSteam />
+									<SiSteam aria-hidden="true" focusable="false" />
 								</span>
 								<a class="underline-static" href={links.STEAM}>
 									AFCMS
@@ -154,7 +160,7 @@ export default function Games() {
 							</li>
 							<li class="flex gap-2 align-baseline">
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
-									<SiNamemc />
+									<SiNamemc aria-hidden="true" focusable="false" />
 								</span>
 								<a class="underline-static" href={links.NAMEMC}>
 									AFCMS
@@ -162,7 +168,7 @@ export default function Games() {
 							</li>
 							<li class="flex gap-2 align-baseline">
 								<span class="glass-effect-level-2 inline-flex h-6.5 w-6.5 flex-row items-center gap-1 p-1">
-									<SiTwitch />
+									<SiTwitch aria-hidden="true" focusable="false" />
 								</span>
 								<a class="underline-static" href={links.TWITCH}>
 									afcms

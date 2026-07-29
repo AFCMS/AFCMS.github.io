@@ -6,12 +6,12 @@ import Projects from "./components/Projects";
 
 export default function Home() {
 	return (
-		<div className="flex flex-col">
+		<main className="flex flex-col">
 			<About />
 			<Experience />
 			<Projects />
 			<Games />
 			<Contact />
-		</div>
+		</main>
 	);
 }
