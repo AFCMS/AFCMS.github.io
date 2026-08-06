@@ -26,7 +26,7 @@
 		"oxlint-tsgolint": "^7.0.2001",
 		"preact": "^10.29.8",
 		"preact-iso": "^2.12.1",
-		"react-icons": "5.5.0",
+		"react-icons": "5.7.0",
 		"tailwindcss": "^4.3.3",
 		"typescript": "^7.0.2",
 		"vite": "^8.2.0",
