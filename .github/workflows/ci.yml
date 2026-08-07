@@ -19,33 +19,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v6
+      - name: Install PNPM
+        uses: pnpm/setup@v2
         with:
-          version: 11
-          run_install: false
-
-      - name: Setup Node LTS/Krypton
-        uses: actions/setup-node@v7
-        with:
-          node-version-file: .node-version
-          cache: "pnpm"
-
-      - name: Get pnpm store directory
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-
-      - name: Setup pnpm cache
-        uses: actions/cache@v6
-        with:
-          path: ${{ env.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
-
-      - name: Install Dependencies
-        run: pnpm install
+          install: true
 
       - name: Lint
         continue-on-error: true
@@ -65,20 +42,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v5
+      - name: Install PNPM
+        uses: pnpm/setup@v2
         with:
-          version: 11
-          run_install: false
-
-      - name: Use Node.js LTS/Krypton
-        uses: actions/setup-node@v7
-        with:
-          node-version-file: ".node-version"
-          cache: "pnpm"
-
-      - name: Install dependencies
-        run: pnpm install
+          install: true
 
       - name: Build project
         run: pnpm run build
