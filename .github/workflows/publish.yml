@@ -25,6 +25,7 @@ jobs:
         uses: pnpm/setup@v2
         with:
           install: true
+          version: 11
 
       - name: "Build"
         run: pnpm run build

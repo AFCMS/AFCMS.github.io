@@ -23,6 +23,7 @@ jobs:
         uses: pnpm/setup@v2
         with:
           install: true
+          version: 11
 
       - name: Lint
         continue-on-error: true
@@ -46,6 +47,7 @@ jobs:
         uses: pnpm/setup@v2
         with:
           install: true
+          version: 11
 
       - name: Build project
         run: pnpm run build
