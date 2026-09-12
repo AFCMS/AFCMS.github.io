@@ -42,5 +42,8 @@
 		"pnpm run lint": true
 	},
 	"editor.detectIndentation": false,
-	"editor.tabSize": 2
+	"editor.tabSize": 2,
+	"files.associations": {
+		"llms.txt": "markdown"
+	}
 }
