@@ -25,7 +25,7 @@
 		"@tailwindcss/postcss": "^4.3.3",
 		"@tailwindcss/vite": "^4.3.3",
 		"@types/node": "^24.13.3",
-		"@vite-pwa/assets-generator": "^1.0.2",
+		"@vite-pwa/assets-generator": "^2.0.0",
 		"@vitejs/devtools": "^0.7.3",
 		"@vitejs/devtools-oxc": "^0.7.3",
 		"@vitejs/devtools-rolldown": "^0.7.3",
