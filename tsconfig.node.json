@@ -19,5 +19,5 @@
 		"noUncheckedSideEffectImports": true,
 		"rootDir": "."
 	},
-	"include": ["vite.config.ts"]
+	"include": ["vite.config.ts", "plugins/**/*.ts"]
 }

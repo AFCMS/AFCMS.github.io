@@ -4,6 +4,8 @@ import { defineConfig } from "vite";
 import { imagetools } from "vite-imagetools";
 import sri from "vite-plugin-sri-gen";
 
+import { discordEmbed } from "./plugins/discord-embed.ts";
+
 /***import { VitePWA, VitePWAOptions } from "vite-plugin-pwa";
 
 const pwaConfig: Partial<VitePWAOptions> = {
@@ -66,6 +68,7 @@ export default defineConfig({
 		}),
 		tailwindcss(),
 		// VitePWA(pwaConfig),
+		discordEmbed(),
 		sri({
 			algorithm: "sha512",
 			crossorigin: "anonymous",
