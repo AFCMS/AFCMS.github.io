@@ -42,6 +42,7 @@ export const embed = {
 					label: "GitHub",
 					emoji: {
 						id: emojiIds.github,
+						name: "github",
 					},
 					url: "https://github.com/AFCMS",
 					style: ButtonStyle.Link,
@@ -51,6 +52,7 @@ export const embed = {
 					label: "Steam",
 					emoji: {
 						id: emojiIds.steam,
+						name: "steam",
 					},
 					url: "https://steamcommunity.com/id/AFCMS",
 					style: ButtonStyle.Link,
@@ -60,6 +62,7 @@ export const embed = {
 					label: "YouTube",
 					emoji: {
 						id: emojiIds.youtube,
+						name: "youtube",
 					},
 					url: "https://youtube.com/@AFCMS",
 					style: ButtonStyle.Link,
