@@ -9,7 +9,7 @@ export function discordEmbed(): Plugin {
 			this.emitFile({
 				type: "asset",
 				fileName: "discord-embed.json",
-				source: JSON.stringify(embed),
+				source: JSON.stringify({ component: embed }),
 			});
 		},
 	};
