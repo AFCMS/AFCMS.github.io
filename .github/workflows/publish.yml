@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install PNPM
-        uses: pnpm/setup@v2
+        uses: pnpm/setup@v3
         with:
           install: true
           version: 12
