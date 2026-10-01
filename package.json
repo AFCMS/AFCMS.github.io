@@ -25,7 +25,7 @@
 		"@preact/preset-vite": "^2.10.6",
 		"@tailwindcss/postcss": "^4.3.3",
 		"@tailwindcss/vite": "^4.3.3",
-		"@types/node": "^24.13.3",
+		"@types/node": "^26.6.2",
 		"@vite-pwa/assets-generator": "^2.0.0",
 		"@vitejs/devtools": "^0.7.6",
 		"@vitejs/devtools-oxc": "^0.7.6",
