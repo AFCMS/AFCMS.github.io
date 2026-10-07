@@ -45,7 +45,7 @@ export default function Experience() {
 						</div>
 						<div>
 							<h3 class="font-medium">École Hexagone</h3>
-							<p>Bachelor</p>
+							<p class="overflow-hidden text-ellipsis whitespace-nowrap">Software Architecture</p>
 						</div>
 						<div class="grow"></div>
 						<span>2023 - present</span>
