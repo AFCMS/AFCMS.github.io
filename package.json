@@ -14,14 +14,14 @@
 		"generate-pwa-assets": "pwa-assets-generator"
 	},
 	"dependencies": {
-		"preact": "^11.0.0",
+		"preact": "^11.0.1",
 		"preact-iso": "^2.12.2",
 		"react-icons": "5.5.0"
 	},
 	"devDependencies": {
 		"@e18e/eslint-plugin": "^0.8.1",
 		"@lhci/cli": "^0.15.1",
-		"@oxc-node/cli": "^0.1.4",
+		"@oxc-node/cli": "^0.1.6",
 		"@preact/preset-vite": "^2.10.6",
 		"@tailwindcss/postcss": "^4.3.3",
 		"@tailwindcss/vite": "^4.3.3",
@@ -37,7 +37,7 @@
 		"oxlint-tsgolint": "^7.0.2003",
 		"tailwindcss": "^4.3.3",
 		"typescript": "^7.0.2",
-		"vite": "^8.3.3",
+		"vite": "^8.3.4",
 		"vite-imagetools": "^12.0.1",
 		"vite-plugin-pwa": "^2.0.0",
 		"vite-plugin-sri-gen": "^1.7.4",
