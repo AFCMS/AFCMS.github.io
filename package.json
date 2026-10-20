@@ -32,7 +32,7 @@
 		"@vitejs/devtools-rolldown": "^0.7.6",
 		"@vitejs/devtools-vite": "^0.7.6",
 		"discord-api-types": "^0.38.56",
-		"oxfmt": "^0.72.0",
+		"oxfmt": "^0.73.0",
 		"oxlint": "^1.87.0",
 		"oxlint-tsgolint": "^7.0.2004",
 		"tailwindcss": "^4.3.3",
