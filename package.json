@@ -25,7 +25,7 @@
 		"@preact/preset-vite": "^2.10.6",
 		"@tailwindcss/postcss": "^4.3.3",
 		"@tailwindcss/vite": "^4.3.3",
-		"@types/node": "^24.19.1",
+		"@types/node": "^26.6.6",
 		"@vite-pwa/assets-generator": "^2.0.0",
 		"@vitejs/devtools": "^0.8.0",
 		"@vitejs/devtools-oxc": "^0.8.0",
@@ -48,7 +48,7 @@
 	"devEngines": {
 		"runtime": {
 			"name": "node",
-			"version": "^24",
+			"version": "^26",
 			"onFail": "error"
 		}
 	}
