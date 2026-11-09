@@ -11,7 +11,8 @@
 		"format": "oxfmt",
 		"format:check": "oxfmt --check",
 		"preview": "vite preview",
-		"generate-pwa-assets": "pwa-assets-generator"
+		"generate-pwa-assets": "pwa-assets-generator",
+		"prepare": "husky"
 	},
 	"dependencies": {
 		"preact": "^11.2.0",
@@ -32,6 +33,7 @@
 		"@vitejs/devtools-rolldown": "^0.8.2",
 		"@vitejs/devtools-vite": "^0.8.2",
 		"discord-api-types": "^0.38.58",
+		"husky": "^9.1.7",
 		"oxfmt": "^0.78.0",
 		"oxlint": "^1.93.0",
 		"oxlint-tsgolint": "^7.0.2006",
