@@ -23,6 +23,23 @@
 		},
 		"editor.suggest.insertMode": "replace"
 	},
+	"[yaml]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode",
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": "keep",
+		"diffEditor.ignoreTrimWhitespace": false,
+		"editor.defaultColorDecorators": "never",
+		"editor.quickSuggestions": {
+			"strings": true,
+			"other": true,
+			"comments": false
+		}
+	},
+	"[github-actions-workflow]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode",
+		"editor.tabSize": 2
+	},
 	"oxc.enable": true,
 	"oxc.configPath": "oxlint.config.ts",
 	"oxc.fmt.configPath": "oxfmt.config.ts",
@@ -44,6 +61,9 @@
 	"editor.detectIndentation": false,
 	"editor.tabSize": 2,
 	"files.associations": {
+		"**/.github/workflows/*.{yml,yaml}": "github-actions-workflow",
+		"**/.github/workflows/actions.lock": "yaml",
+		"*.css": "tailwindcss",
 		"llms.txt": "markdown"
 	}
 }
